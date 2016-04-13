@@ -1,0 +1,165 @@
+2016-03-02 21:10:23	fsociety	https://u.teknik.io/GSpDn.png
+2016-03-02 21:10:23	 - 	[error406_] is away: Away (I'm not here right now)
+2016-03-02 21:10:27	fsociety	success sir
+2016-03-03 10:50:52	fsociety	hey sir
+2016-03-03 10:50:52	 - 	[error406_] is away: Away (I'm not here right now)
+2016-03-03 11:19:44	error406_	heyhey! lol missed your other texts til late last night.. left my phone downstairs and didn't look at pidgin this mornin!
+2016-03-03 11:19:44	error406_	 
+2016-03-03 11:19:44	error406_	I sent you thoise pics ytesterday, I'll scroll up n send u the link =P
+2016-03-03 11:20:00	error406_	https://photos.google.com/share/AF1QipNbXzHQy0tbwwEJGm-m_QbABkjyOPHgeiLUJVnIv4ngyyhxKdIPAeDreF5ZYSHLkg?key=enpSNUVFQmtIZEVWSFJEbjBpaGxyRVhsSWIxMklR
+2016-03-03 11:20:22	fsociety	haha all good
+2016-03-03 11:20:34	fsociety	yeah for some unknown reason it wouldnt package with binaries as if it couldnt find them
+2016-03-03 11:20:34	error406_	how u doin? have fun getting ue4 workin?
+2016-03-03 11:20:37	fsociety	got no idea why
+2016-03-03 11:20:44	error406_	weird!
+2016-03-03 11:20:55	fsociety	but i got it to run, cooked the whole thing which took ages and ran it
+2016-03-03 11:21:24	fsociety	ill probably go on the ue4 irc chan and see what they say. i know its something to do with the git build and there is probably a work around
+2016-03-03 11:21:29	error406_	weird it took a long time, doesn't take very long to do that step on pc...
+2016-03-03 11:21:47	fsociety	oh its because the first time round the linux ue4 editor has to convert all the shaders
+2016-03-03 11:21:52	fsociety	cause of opengl
+2016-03-03 11:21:55	error406_	might not utilise the graphgics card in the same way or somthing... that's all I can think of
+2016-03-03 11:22:05	error406_	ohh... yeah that makes sense
+2016-03-03 11:22:23	fsociety	but it ran smooth as butter on 2k with only one 970
+2016-03-03 11:22:50	fsociety	tonight i'll install ue4 on windows and see if cross-compiling on linux is easier
+2016-03-03 11:22:55	fsociety	actually can you look for me now if possible
+2016-03-03 11:23:02	fsociety	since you are probably using it right now
+2016-03-03 11:27:47	error406_	well I have a package for linux button here if that's what you mean heheh
+2016-03-03 11:29:22	fsociety	press it
+2016-03-03 11:29:23	fsociety	see if it works
+2016-03-03 11:29:25	fsociety	lol
+2016-03-03 11:29:46	fsociety	so i sent those photos to meg in an mms.  hopefully she laughs out loud in the middle of her class and embarrases herself
+2016-03-03 11:33:40	error406_	lol I'm in the middle of doing AI =P I will press it for you later today dun worry hehe
+2016-03-03 11:39:07	fsociety	*hyperventilates*
+2016-03-03 11:39:25	fsociety	i looked into ue4 a bit more i see the paper2d plugin is what you use for 2d stuff :)
+2016-03-03 14:38:37	fsociety	how has your day been going
+2016-03-03 16:45:24	error406_	hey sorry got fed up with ue4 earlier n went to relax a bit heheh
+2016-03-03 16:45:54	fsociety	hahahaha. screw you fookin ue4.. grumble grumble grumble
+2016-03-03 16:47:51	error406_	yeah went and built Wall-e heheh
+2016-03-03 16:51:07	fsociety	so there is game coming out next tuesday that has cupcake in it and it will be on steam
+2016-03-03 16:51:09	fsociety	called shardlight
+2016-03-03 16:51:18	fsociety	my game developer friends put him in the game, sample meow and all
+2016-03-03 16:51:25	fsociety	cupcake is a celebrity
+2016-03-03 16:51:34	fsociety	they adore him
+2016-03-03 16:51:34	fsociety	haha
+2016-03-03 16:57:39	error406_	hahaha nice, will take a look!
+2016-03-03 16:57:48	error406_	k I'm going to test compile for ya now heheh
+2016-03-03 17:05:04	fsociety	go coooooompile
+2016-03-03 17:05:06	fsociety	raaaaaahhhh
+2016-03-03 17:05:08	fsociety	sonic boom
+2016-03-03 17:05:12	fsociety	arrryun
+2016-03-03 17:05:15	fsociety	arrryuken
+2016-03-03 17:22:46	error406_	SHORYUKEN!
+2016-03-03 17:23:58	fsociety	success?
+2016-03-03 17:26:06	error406_	lol nash compile for linux takes you to a help page hehe
+2016-03-03 17:26:06	error406_	seems like you gotta set up some stuff in your project first...
+2016-03-03 17:27:27	error406_	I'm going to leave that one in your capable hands hahah
+2016-03-03 17:35:35	fsociety	haha. so it hasn't changed after all
+2016-03-03 17:38:05	error406_	well it has the optrion now, it just requires a tiny bit of setup =P couldn't do it at all before!
+2016-03-03 17:38:18	error406_	and I'm just too lazy to do it hehe
+2016-03-03 23:51:14	 < 	error406_ (error406@error418.info) has quit (Leaving...)
+2016-03-03 23:51:14	 > 	error406_ (error406@error418.info) is back on server
+2016-03-04 10:41:37	error406_	wazzawazzadeanymozza
+2016-03-04 10:42:13	error406_	did u get your hdd stuff all fixed
+2016-03-04 10:42:15	error406_	?
+2016-03-04 10:45:12	error406_	boop
+2016-03-04 12:34:40	error406_	HAMANAH HAMANAH
+2016-03-04 12:34:51	error406_	did u send those pics to meg?
+2016-03-04 16:47:04	 < 	error406_ (error406@error418.info) has quit (Leaving...)
+2016-03-04 16:47:04	 > 	error406_ (error406@error418.info) is back on server
+2016-03-08 10:24:18	error406_	boop
+2016-03-08 10:25:10	fsociety	i found my new OS
+2016-03-08 10:25:14	fsociety	aros.sourceforge.net
+2016-03-08 10:25:27	fsociety	or templeos.org
+2016-03-08 10:25:30	fsociety	cant make up my mind
+2016-03-08 10:25:33	fsociety	hahahahahaha
+2016-03-08 10:29:22	fsociety	join me phil
+2016-03-08 10:29:24	fsociety	JOOOIINN ME
+2016-03-08 10:29:35	fsociety	i know i'm the most obscure computer user you know
+2016-03-08 10:29:55	fsociety	i doubt you'd know anyone who comes close in using a computer in the most obscure way possible
+2016-03-08 10:29:56	fsociety	haha
+2016-03-08 10:35:05	error406_	lol sorry you are on your own... I wanna like use my computer haha
+2016-03-08 10:35:13	error406_	to do like, things
+2016-03-08 10:35:30	fsociety	i do things
+2016-03-08 10:35:36	fsociety	you just dont understand what i do
+2016-03-08 10:35:39	fsociety	lol
+2016-03-08 10:35:50	fsociety	i'm all mysterious and shit.. ooooo. *waves fingers*
+2016-03-08 10:36:33	error406_	hahahahah
+2016-03-08 10:36:33	error406_	ok I'll rephrase that.. I wanna like.. use, like.. actual programs hahah
+2016-03-08 10:38:33	fsociety	i use actual programs
+2016-03-08 10:38:54	fsociety	i think you need to rethink your terminology of computer lingo
+2016-03-08 10:39:12	fsociety	what is your definition of "actual programs"
+2016-03-08 10:39:26	fsociety	time for me to push your buttons for a change.. teehee
+2016-03-08 10:39:50	error406_	you know, ones that matter hahahah
+2016-03-08 10:40:35	fsociety	you are still being aloof
+2016-03-08 10:40:46	error406_	*pushypushy*
+2016-03-08 10:41:05	error406_	ahh I'm just bein a smartass
+2016-03-08 10:41:49	error406_	did u have fun with unreal btw?
+2016-03-08 10:43:51	fsociety	haha
+2016-03-08 10:43:57	fsociety	looked at paper2d
+2016-03-08 10:44:16	fsociety	blueprints is great for prototyping, but to do real awesome stuff. you still need to do a bit of c++ i discovered
+2016-03-08 10:46:52	fsociety	i've decided from next pay im going to hunt down computer oddities
+2016-03-08 10:47:04	fsociety	like the atari falcon and tt
+2016-03-08 10:47:20	fsociety	as you can see i've finally lost the plot
+2016-03-08 10:48:45	fsociety	http://www.ebay.com.au/itm/ULTRA-RARE-VINTAGE-ATARI-FALCON-030-COMPUTER-VGC-/301517364975?hash=item4633d5deef:m:m8kwJbJwTbc8bywBPZKEjxw
+2016-03-08 10:48:48	fsociety	dont come cheap mind you
+2016-03-08 10:49:06	error406_	hahah I dunno if u ever had the plot did ya? that's half the fun!
+2016-03-08 10:49:06	error406_	 
+2016-03-08 10:49:06	error406_	lol was just about to look for them on ebay too heh
+2016-03-08 10:50:39	fsociety	haha really
+2016-03-08 10:50:46	fsociety	when did our thought process line up
+2016-03-08 10:50:49	fsociety	this is rare
+2016-03-08 10:50:49	fsociety	lol
+2016-03-08 10:52:38	error406_	heheh well when u want something old and obscure it's the best place to go!
+2016-03-08 10:52:38	error406_	btw if u collecting oddities, you NEED this::
+2016-03-08 10:52:38	error406_	http://www.ebay.com.au/itm/Brand-New-Nintendo-Virtual-Boy-Console-System-Boxed-/181525458683?hash=item2a43c2aefb:g:K7QAAOxy63FSzMAj
+2016-03-08 10:54:09	fsociety	that is surprisingly cheap compared to the atari pc
+2016-03-08 10:55:58	fsociety	so i discovered a demoscene vid the other day, of a guy who produced over 1000 colours in CGA
+2016-03-08 10:56:00	fsociety	i'll find
+2016-03-08 10:56:03	fsociety	it's fucking amazing
+2016-03-08 10:56:28	error406_	rofl.. flicking other colours really fast or something?
+2016-03-08 10:56:45	fsociety	nope
+2016-03-08 10:56:47	fsociety	you'll see
+2016-03-08 10:57:00	fsociety	by abusing the ntsc composite display burst rate
+2016-03-08 10:57:15	fsociety	http://hackaday.com/2015/04/10/demoing-an-8088/
+2016-03-08 10:57:27	fsociety	it's probably the most impressive demo i've ever seen period
+2016-03-08 10:57:37	fsociety	it won the demoscene comp last year
+2016-03-08 10:57:40	fsociety	and you'll see why
+2016-03-08 10:58:54	fsociety	ooo.. http://int10h.org/oldschool-pc-fonts/
+2016-03-08 11:04:51	error406_	lol that wasn't bad for 16 colours heheh
+2016-03-08 11:06:47	fsociety	its more than 16 colours
+2016-03-08 11:06:55	fsociety	have you watched the whole thing
+2016-03-08 11:07:29	error406_	"for a display designed to produce 16 colours" =P
+2016-03-08 11:07:43	fsociety	its pretty amazing
+2016-03-08 11:07:53	fsociety	it breaks all emulators
+2016-03-08 11:07:55	fsociety	i loved that about it
+2016-03-08 12:47:34	error406_	sorry got distracted by work! lol on that note did u ever get that game u wanted that was alll 8bitty?
+2016-03-08 12:49:20	error406_	http://imgur.com/gallery/PshTF
+2016-03-08 12:55:07	fsociety	cupcake-birds now there is something i want to see
+2016-03-08 12:55:10	fsociety	and yes i did get that DOS gamer
+2016-03-08 12:55:12	fsociety	game*
+2016-03-08 12:57:43	error406_	was it any good in the end?
+2016-03-08 12:57:43	error406_	lol yeah when is cupcakes game out lol
+2016-03-08 13:04:19	error406_	btw u seen no mans sky? I think that it looks pretty awesome
+2016-03-08 13:06:03	fsociety	i haven't played it yet
+2016-03-08 13:06:10	fsociety	still getting through other games
+2016-03-08 13:06:11	fsociety	haha
+2016-03-08 13:09:51	error406_	oh it's not out yet, looks awesome tho!
+2016-03-08 13:10:03	error406_	oh u mean the other game? hahah 
+2016-03-08 13:11:27	fsociety	haha yeah
+2016-03-08 13:11:44	fsociety	tonight the game about cupcake gets released
+2016-03-08 13:11:49	fsociety	well he has a guest appearance
+2016-03-08 13:12:45	error406_	I hope you get a free copy, for cat usage rights hehe
+2016-03-08 13:13:08	fsociety	haha yeah ben304 is giving me a copy
+2016-03-08 13:13:24	fsociety	its called the creative cupcake license
+2016-03-08 13:13:46	error406_	hehehehe
+2016-03-08 13:13:46	error406_	sp what kinda game is it?
+2016-03-08 13:13:57	fsociety	look up shardlight on steam
+2016-03-08 14:10:59	fsociety	so i went all amiga in my terminal windows
+2016-03-08 14:11:00	fsociety	https://u.teknik.io/xlg9u.png
+2016-03-08 14:11:11	fsociety	have i lost my mind yet. maybe.. but boy do i like the font
+2016-03-08 14:27:06	error406_	hahaha 
+2016-03-08 14:27:06	error406_	I can't really tell the difference sorry hehe
+2016-03-08 14:27:17	fsociety	ITS AMIIIGGAAA
+2016-03-08 14:27:25	fsociety	actually i fixed the font up a bit.. removed hinting
+2016-03-08 14:27:33	fsociety	i'll take a screenie of this exact chat window
+2016-03-08 14:29:09	fsociety	https://u.teknik.io/MCQFh.png

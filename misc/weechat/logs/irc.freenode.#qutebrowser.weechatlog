@@ -1,0 +1,102 @@
+2016-02-25 11:15:27	 > 	fs0ciety (~whoami@c27-253-43-52.thoms4.vic.optusnet.com.au) has joined #qutebrowser
+2016-02-25 11:15:28	 - 	Topic for #qutebrowser is "Current version: v0.5.1 - http://www.qutebrowser.org/ - Mailinglist: https://lists.schokokeks.org/mailman/listinfo.cgi/qutebrowser - 31c3 lightning talk: http://qutebrowser.org/31c3.webm - Help with tests appreciated! https://github.com/The-Compiler/qutebrowser/issues/999"
+2016-02-25 11:15:28	 - 	Topic set by The-Compiler (~compiler@unaffiliated/the-compiler) on Wed, 03 Feb 2016 00:56:56
+2016-02-25 11:15:28	 - 	Channel #qutebrowser: 87 nicks (0 ops, 0 voices, 87 normals)
+2016-02-25 11:15:29	 - 	Channel created on Mon, 20 Jan 2014 09:03:37
+2016-02-25 11:15:59	fs0ciety	hi guys wonder if there is to incorporate pass (passwordstore.org) into qutebrowser?
+2016-02-25 11:16:57	 > 	skinnay (~sk@c-69-140-228-170.hsd1.md.comcast.net) has joined #qutebrowser
+2016-02-25 11:38:03	 < 	Karl_Dscc (~localhost@p578FC2EC.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2016-02-25 11:44:07	Ferus	yes, a userscript for that exists
+2016-02-25 11:45:49	fs0ciety	where can i find user submitted userscripts? :)
+2016-02-25 11:46:31	Ferus	fs0ciety: I can't find it on github. I feel like The-Compiler has linked it here before so I'd suggest asking him where he's hiding it :)
+2016-02-25 11:47:51	fs0ciety	thanks :)
+2016-02-25 11:50:31	Ferus	fs0ciety: i found it https://github.com/The-Compiler/qutebrowser/pull/873/files
+2016-02-25 11:50:46	Ferus	<3 weechat relay servers + regex buffer searching
+2016-02-25 11:52:09	Ferus	this script is much better than the one i wrote to use pass...
+2016-02-25 11:54:04	fs0ciety	ahh thank you
+2016-02-25 11:54:59	 < 	Jojan (~Jojan@90-229-214-144-no98.tbcn.telia.com) has quit (Ping timeout: 240 seconds)
+2016-02-25 12:05:23	 < 	bghost (~ghost@unaffiliated/bghost) has quit (Ping timeout: 244 seconds)
+2016-02-25 12:06:28	 > 	bghost (~ghost@unaffiliated/bghost) has joined #qutebrowser
+2016-02-25 13:40:58	 > 	Boobuigi (~weechat@166.177.57.222) has joined #qutebrowser
+2016-02-25 14:07:28	 < 	Bobbejaantje (~nevzets@ip51cc146b.speed.planet.nl) has quit (Ping timeout: 255 seconds)
+2016-02-25 14:09:35	 > 	Korhonen (~nevzets@ip51cc146b.speed.planet.nl) has joined #qutebrowser
+2016-02-25 14:23:22	 < 	IgnorantLizard (~tyler@node-1w7jra26sf0aj7km9dr8sk42u.ipv6.telus.net) has quit (Quit: WeeChat 1.4)
+2016-02-25 14:41:31	 < 	neeasade (~neeasade@ip24-255-215-86.ks.ks.cox.net) has quit (Ping timeout: 252 seconds)
+2016-02-25 14:41:55	 < 	Boobuigi (~weechat@166.177.57.222) has quit (Ping timeout: 248 seconds)
+2016-02-25 14:42:00	 > 	neeasade (~neeasade@ip24-255-215-86.ks.ks.cox.net) has joined #qutebrowser
+2016-02-25 15:49:53	 > 	ArturShaik (~ArturShai@212.97.9.132) has joined #qutebrowser
+2016-02-25 15:56:54	 < 	sdothum (~sdothum@dsl-173-206-64-158.tor.primus.ca) has quit (Quit: ZNC - 1.6.0 - http://znc.in)
+2016-02-25 15:57:16	 > 	SmallTock (~smalltock@ip68-2-239-179.ph.ph.cox.net) has joined #qutebrowser
+2016-02-25 16:37:34	 < 	rieper (~riepernet@sxbeta1.geo.uni-leipzig.de) has quit (Remote host closed the connection)
+2016-02-25 16:39:05	 > 	rieper (~riepernet@sxbeta1.geo.uni-leipzig.de) has joined #qutebrowser
+2016-02-25 16:39:46	 < 	skinnay (~sk@c-69-140-228-170.hsd1.md.comcast.net) has quit (Ping timeout: 252 seconds)
+2016-02-25 16:41:22	 > 	skinnay (~sk@c-69-140-228-170.hsd1.md.comcast.net) has joined #qutebrowser
+2016-02-25 16:41:59	 < 	skinnay (~sk@c-69-140-228-170.hsd1.md.comcast.net) has quit (Client Quit)
+2016-02-25 16:42:17	 > 	skinnay (~sk@c-69-140-228-170.hsd1.md.comcast.net) has joined #qutebrowser
+2016-02-25 16:42:55	 < 	Joschasa (~andre@p2003007F4F45AA00021FC6FFFE865D84.dip0.t-ipconnect.de) has quit (Ping timeout: 250 seconds)
+2016-02-25 16:44:12	 < 	SmallTock (~smalltock@ip68-2-239-179.ph.ph.cox.net) has quit (Quit: WeeChat 1.1.1)
+2016-02-25 16:56:01	 > 	Joschasa (~andre@p2003007F4F458700021FC6FFFE865D84.dip0.t-ipconnect.de) has joined #qutebrowser
+2016-02-25 18:09:01	 > 	Emdek (~quassel@edw128.neoplus.adsl.tpnet.pl) has joined #qutebrowser
+2016-02-25 18:21:12	 < 	ShaggyTwoDope (~shaggy@qutebrowser/user/ShaggyTwoDope) has quit (Quit: Wu-Tang4Life)
+2016-02-25 18:28:15	 > 	pedromj (~pedromj@81.188.122.74) has joined #qutebrowser
+2016-02-25 18:33:42	 > 	ShaggyTwoDope (~shaggy@c-50-141-60-251.hsd1.ca.comcast.net) has joined #qutebrowser
+2016-02-25 18:33:42	 < 	ShaggyTwoDope (~shaggy@c-50-141-60-251.hsd1.ca.comcast.net) has quit (Changing host)
+2016-02-25 18:33:42	 > 	ShaggyTwoDope (~shaggy@qutebrowser/user/ShaggyTwoDope) has joined #qutebrowser
+2016-02-25 18:35:28	 < 	pedromj (~pedromj@81.188.122.74) has quit (Ping timeout: 244 seconds)
+2016-02-25 18:58:31	 < 	ShaggyTwoDope (~shaggy@qutebrowser/user/ShaggyTwoDope) has quit (Read error: Connection reset by peer)
+2016-02-25 19:00:08	 > 	pedromj (~pedromj@81.188.122.74) has joined #qutebrowser
+2016-02-25 19:01:18	 > 	ShaggyTwoDope (~shaggy@qutebrowser/user/ShaggyTwoDope) has joined #qutebrowser
+2016-02-25 19:02:36	 > 	Emdek_ (~quassel@abpe12.neoplus.adsl.tpnet.pl) has joined #qutebrowser
+2016-02-25 19:06:25	 < 	Emdek (~quassel@edw128.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 240 seconds)
+2016-02-25 19:06:28	 > 	Noctua (~Noctua@qutebrowser/dev/Noctua) has joined #qutebrowser
+2016-02-25 19:12:49	 > 	jnphilipp (~jnphilipp@ip5f5b091c.dynamic.kabel-deutschland.de) has joined #qutebrowser
+2016-02-25 19:17:21	 - 	Emdek_ is now known as Emdek
+2016-02-25 19:18:52	 < 	teribadactyl (~teribadac@174-24-130-182.tukw.qwest.net) has quit (Ping timeout: 244 seconds)
+2016-02-25 19:21:31	 > 	chobojordi (~chobojord@84-115-243-77.cable.dynamic.surfer.at) has joined #qutebrowser
+2016-02-25 19:28:41	 < 	pedromj (~pedromj@81.188.122.74) has quit (Ping timeout: 244 seconds)
+2016-02-25 19:43:29	xpt	The-Compiler: I can confirm that the issue I had yesterday was asciidoc related.
+2016-02-25 19:44:18	xpt	.oO(well at least the one with qutebrowser. The one on production was related to network guys that gave me second sleepless night in a row...)
+2016-02-25 19:44:29	xpt	Thanks for help solving that.
+2016-02-25 19:44:45	 < 	koltrast (~koltrast@c-2b7fe055.04-217-73746f71.cust.bredbandsbolaget.se) has quit (Quit: ZNC 1.6.1 - http://znc.in)
+2016-02-25 19:46:57	 > 	koltrast (~koltrast@c-2b7fe055.04-217-73746f71.cust.bredbandsbolaget.se) has joined #qutebrowser
+2016-02-25 19:50:38	 < 	wonko7 (~wjc@2a01:e35:2e74:a2c0:5ee0:c5ff:fe99:577d) has quit (Quit: Konversation terminated!)
+2016-02-25 19:50:55	 > 	wonko7 (~wjc@2a01:e35:2e74:a2c0:5ee0:c5ff:fe99:577d) has joined #qutebrowser
+2016-02-25 20:02:57	 > 	pedromj (~pedromj@242.79-242-81.adsl-dyn.isp.belgacom.be) has joined #qutebrowser
+2016-02-25 20:05:59	The-Compiler	np :)
+2016-02-25 20:09:05	xpt	my computer hates me... now I can't add qutebrowser as default browser in gnome (it is added but gnome spawns firefox instead...)
+2016-02-25 20:09:41	xpt	oh, I forgot to add qutebrowser to /usr/local/bin/
+2016-02-25 20:13:29	The-Compiler	there's a qutebrowser package in Fedora very soon btw, I think they still need testers?
+2016-02-25 20:14:21	The-Compiler	https://bodhi.fedoraproject.org/updates/FEDORA-2016-258c9a3a47
+2016-02-25 20:16:21	 > 	flavi0 (~anon@mac-nomade-214.ircam.fr) has joined #qutebrowser
+2016-02-25 20:21:00	e2k	qutebrowser is great! Just found it a couple of days ago and it ticks all the boxes so far :)
+2016-02-25 20:21:19	 > 	mearon (~mearon@unaffiliated/mearon) has joined #qutebrowser
+2016-02-25 20:21:23	The-Compiler	:)
+2016-02-25 20:22:12	e2k	(just had to vent)
+2016-02-25 20:22:35	xpt	I'll be more than happy to help with tests.
+2016-02-25 20:22:53	mearon	hey
+2016-02-25 20:23:31	mearon	may I ask... are there any plans on moving to QtWebEngine in the foreseeable future?
+2016-02-25 20:25:57	wasamasa	see ticket 666
+2016-02-25 20:26:42	mearon	wasamasa: thanks, I'll check it out.
+2016-02-25 20:33:53	 > 	Karl_Dscc (~localhost@p5DD9C12E.dip0.t-ipconnect.de) has joined #qutebrowser
+2016-02-25 20:34:02	The-Compiler	mearon: plans yes, but it's a big undertaking
+2016-02-25 20:34:27	mearon	The-Compiler: yeah I thought so...
+2016-02-25 20:34:32	The-Compiler	mearon: and I'll probably end up not supporting QtWebEngine with Qt < 5.6 or maybe even 5.7
+2016-02-25 20:34:41	The-Compiler	because there's just too much missing
+2016-02-25 20:34:56	mearon	btw I just read this: https://blogs.gnome.org/mcatanzaro/2016/02/01/on-webkit-security-updates/
+2016-02-25 20:34:58	The-Compiler	(note both 5.6 and 5.7 aren't out yet :D)
+2016-02-25 20:35:05	The-Compiler	yeah :-/
+2016-02-25 20:36:07	mearon	so I looking for some (minimal) browser backend by QtWebEngine. qutebrowsing might be the first one of this kind.. :)
+2016-02-25 20:36:20	mearon	thank you for the infos.
+2016-02-25 20:36:34	The-Compiler	currently I'm still busy with getting everything tested - if you write Python, help with that would be very much appreciated!
+2016-02-25 20:36:36	mearon	I wish I could contribute somehow, but I'm clearly not qualified.
+2016-02-25 20:37:00	mearon	sorry :/
+2016-02-25 20:37:04	The-Compiler	there's https://github.com/kovidgoyal/vise fwiw but I don't think it's intended for the general public
+2016-02-25 20:37:45	The-Compiler	do you know HTML/CSS/JS? There's also some help I need with that regarding tests because I don't very well
+2016-02-25 20:38:57	mearon	HTML/CSS basics yes, but JS not (yet)... kinda noob :)
+2016-02-25 20:48:57	wasamasa	The-Compiler: oh dear, that's from the calibre author
+2016-02-25 20:49:28	 < 	jnphilipp (~jnphilipp@ip5f5b091c.dynamic.kabel-deutschland.de) has quit (Remote host closed the connection)
+2016-02-25 20:50:27	The-Compiler	wasamasa: indeed
+2016-02-25 20:50:33	wasamasa	D:
+2016-02-25 20:51:02	wasamasa	https://github.com/kovidgoyal/vise/blob/master/vise/main.py#L231-L243
+2016-02-25 20:51:37	 - 	Korhonen is now known as Bobbejaantje
+2016-02-25 20:51:56	 - 	irc: disconnected from server

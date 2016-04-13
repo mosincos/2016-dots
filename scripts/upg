@@ -1,0 +1,34 @@
+#!/bin/bash
+clear
+echo && echo
+toilet -f sblood --gay "   updates"
+echo && echo
+yaourt -Su --aur 
+echo && echo && echo && echo
+
+continuedevel ()
+{
+    clear
+    echo && echo
+    toilet -f sblood --gay "   devpkgs"
+    echo && echo
+    yaourt --noconfirm -Su --devel
+    echo && echo
+    read -p " ... All done ... press [Enter]"
+    exit
+}
+
+rundevel ()
+{
+    local yn
+    read -p "Do you wish upgrade git packages? " yn
+    case $yn in
+        [Yy]* ) continuedevel;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no. ";;
+    esac
+}
+rundevel
+echo $yn
+
+

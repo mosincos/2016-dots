@@ -1,0 +1,2 @@
+thevault -fstype=cifs,username=whoami,password=dot.dot.dot ://192.168.1.20/thevault
+holder -fstype=cifs,username=whoami,password=dot.dot.dot ://192.168.1.20/holder

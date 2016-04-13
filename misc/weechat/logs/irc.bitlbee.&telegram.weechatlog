@@ -1,0 +1,812 @@
+2016-03-02 20:21:08	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-02 20:21:08	 - 	Channel &telegram: 5 nicks (2 ops, 0 halfops, 0 voices, 3 normals)
+2016-03-02 20:21:15	@fsociety	channel &telegram set
+2016-03-02 20:21:15	@root	account is empty
+2016-03-02 20:21:15	@root	auto_join = `false'
+2016-03-02 20:21:15	@root	fill_by = `group'
+2016-03-02 20:21:15	@root	group = `Telegram'
+2016-03-02 20:21:15	@root	protocol is empty
+2016-03-02 20:21:15	@root	show_users = `online+,special%,away'
+2016-03-02 20:21:15	@root	type = `control'
+2016-03-02 20:21:30	@fsociety	channel &telegram set account telegram
+2016-03-02 20:21:30	@root	account = `telegram'
+2016-03-02 20:21:45	@fsociety	set channel &telegram set auto_join true
+2016-03-02 20:21:45	@root	Setting `channel' does not exist.
+2016-03-02 20:21:45	@root	It might be an account or channel setting. See help account set and help channel set.
+2016-03-02 20:22:06	@fsociety	channel &telegram set auto_join true
+2016-03-02 20:22:06	@root	auto_join = `true'
+2016-03-02 20:47:02	 - 	irc: disconnected from server
+2016-03-02 21:00:20	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-02 21:00:20	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-02 21:02:06	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-02 21:02:06	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-02 21:02:06	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-03 01:46:26	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-03 01:46:26	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-03 01:46:36	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-03 01:46:36	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-03 01:46:36	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-03 03:24:39	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:26:20	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:26:22	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:26:22	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:26:23	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:26:24	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:26:25	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:26:29	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:26:31	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:26:31	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:26:34	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:26:34	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:26:35	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:26:37	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:26:40	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:26:44	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:26:46	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:27:09	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:27:16	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:27:49	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:28:14	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:28:20	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:28:21	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:28:49	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:29:12	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:29:15	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:29:39	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:30:06	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:31:00	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:31:56	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:31:56	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:31:59	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:32:03	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:32:03	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:32:27	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:32:33	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:32:37	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:33:14	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:43:00	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:43:11	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:44:50	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:44:50	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 03:45:05	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 03:45:27	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 04:20:04	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 04:20:06	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 05:03:53	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 05:04:16	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 05:04:18	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 05:04:20	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 05:04:21	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 05:04:21	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 05:04:34	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 05:09:34	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 05:09:45	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 05:09:45	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 06:19:23	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 06:19:28	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 06:55:02	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 06:55:05	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 06:55:05	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 06:55:10	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 06:55:13	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 06:55:13	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 06:55:17	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 06:55:18	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 07:16:34	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 07:16:38	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 07:16:41	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 07:16:44	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 07:16:49	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 07:16:54	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 07:16:56	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 07:17:02	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 07:17:05	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 07:17:06	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 07:17:10	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 07:17:17	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 07:17:18	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 07:17:24	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-03 07:17:28	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-03 07:17:29	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-04 01:43:56	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-04 01:52:25	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-04 16:36:04	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-04 16:36:27	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-04 23:09:01	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-04 23:09:01	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-04 23:09:15	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-04 23:09:15	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-04 23:09:15	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-06 12:25:19	 - 	irc: disconnected from server
+2016-03-06 17:27:57	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-06 17:27:57	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-06 17:28:02	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-06 17:28:02	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-06 17:28:02	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-07 00:22:27	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-07 00:22:27	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-07 00:22:32	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-07 00:22:32	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-07 00:22:32	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-07 02:21:24	 - 	Mode &telegram [+v Michael] by localhost
+2016-03-07 02:21:31	 - 	Mode &telegram [-v Michael] by localhost
+2016-03-07 06:15:01	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-07 06:15:01	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-07 06:15:06	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-07 06:15:06	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-07 06:15:06	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-07 06:34:38	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-07 06:34:38	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-07 06:34:41	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-07 06:34:41	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-07 06:34:41	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-07 19:16:50	 - 	irc: disconnected from server
+2016-03-08 08:33:58	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-08 08:33:58	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-08 08:34:04	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-08 08:34:04	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-08 08:34:04	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-08 18:08:40	 - 	Mode &telegram [+v Gustavo] by localhost
+2016-03-08 18:09:20	 - 	Mode &telegram [-v Gustavo] by localhost
+2016-03-08 18:49:26	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-08 18:49:26	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-08 18:49:31	 - 	irc: disconnected from server
+2016-03-08 18:52:33	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-08 18:52:33	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-08 18:52:38	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-08 18:52:38	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-08 18:52:38	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-08 21:32:44	 - 	irc: disconnected from server
+2016-03-09 07:38:32	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-09 07:38:32	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-09 07:38:37	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-09 07:38:37	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-09 07:38:37	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-09 07:38:38	 - 	irc: disconnected from server
+2016-03-09 08:24:24	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-09 08:24:24	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-09 08:24:29	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-09 08:24:29	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-09 08:24:29	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-09 18:46:11	 < 	NicholasB (Nicholas_B@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-09 18:46:11	 < 	Michael (Michael@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-09 18:46:11	 < 	Gustavo (Gustavo@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-09 18:48:48	 - 	irc: disconnected from server
+2016-03-09 21:25:59	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-09 21:25:59	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-09 21:29:19	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-09 21:29:19	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-09 21:29:19	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-09 21:50:29	 - 	irc: disconnected from server
+2016-03-09 23:29:50	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-09 23:29:50	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-09 23:29:54	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-09 23:29:54	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-09 23:29:54	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-09 23:38:03	 - 	irc: disconnected from server
+2016-03-09 23:38:05	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-09 23:38:05	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-09 23:38:08	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-09 23:38:08	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-09 23:38:08	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-09 23:40:19	 - 	irc: disconnected from server
+2016-03-09 23:40:20	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-09 23:40:20	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-09 23:40:24	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-09 23:40:24	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-09 23:40:24	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-09 23:40:44	 - 	irc: disconnected from server
+2016-03-09 23:41:14	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-09 23:41:14	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-09 23:41:17	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-09 23:41:17	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-09 23:41:17	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-10 09:42:10	 < 	NicholasB (Nicholas_B@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-10 09:42:10	 < 	Michael (Michael@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-10 09:42:10	 < 	Gustavo (Gustavo@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-10 09:42:18	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-10 09:42:18	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-10 09:42:18	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-10 09:52:12	 - 	irc: disconnected from server
+2016-03-10 11:10:46	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-10 11:10:46	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-10 11:10:49	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-10 11:10:49	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-10 11:10:49	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-10 21:09:58	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-10 21:09:58	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-10 21:10:01	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-10 21:10:01	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-10 21:10:01	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-10 22:00:17	 < 	NicholasB (Nicholas_B@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-10 22:00:17	 < 	Michael (Michael@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-10 22:00:17	 < 	Gustavo (Gustavo@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-10 22:00:31	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-10 22:00:31	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-10 22:00:31	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-11 02:51:37	 - 	irc: disconnected from server
+2016-03-11 02:51:47	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-11 02:51:47	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-11 03:21:37	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-11 03:21:37	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-11 03:21:37	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-11 21:29:07	 - 	irc: disconnected from server
+2016-03-12 15:23:58	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-12 15:23:58	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-12 15:24:02	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-12 15:24:02	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-12 15:24:02	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-13 05:14:24	 < 	NicholasB (Nicholas_B@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-13 05:14:24	 < 	Michael (Michael@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-13 05:14:24	 < 	Gustavo (Gustavo@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-13 05:14:30	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-13 05:14:30	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-13 05:14:30	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-13 12:06:35	 < 	NicholasB (Nicholas_B@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-13 12:06:35	 < 	Michael (Michael@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-13 12:06:35	 < 	Gustavo (Gustavo@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-13 12:06:42	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-13 12:06:42	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-13 12:06:42	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-13 17:23:40	 - 	irc: disconnected from server
+2016-03-14 00:36:22	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-14 00:36:22	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-14 00:36:27	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-14 00:36:27	 > 	Michael (Michael@telegram) has joined &telegram
+2016-03-14 00:36:27	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-14 00:39:17	 - 	irc: disconnected from server
+2016-03-14 14:29:28	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-14 14:29:28	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-14 14:29:32	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-14 14:29:32	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-14 23:18:15	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-14 23:18:15	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-14 23:18:25	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-14 23:18:25	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-15 09:46:51	 - 	irc: disconnected from server
+2016-03-15 09:46:53	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-15 09:46:53	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-15 09:46:55	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-15 09:46:55	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-15 10:30:23	 - 	irc: disconnected from server
+2016-03-15 10:30:24	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-15 10:30:24	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-15 10:30:26	 > 	Gustavo (Gustavo@telegram) has joined &telegram
+2016-03-15 10:30:26	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-16 06:23:45	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-16 06:23:45	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-16 06:23:47	 > 	NicholasB (Nicholas_B@telegram) has joined &telegram
+2016-03-16 07:17:58	 - 	irc: disconnected from server
+2016-03-16 07:18:00	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-16 07:18:00	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-16 07:18:12	 - 	irc: disconnected from server
+2016-03-16 07:18:22	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-16 07:18:22	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-16 07:19:08	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-16 07:19:08	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-16 07:19:21	 - 	irc: disconnected from server
+2016-03-16 07:19:26	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-16 07:19:26	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-16 07:19:39	@fsociety	acc list
+2016-03-16 07:19:40	@root	 0 (jabber): jabber, anon@error418.info (awaiting reconnect)
+2016-03-16 07:19:40	@root	 1 (telegram): telegram, +61414960644 (connected)
+2016-03-16 07:19:40	@root	 2 (twitter): twitter, z1lt0id (connected)
+2016-03-16 07:19:40	@root	 3 (steam): steam, polymetric (connected)
+2016-03-16 07:19:40	@root	End of account list
+2016-03-16 07:19:46	@fsociety	acc 1 del
+2016-03-16 07:19:46	@root	Account is still logged in, can't delete
+2016-03-16 07:19:47	@root	jabber - Logging in: Connecting
+2016-03-16 07:19:47	@root	jabber - Login error: Could not connect to server
+2016-03-16 07:19:47	@root	jabber - Logging in: Signing off..
+2016-03-16 07:19:47	@root	jabber - Login error: Short write() to server
+2016-03-16 07:19:47	@root	jabber - Logging in: Reconnecting in 45 seconds..
+2016-03-16 07:19:55	@fsociety	acc 0 del
+2016-03-16 07:19:55	@root	Account deleted
+2016-03-16 07:19:58	@fsociety	acc 1 off
+2016-03-16 07:19:58	@root	twitter - Signing off..
+2016-03-16 07:20:01	@fsociety	acc 1 delete
+2016-03-16 07:20:01	@root	Unknown command: account [...] delete. Please use help commands to get a list of available commands.
+2016-03-16 07:20:04	@fsociety	acc 1 del
+2016-03-16 07:20:04	@root	Account deleted
+2016-03-16 07:20:09	@fsociety	acc add
+2016-03-16 07:20:09	@root	Not enough parameters given (need 3).
+2016-03-16 07:20:12	@fsociety	help
+2016-03-16 07:20:12	@root	These are the available help subjects:
+2016-03-16 07:20:12	@root	 
+2016-03-16 07:20:12	@root	 quickstart - A short introduction into BitlBee
+2016-03-16 07:20:12	@root	 commands - All available commands and settings
+2016-03-16 07:20:12	@root	 channels - About creating and customizing channels
+2016-03-16 07:20:12	@root	 away - About setting away states
+2016-03-16 07:20:12	@root	 groupchats - How to work with groupchats on BitlBee
+2016-03-16 07:20:12	@root	 nick_changes - Changing your nickname without losing any settings
+2016-03-16 07:20:12	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2016-03-16 07:20:12	@root	 
+2016-03-16 07:20:12	@root	You can read more about them with help <subject>
+2016-03-16 07:20:12	@root	 
+2016-03-16 07:20:12	@root	Some more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.
+2016-03-16 07:20:12	@root	 
+2016-03-16 07:20:12	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2016-03-16 07:20:19	@fsociety	add acc
+2016-03-16 07:20:19	@root	Not enough parameters given (need 2).
+2016-03-16 07:20:25	@fsociety	add acc telegram
+2016-03-16 07:20:25	@root	Invalid account
+2016-03-16 07:20:29	@fsociety	add acc help
+2016-03-16 07:20:29	@root	Invalid account
+2016-03-16 07:20:34	@fsociety	help telegram
+2016-03-16 07:20:34	@root	These are the available help subjects:
+2016-03-16 07:20:34	@root	 
+2016-03-16 07:20:34	@root	 quickstart - A short introduction into BitlBee
+2016-03-16 07:20:34	@root	 commands - All available commands and settings
+2016-03-16 07:20:34	@root	 channels - About creating and customizing channels
+2016-03-16 07:20:34	@root	 away - About setting away states
+2016-03-16 07:20:34	@root	 groupchats - How to work with groupchats on BitlBee
+2016-03-16 07:20:34	@root	 nick_changes - Changing your nickname without losing any settings
+2016-03-16 07:20:34	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2016-03-16 07:20:34	@root	 
+2016-03-16 07:20:34	@root	You can read more about them with help <subject>
+2016-03-16 07:20:34	@root	 
+2016-03-16 07:20:34	@root	Some more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.
+2016-03-16 07:20:34	@root	 
+2016-03-16 07:20:34	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2016-03-16 07:20:38	@fsociety	telegram help
+2016-03-16 07:20:38	@root	Unknown command: telegram. Please use help commands to get a list of available commands.
+2016-03-16 07:20:40	@fsociety	help
+2016-03-16 07:20:40	@root	These are the available help subjects:
+2016-03-16 07:20:40	@root	 
+2016-03-16 07:20:40	@root	 quickstart - A short introduction into BitlBee
+2016-03-16 07:20:40	@root	 commands - All available commands and settings
+2016-03-16 07:20:40	@root	 channels - About creating and customizing channels
+2016-03-16 07:20:40	@root	 away - About setting away states
+2016-03-16 07:20:40	@root	 groupchats - How to work with groupchats on BitlBee
+2016-03-16 07:20:40	@root	 nick_changes - Changing your nickname without losing any settings
+2016-03-16 07:20:40	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2016-03-16 07:20:40	@root	 
+2016-03-16 07:20:40	@root	You can read more about them with help <subject>
+2016-03-16 07:20:40	@root	 
+2016-03-16 07:20:40	@root	Some more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.
+2016-03-16 07:20:40	@root	 
+2016-03-16 07:20:40	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2016-03-16 07:20:42	@fsociety	clear
+2016-03-16 07:20:42	@root	Unknown command: clear. Please use help commands to get a list of available commands.
+2016-03-16 07:20:45	@fsociety	clear
+2016-03-16 07:20:45	@root	Unknown command: clear. Please use help commands to get a list of available commands.
+2016-03-16 07:20:57	@fsociety	acc add telegram 0414960644 dot.dot.dot
+2016-03-16 07:20:57	@root	Account successfully added with tag telegram2
+2016-03-16 07:21:00	@fsociety	acc
+2016-03-16 07:21:00	@root	Not enough parameters given (need 1).
+2016-03-16 07:21:02	@fsociety	acc list
+2016-03-16 07:21:02	@root	 0 (telegram): telegram, +61414960644 (connected)
+2016-03-16 07:21:02	@root	 1 (steam): steam, polymetric (connected)
+2016-03-16 07:21:02	@root	 2 (telegram2): telegram, 0414960644
+2016-03-16 07:21:02	@root	End of account list
+2016-03-16 07:21:08	@fsociety	acc del 0
+2016-03-16 07:21:08	@root	Could not find account `del'.
+2016-03-16 07:21:10	@fsociety	acc off 0
+2016-03-16 07:21:10	@root	Could not find account `off'.
+2016-03-16 07:21:12	@fsociety	acc 0 off
+2016-03-16 07:21:12	@root	telegram - Signing off..
+2016-03-16 07:21:15	@fsociety	acc 2 off
+2016-03-16 07:21:15	@root	Account already offline
+2016-03-16 07:21:18	@fsociety	acc 0 del
+2016-03-16 07:21:18	@root	Account deleted
+2016-03-16 07:21:20	@fsociety	acc 2 del
+2016-03-16 07:21:20	@root	Could not find account `2'.
+2016-03-16 07:21:22	@fsociety	acc list
+2016-03-16 07:21:22	@root	 0 (steam): steam, polymetric (connected)
+2016-03-16 07:21:22	@root	 1 (telegram2): telegram, 0414960644
+2016-03-16 07:21:22	@root	End of account list
+2016-03-16 07:21:26	@fsociety	ac 1 del
+2016-03-16 07:21:26	@root	Account deleted
+2016-03-16 07:21:28	@fsociety	acc 1 del
+2016-03-16 07:21:28	@root	Could not find account `1'.
+2016-03-16 07:21:33	@fsociety	acc list
+2016-03-16 07:21:33	@root	 0 (steam): steam, polymetric (connected)
+2016-03-16 07:21:33	@root	End of account list
+2016-03-16 07:21:45	@fsociety	acc add telegram +61414960644 dot.dot.dot
+2016-03-16 07:21:45	@root	Account successfully added with tag telegram
+2016-03-16 07:21:51	@fsociety	acc telegram on
+2016-03-16 07:21:51	@root	telegram - Logging in: Logged in
+2016-03-16 07:22:04	@fsociety	acc list
+2016-03-16 07:22:04	@root	 0 (steam): steam, polymetric (connected)
+2016-03-16 07:22:04	@root	 1 (telegram): telegram, +61414960644 (connected)
+2016-03-16 07:22:04	@root	End of account list
+2016-03-16 07:22:29	@fsociety	acc 1 help
+2016-03-16 07:22:29	@root	Unknown command: account [...] help. Please use help commands to get a list of available commands.
+2016-03-16 07:22:31	@fsociety	acc help
+2016-03-16 07:22:31	@root	Not enough parameters given (need 2).
+2016-03-16 07:22:35	@fsociety	help acc
+2016-03-16 07:22:35	@root	These are the available help subjects:
+2016-03-16 07:22:35	@root	 
+2016-03-16 07:22:35	@root	 quickstart - A short introduction into BitlBee
+2016-03-16 07:22:35	@root	 commands - All available commands and settings
+2016-03-16 07:22:35	@root	 channels - About creating and customizing channels
+2016-03-16 07:22:35	@root	 away - About setting away states
+2016-03-16 07:22:35	@root	 groupchats - How to work with groupchats on BitlBee
+2016-03-16 07:22:35	@root	 nick_changes - Changing your nickname without losing any settings
+2016-03-16 07:22:35	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2016-03-16 07:22:35	@root	 
+2016-03-16 07:22:35	@root	You can read more about them with help <subject>
+2016-03-16 07:22:35	@root	 
+2016-03-16 07:22:35	@root	Some more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.
+2016-03-16 07:22:35	@root	 
+2016-03-16 07:22:35	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2016-03-16 07:22:41	@fsociety	acc channels
+2016-03-16 07:22:41	@root	Not enough parameters given (need 2).
+2016-03-16 07:22:44	@fsociety	help channels
+2016-03-16 07:22:44	@root	You can have as many channels in BitlBee as you want. You maintain your channel list using the channel command. You can create new channels by just joining them, like on regular IRC networks.
+2016-03-16 07:22:44	@root	 
+2016-03-16 07:22:44	@root	You can create two kinds of channels. Control channels, and groupchat channels. By default, BitlBee will set up new channels as control channels if their name starts with an &, and as chat channels if it starts with a #.
+2016-03-16 07:22:44	@root	 
+2016-03-16 07:22:44	@root	Control channels are where you see your contacts. By default, you will have one control channel called &bitlbee, containing all your contacts. But you can create more, if you want, and divide your contact list accross several channels.
+2016-03-16 07:22:44	@root	 
+2016-03-16 07:22:44	@root	For example, you can have one channel with all contacts from your MSN Messenger account in it. Or all contacts from the group called "Work".
+2016-03-16 07:22:44	@root	 
+2016-03-16 07:22:44	@root	Type help channels2 to read more.
+2016-03-16 07:22:54	@fsociety	help channels2
+2016-03-16 07:22:54	@root	When you create a new channel, BitlBee will try to guess from its name which contacts to fill it with. For example, if the channel name (excluding the &) matches the name of a group in which you have one or more contacts, the channel will contain all those contacts.
+2016-03-16 07:22:54	@root	 
+2016-03-16 07:22:54	@root	Any valid account ID (so a number, protocol name or part of screenname, as long as it's unique) can also be used as a channel name. So if you just join &msn, it will contain all your MSN contacts. And if you have a Facebook account set up, you can see its contacts by just joining &facebook.
+2016-03-16 07:22:54	@root	 
+2016-03-16 07:22:54	@root	To start a simple group chat, you simply join a channel which a name starting with #, and invite people into it. All people you invite have to be on the same IM network and contact list.
+2016-03-16 07:22:54	@root	 
+2016-03-16 07:22:54	@root	If you want to configure your own channels, you can use the channel set command. See help channels3 for more information.
+2016-03-16 07:29:32	@fsociety	acc add twitter z1lt0id ?i36sMb/UkA6+NU\$p
+2016-03-16 07:29:32	@root	Account successfully added with tag twitter
+2016-03-16 07:29:36	@fsociety	acc twitter on
+2016-03-16 07:29:36	@root	twitter - Logging in: Connecting
+2016-03-16 07:29:36	@root	twitter - Logging in: Requesting OAuth request token
+2016-03-16 07:31:00	@root	twitter - Logging in: Getting contact list
+2016-03-16 07:31:04	@root	twitter - Logging in: Getting initial statuses
+2016-03-16 07:31:04	@root	twitter - Logging in: Logged in
+2016-03-16 07:33:47	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-16 07:33:47	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-16 11:43:39	 - 	irc: disconnected from server
+2016-03-16 11:43:41	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-16 11:43:41	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-16 20:28:26	 - 	irc: disconnected from server
+2016-03-16 20:28:31	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-16 20:28:31	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-16 20:36:40	 - 	irc: disconnected from server
+2016-03-17 02:36:24	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-17 02:36:24	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-17 15:50:32	 - 	irc: disconnected from server
+2016-03-17 19:44:26	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-17 19:44:26	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-18 20:03:53	 - 	irc: disconnected from server
+2016-03-19 07:19:27	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-19 07:19:27	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-19 08:27:27	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-19 08:27:27	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-19 12:43:27	 - 	irc: disconnected from server
+2016-03-19 12:43:48	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-19 12:43:48	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-19 12:48:56	 - 	irc: disconnected from server
+2016-03-19 12:50:45	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-19 12:50:45	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-19 12:52:07	@fsociety	help
+2016-03-19 12:52:07	@root	These are the available help subjects:
+2016-03-19 12:52:07	@root	 
+2016-03-19 12:52:07	@root	 quickstart - A short introduction into BitlBee
+2016-03-19 12:52:07	@root	 commands - All available commands and settings
+2016-03-19 12:52:07	@root	 channels - About creating and customizing channels
+2016-03-19 12:52:07	@root	 away - About setting away states
+2016-03-19 12:52:07	@root	 groupchats - How to work with groupchats on BitlBee
+2016-03-19 12:52:07	@root	 nick_changes - Changing your nickname without losing any settings
+2016-03-19 12:52:07	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2016-03-19 12:52:07	@root	 
+2016-03-19 12:52:07	@root	You can read more about them with help <subject>
+2016-03-19 12:52:07	@root	 
+2016-03-19 12:52:07	@root	Some more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.
+2016-03-19 12:52:07	@root	 
+2016-03-19 12:52:07	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2016-03-19 12:52:58	@fsociety	chat add telegram ##systemau
+2016-03-19 12:52:58	@root	Chatroom successfully added.
+2016-03-19 12:53:52	@fsociety	chat list
+2016-03-19 12:53:52	@root	Warning: The chat command was mostly replaced with the channel command.
+2016-03-19 12:53:52	@root	 0. &bitlbee, control channel (joined)
+2016-03-19 12:53:52	@root	 1. &steam, control channel (joined)
+2016-03-19 12:53:52	@root	 2. &telegram, control channel (joined)
+2016-03-19 12:53:52	@root	 3. #twitter_z1lt0id, chat channel (joined)
+2016-03-19 12:53:52	@root	 4. ##systemau, chat channel
+2016-03-19 12:53:52	@root	 5. &##systemau, control channel (joined)
+2016-03-19 12:53:52	@root	End of channel list
+2016-03-19 12:53:58	@fsociety	chat help
+2016-03-19 12:53:58	@root	Unknown command: chat help. Please use help commands to get a list of available commands.
+2016-03-19 12:54:00	@fsociety	help chat
+2016-03-19 12:54:00	@root	Syntax: chat <action> [<arguments>]
+2016-03-19 12:54:00	@root	 
+2016-03-19 12:54:00	@root	Available actions: add, with. See help chat <action> for more information.
+2016-03-19 12:54:15	@fsociety	help chat action
+2016-03-19 12:54:15	@root	These are the available help subjects:
+2016-03-19 12:54:15	@root	 
+2016-03-19 12:54:15	@root	 quickstart - A short introduction into BitlBee
+2016-03-19 12:54:15	@root	 commands - All available commands and settings
+2016-03-19 12:54:15	@root	 channels - About creating and customizing channels
+2016-03-19 12:54:15	@root	 away - About setting away states
+2016-03-19 12:54:15	@root	 groupchats - How to work with groupchats on BitlBee
+2016-03-19 12:54:15	@root	 nick_changes - Changing your nickname without losing any settings
+2016-03-19 12:54:15	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2016-03-19 12:54:15	@root	 
+2016-03-19 12:54:15	@root	You can read more about them with help <subject>
+2016-03-19 12:54:15	@root	 
+2016-03-19 12:54:15	@root	Some more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.
+2016-03-19 12:54:15	@root	 
+2016-03-19 12:54:15	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2016-03-19 12:54:18	@fsociety	help chat list
+2016-03-19 12:54:18	@root	These are the available help subjects:
+2016-03-19 12:54:18	@root	 
+2016-03-19 12:54:18	@root	 quickstart - A short introduction into BitlBee
+2016-03-19 12:54:18	@root	 commands - All available commands and settings
+2016-03-19 12:54:18	@root	 channels - About creating and customizing channels
+2016-03-19 12:54:18	@root	 away - About setting away states
+2016-03-19 12:54:18	@root	 groupchats - How to work with groupchats on BitlBee
+2016-03-19 12:54:18	@root	 nick_changes - Changing your nickname without losing any settings
+2016-03-19 12:54:18	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2016-03-19 12:54:18	@root	 
+2016-03-19 12:54:18	@root	You can read more about them with help <subject>
+2016-03-19 12:54:18	@root	 
+2016-03-19 12:54:18	@root	Some more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.
+2016-03-19 12:54:18	@root	 
+2016-03-19 12:54:18	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2016-03-19 12:54:21	@fsociety	help chat
+2016-03-19 12:54:21	@root	Syntax: chat <action> [<arguments>]
+2016-03-19 12:54:21	@root	 
+2016-03-19 12:54:21	@root	Available actions: add, with. See help chat <action> for more information.
+2016-03-19 12:54:43	@fsociety	chat list
+2016-03-19 12:54:43	@root	Warning: The chat command was mostly replaced with the channel command.
+2016-03-19 12:54:43	@root	 0. &bitlbee, control channel (joined)
+2016-03-19 12:54:43	@root	 1. &steam, control channel (joined)
+2016-03-19 12:54:43	@root	 2. &telegram, control channel (joined)
+2016-03-19 12:54:43	@root	 3. #twitter_z1lt0id, chat channel (joined)
+2016-03-19 12:54:43	@root	 4. ##systemau, chat channel
+2016-03-19 12:54:43	@root	 5. &##systemau, control channel (joined)
+2016-03-19 12:54:43	@root	End of channel list
+2016-03-19 12:54:55	@fsociety	chat del 5
+2016-03-19 12:54:55	@root	Warning: The chat command was mostly replaced with the channel command.
+2016-03-19 12:54:55	@root	Could not find channel `del'
+2016-03-19 12:54:58	@fsociety	chat 5 del
+2016-03-19 12:54:58	@root	Unknown command: chat 5. Please use help commands to get a list of available commands.
+2016-03-19 12:55:08	@fsociety	chat ##systemau del
+2016-03-19 12:55:08	@root	Unknown command: chat ##systemau. Please use help commands to get a list of available commands.
+2016-03-19 12:55:33	@fsociety	chat list
+2016-03-19 12:55:33	@root	Warning: The chat command was mostly replaced with the channel command.
+2016-03-19 12:55:33	@root	 0. &bitlbee, control channel (joined)
+2016-03-19 12:55:33	@root	 1. &steam, control channel (joined)
+2016-03-19 12:55:33	@root	 2. &telegram, control channel (joined)
+2016-03-19 12:55:33	@root	 3. #twitter_z1lt0id, chat channel (joined)
+2016-03-19 12:55:33	@root	 4. ##systemau, chat channel
+2016-03-19 12:55:33	@root	 5. &##systemau, control channel
+2016-03-19 12:55:33	@root	End of channel list
+2016-03-19 12:55:39	@fsociety	chat 5 del
+2016-03-19 12:55:39	@root	Unknown command: chat 5. Please use help commands to get a list of available commands.
+2016-03-19 12:56:00	@fsociety	chat del telegram &##systemau
+2016-03-19 12:56:00	@root	Warning: The chat command was mostly replaced with the channel command.
+2016-03-19 12:56:00	@root	Could not find channel `del'
+2016-03-19 12:56:14	@fsociety	channel list
+2016-03-19 12:56:14	@root	 0. &bitlbee, control channel (joined)
+2016-03-19 12:56:14	@root	 1. &steam, control channel (joined)
+2016-03-19 12:56:14	@root	 2. &telegram, control channel (joined)
+2016-03-19 12:56:14	@root	 3. #twitter_z1lt0id, chat channel (joined)
+2016-03-19 12:56:14	@root	 4. ##systemau, chat channel
+2016-03-19 12:56:14	@root	 5. &##systemau, control channel
+2016-03-19 12:56:14	@root	End of channel list
+2016-03-19 12:56:17	@fsociety	channel del 5
+2016-03-19 12:56:17	@root	Could not find channel `del'
+2016-03-19 12:56:20	@fsociety	channel 5 del
+2016-03-19 12:56:20	@root	Channel &##systemau deleted.
+2016-03-19 12:56:24	@fsociety	channel help
+2016-03-19 12:56:24	@root	Could not find channel `help'
+2016-03-19 12:56:26	@fsociety	channel
+2016-03-19 12:56:26	@root	Not enough parameters given (need 1).
+2016-03-19 12:56:28	@fsociety	help channel
+2016-03-19 12:56:28	@root	Syntax: channel [<account id>] <action> [<arguments>]
+2016-03-19 12:56:28	@root	 
+2016-03-19 12:56:28	@root	Available actions: del, list, set. See help channel <action> for more information.
+2016-03-19 12:56:28	@root	 
+2016-03-19 12:56:28	@root	There is no channel add command. To create a new channel, just use the IRC /join command. See also help channels and help groupchats.
+2016-03-19 12:56:36	@fsociety	help channel set
+2016-03-19 12:56:36	@root	Syntax: channel [<channel id>] set
+2016-03-19 12:56:36	@root	Syntax: channel [<channel id>] set <setting>
+2016-03-19 12:56:36	@root	Syntax: channel [<channel id>] set <setting> <value>
+2016-03-19 12:56:36	@root	Syntax: channel [<channel id>] set -del <setting>
+2016-03-19 12:56:36	@root	 
+2016-03-19 12:56:36	@root	This command can be used to change various settings for channels. Different channel types support different settings. You can see the settings available for a channel by typing channel <channel id> set.
+2016-03-19 12:56:36	@root	 
+2016-03-19 12:56:36	@root	For more infomation about a setting, see help set <setting>.
+2016-03-19 12:56:36	@root	 
+2016-03-19 12:56:36	@root	The channel ID can be a number (see channel list), or (part of) its name, as long as it matches only one channel. If you want to change settings of the current channel, you can omit the channel ID.
+2016-03-19 12:56:53	@fsociety	help
+2016-03-19 12:56:53	@root	These are the available help subjects:
+2016-03-19 12:56:53	@root	 
+2016-03-19 12:56:53	@root	 quickstart - A short introduction into BitlBee
+2016-03-19 12:56:53	@root	 commands - All available commands and settings
+2016-03-19 12:56:53	@root	 channels - About creating and customizing channels
+2016-03-19 12:56:53	@root	 away - About setting away states
+2016-03-19 12:56:53	@root	 groupchats - How to work with groupchats on BitlBee
+2016-03-19 12:56:53	@root	 nick_changes - Changing your nickname without losing any settings
+2016-03-19 12:56:53	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2016-03-19 12:56:53	@root	 
+2016-03-19 12:56:53	@root	You can read more about them with help <subject>
+2016-03-19 12:56:53	@root	 
+2016-03-19 12:56:53	@root	Some more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.
+2016-03-19 12:56:53	@root	 
+2016-03-19 12:56:53	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2016-03-20 09:36:20	@root	twitter - Error: Stream closed (200 OK)
+2016-03-20 09:36:20	@root	twitter - Signing off..
+2016-03-20 09:36:21	@root	twitter - Logging in: Reconnecting in 5 seconds..
+2016-03-20 09:36:26	@root	twitter - Logging in: Connecting
+2016-03-20 09:36:26	@root	twitter - Logging in: Getting contact list
+2016-03-20 09:36:29	@root	twitter - Logging in: Getting initial statuses
+2016-03-20 09:36:29	@root	twitter - Logging in: Logged in
+2016-03-20 18:48:31	@root	steam - Error: HTTP: Request timed out
+2016-03-20 18:48:31	@root	steam - Signing off..
+2016-03-20 18:48:31	@root	steam - Reconnecting in 5 seconds..
+2016-03-20 18:48:38	@root	steam - Logging in: Connecting
+2016-03-20 18:48:38	@root	steam - Logging in: Sending logon request
+2016-03-20 18:49:01	@root	steam - Logging in: Requesting friends list
+2016-03-20 18:49:32	@root	steam - Logging in: Logged in
+2016-03-21 07:15:56	 - 	irc: disconnected from server
+2016-03-21 07:57:58	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-21 07:57:58	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-21 07:57:59	 > 	JustinZobel (Justin_Zobel@telegram) has joined &telegram
+2016-03-21 08:03:32	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 08:03:45	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 08:03:59	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 08:05:02	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 08:16:07	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 08:16:20	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 08:26:51	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 08:27:15	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 08:51:52	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 08:52:35	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 09:07:52	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 09:08:13	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 09:09:10	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 09:09:40	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 09:09:43	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 09:10:05	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 09:10:08	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 09:10:41	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 09:11:03	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 09:11:09	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 09:11:47	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 09:11:52	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 09:25:32	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 09:25:53	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 09:28:42	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 09:28:57	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 10:16:01	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 10:16:55	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 10:17:00	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 10:17:08	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 11:12:15	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 11:12:26	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 11:14:45	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 11:14:52	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 11:16:55	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 11:17:02	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 11:45:14	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 11:45:28	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 12:30:01	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 12:30:08	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 15:06:17	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 15:06:26	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 15:07:03	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 15:12:02	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 15:23:07	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 15:25:30	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 15:27:07	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 15:28:05	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 15:29:59	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 15:30:56	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-21 15:38:41	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-21 15:38:54	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-22 00:54:49	 < 	JustinZobel (Justin_Zobel@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-22 00:59:44	 > 	JustinZobel (Justin_Zobel@telegram) has joined &telegram
+2016-03-22 01:00:36	 < 	JustinZobel (Justin_Zobel@telegram) has quit (bitlbee.localhost telegram.localhost)
+2016-03-22 01:05:18	@fsociety	help purple telegram
+2016-03-22 01:05:18	@root	BitlBee libpurple module telegram (Telegram).
+2016-03-22 01:05:18	@root	 
+2016-03-22 01:05:18	@root	Supported settings:
+2016-03-22 01:05:18	@root	* password-two-factor (Password (two factor authentication)), string, default: (null)
+2016-03-22 01:05:18	@root	* compat-verification (Fallback SMS verification
+2016-03-22 01:05:18	@root	(Helps when not using Pidgin and you aren't being prompted for the code)), boolean, default: false
+2016-03-22 01:05:18	@root	* accept-secret-chats (Accept secret chats), list, default: ask
+2016-03-22 01:05:18	@root	  Possible values: ask, never, always
+2016-03-22 01:05:18	@root	* inactive-days-offline (Display buddies offline after (days)), integer, default: 7
+2016-03-22 01:05:18	@root	* history-retrieve-days (Don't fetch history older than (days)
+2016-03-22 01:05:18	@root	(0 for unlimited)), integer, default: 14
+2016-03-22 01:05:18	@root	* auto-join-group-chats (Add all group chats to buddy list), boolean, default: false
+2016-03-22 01:05:18	@root	* display-read-notifications (Display notices of receipt), boolean, default: false
+2016-03-22 01:05:18	@root	* send-read-notifications (Send notices of receipt when present), boolean, default: true
+2016-03-22 01:05:45	@fsociety	set auto-join-group-chats true
+2016-03-22 01:05:45	@root	Setting `auto-join-group-chats' does not exist.
+2016-03-22 01:05:45	@root	It might be an account or channel setting. See help account set and help channel set.
+2016-03-22 01:05:51	@fsociety	acc telegram auto-join-group-chats true
+2016-03-22 01:05:51	@root	Unknown command: account [...] auto-join-group-chats. Please use help commands to get a list of available commands.
+2016-03-22 01:06:08	@fsociety	telegram auto-join-group-chats true
+2016-03-22 01:06:08	@root	Unknown command: telegram. Please use help commands to get a list of available commands.
+2016-03-22 01:06:27	@fsociety	acc telegram set auto-join-group-chats true
+2016-03-22 01:06:27	@root	auto-join-group-chats = `true'
+2016-03-22 02:55:10	@root	twitter - Error: Stream closed (200 OK)
+2016-03-22 02:55:10	@root	twitter - Signing off..
+2016-03-22 02:55:10	@root	twitter - Logging in: Reconnecting in 5 seconds..
+2016-03-22 02:55:15	@root	twitter - Logging in: Connecting
+2016-03-22 02:55:15	@root	twitter - Logging in: Getting contact list
+2016-03-22 02:55:19	@root	twitter - Logging in: Getting initial statuses
+2016-03-22 02:55:19	@root	twitter - Logging in: Logged in
+2016-03-24 06:41:44	 > 	fsociety (whoami@localhost) has joined &telegram
+2016-03-24 06:41:44	 - 	Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-24 06:41:46	 > 	JustinZobel (Justin_Zobel@telegram) has joined &telegram
+2016-03-24 08:03:26	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-24 08:03:46	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-24 08:03:48	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-24 08:03:54	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-24 08:03:57	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-24 08:07:23	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-24 08:07:35	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-24 08:08:10	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-24 08:13:56	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-24 08:14:03	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-24 08:18:06	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-24 08:18:21	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-24 08:20:09	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-24 08:20:23	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-24 08:47:08	 - 	Mode &telegram [+v JustinZobel] by localhost
+2016-03-24 08:48:05	 - 	Mode &telegram [-v JustinZobel] by localhost
+2016-03-24 12:45:04	 - 	irc: disconnected from server
+2016-03-24 13:35:07	-	fsociety (whoami@localhost) has joined &telegram
+2016-03-24 13:35:07		Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-24 15:14:38		irc: disconnected from server
+2016-03-24 15:15:07	-	fsociety (whoami@localhost) has joined &telegram
+2016-03-24 15:15:07		Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-24 15:17:12	@fsociety	acc add jabber deanthomson50@gmail.com
+2016-03-24 15:17:12	@root	Account successfully added with tag gtalk
+2016-03-24 15:17:12	@root	You can now use the /OPER command to enter the password
+2016-03-24 15:17:12	@root	Alternatively, enable OAuth if the account supports it: account gtalk set oauth on
+2016-03-24 15:17:28	@fsociety	acc gtalk set oauth on
+2016-03-24 15:17:28	@root	oauth = `on'
+2016-03-24 15:17:35	@fsociety	acc gtalk on
+2016-03-24 15:17:35	@root	jabber - Logging in: Starting OAuth authentication
+2016-03-24 15:18:35	@fsociety	acc gtalk off
+2016-03-24 15:18:35	@root	jabber - Logging in: Signing off..
+2016-03-24 15:18:35	@root	jabber - Logging in: If you're having problems logging in, try re-requesting an OAuth token: account gtalk set password ""
+2016-03-24 15:18:53	@fsociety	account gtalk set password ""
+2016-03-24 15:18:53	@root	Setting changed successfully
+2016-03-24 15:19:03	@fsociety	acc gtalk on
+2016-03-24 15:19:03	@root	jabber - Logging in: Starting OAuth authentication
+2016-03-24 15:20:29	@fsociety	account gtalk set password "YKh,9%w3iZDR'2|wA5HjCbh;*lcgb3D@|3jD+;"Xo"q%:gPV263z30E.@.#'pcxe"
+2016-03-24 15:20:29	@root	Setting changed successfully
+2016-03-24 15:20:32	@fsociety	acc gtalk on
+2016-03-24 15:20:32	@root	Account already online
+2016-03-24 15:20:35	@fsociety	acc gtalk off
+2016-03-24 15:20:35	@root	jabber - Logging in: Signing off..
+2016-03-24 15:20:35	@root	jabber - Logging in: If you're having problems logging in, try re-requesting an OAuth token: account gtalk set password ""
+2016-03-24 15:20:44	@fsociety	acc gtalk on
+2016-03-24 15:20:44	@root	jabber - Logging in: Starting OAuth authentication
+2016-03-24 15:20:48	@fsociety	acc gtalk off
+2016-03-24 15:20:48	@root	jabber - Logging in: Signing off..
+2016-03-24 15:20:48	@root	jabber - Logging in: If you're having problems logging in, try re-requesting an OAuth token: account gtalk set password ""
+2016-03-24 15:20:57	@fsociety	acc gtalk del
+2016-03-24 15:20:57	@root	Account deleted
+2016-03-24 15:21:17	@fsociety	acc add jabber deanthomson50@gmail.com YKh,9%w3iZDR'2|wA5HjCbh;*lcgb3D@|3jD+;"Xo"q%:gPV263z30E.@.#'pcxe
+2016-03-24 15:21:17	@root	Account successfully added with tag gtalk
+2016-03-24 15:21:23	@fsociety	acc gtalk on
+2016-03-24 15:21:23	@root	jabber - Logging in: Connecting
+2016-03-24 15:21:24	@root	jabber - Logging in: Connected to server, logging in
+2016-03-24 15:21:24	@root	jabber - Logging in: Converting stream to TLS
+2016-03-24 15:21:24	@root	jabber - Logging in: Connected to server, logging in
+2016-03-24 15:21:25	@root	jabber - Logging in: Authentication finished
+2016-03-24 15:21:25	@root	jabber - Logging in: Server changed session resource string to `BitlBee3BEEC3D4'
+2016-03-24 15:21:25	@root	jabber - Logging in: Authenticated, requesting buddy list
+2016-03-24 15:21:26	@root	jabber - Logging in: Logged in
+2016-03-26 21:48:36		irc: disconnected from server
+2016-03-29 06:22:09	-	fsociety (whoami@localhost) has joined &telegram
+2016-03-29 06:22:09		Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-29 06:25:20		irc: disconnected from server
+2016-03-29 10:01:08	-	fsociety (whoami@localhost) has joined &telegram
+2016-03-29 10:01:08		Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-29 13:39:45		irc: disconnected from server
+2016-03-30 13:03:36	-	fsociety (whoami@localhost) has joined &telegram
+2016-03-30 13:03:36		Channel &telegram: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2016-03-30 18:34:05		irc: disconnected from server

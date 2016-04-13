@@ -1,0 +1,39 @@
+[general]
+accounts = personal,work
+ui = ttyui
+
+[Account personal]
+localrepository = personal-local
+remoterepository = personal-remote
+status_backend = sqlite
+
+[Repository personal-local]
+type = Maildir
+localfolders = ~/mail/personal
+
+[Repository personal-remote]
+type = IMAP
+port = 993
+ssl = yes
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+remotehost = mail.teknik.io
+remoteuser = 
+remotepass = 
+
+[Account work]
+localrepository = work-local
+remoterepository = work-remote
+status_backend = sqlite
+
+[Repository work-local]
+type = Maildir
+localfolders = ~/mail/work
+
+[Repository work-remote]
+type = IMAP
+port = 993
+ssl = yes
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+remotehost = cp109.ezyreg.com
+remoteuser = 
+remotepass = 

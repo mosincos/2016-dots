@@ -1,0 +1,171 @@
+2016-03-25 04:07:51	-	fs0ciety (~whoami@c27-253-43-52.thoms4.vic.optusnet.com.au) has joined #enigma-bbs
+2016-03-25 04:07:51		Topic for #enigma-bbs is "ENiGMA½ BBS @ https://github.com/NuSkooler/enigma-bbs/ ~ xibalba.l33t.codes:44510"
+2016-03-25 04:07:51		Topic set by NuSkooler (~NuSkooler@68.69.167.121) on Sun, 06 Dec 2015 09:15:55
+2016-03-25 04:07:51		Channel #enigma-bbs: 6 nicks (2 ops, 0 voices, 4 normals)
+2016-03-25 04:07:52		Channel created on Mon, 30 Nov 2015 09:57:52
+2016-03-25 04:08:50	fs0ciety	hi guys was looking at your bbs framework, i used to run an oblivion/2 and remoteaccess site back in the early 90s.  anyway was wondering how easy would it to implement your bbs software imposed onto a html5 page rather ssh or telnet
+2016-03-25 04:09:00	fs0ciety	how easy or difficult would it be?
+2016-03-25 04:12:15	nolageek	There's something like ftelnet which is a telnet client that you can embed in a web page.
+2016-03-25 04:13:57	fs0ciety	nolageek, cheers - i wanted to essentially create a personal website but instead of using a minimalist static page gen or bloaty cms - i thought how about use a bbs framework :)
+2016-03-25 04:16:01	nolageek	well, the nature of BBSs is the dialing in .. you could have a web front end to the message areas, etc... but then you may as well just use a form.
+2016-03-25 04:16:11	nolageek	forum
+2016-03-25 04:17:30	fs0ciety	true, but i enjoy the asthetic of bbs's.. and essentially being nostalgic with the use of lightbars - i guess i could write something from scratch in nodejs - but this seems more fun.  More so it will be a bunch punch of pages with some text regarding certain topics and then using the file section of the bbs for projects for people to download
+2016-03-25 04:17:36	fs0ciety	just a personal project site really
+2016-03-25 04:18:26	nolageek	If you want a website with the look of old text-based BBSes you could use the bootstrap.386 theme
+2016-03-25 04:19:15	nolageek	and there were (are?) some wordpress themes that use command line interfaces.
+2016-03-25 04:22:56	nolageek	synchronet has a decent web interface as well - https://electronicchicken.com/ for an example of the newest version that's still in development.
+2016-03-25 04:24:25	fs0ciety	checking it out
+2016-03-25 04:24:40	fs0ciety	i nearly discovered the commandline like templates you were talking about, but the creator removed his website
+2016-03-25 04:30:47	nolageek	pm2 lists main.js as errored
+2016-03-25 04:35:45	nolageek	reran 'npm install ' and I'm back up. :)
+2016-03-25 05:05:34	nolageek	Mercyful: does Obv/xrm compile on debian?
+2016-03-25 05:06:19	Mercyful	it will,  it's not ready to run yet as it's still in early phases..
+2016-03-25 05:07:02	nolageek	yeah, I was just checking it out. gettng sqlite3 errors when compiling.
+2016-03-25 05:07:25	nolageek	‘sqlite3_close_v2’ was not declared in this scope
+2016-03-25 05:08:13	Mercyful	ya i haven't done any recent update the linux make files in quite sometime..  but that weeoe for v2,  means debian has an "older" versions of sqlite.. that would have to be update to a more recent version,, but nothing to worry about just yet.. ;)
+2016-03-25 05:08:30	Mercyful	weeoe = error.. hehe
+2016-03-25 05:09:02	nolageek	hehe
+2016-03-25 05:09:51	nolageek	what version is it loking for?
+2016-03-25 05:13:30	Mercyful	hmm from the sqlite3 change log,, at least.. 2012-09-03 (3.7.14)   but of course even that is quite old.
+2016-03-25 05:14:57	Mercyful	the latest is: 2016-03-03 (3.11.1)
+2016-03-25 05:17:01	nolageek	looks like I've got 3.7.13
+2016-03-25 05:17:22	nolageek	Hmmm and 2.8 :)
+2016-03-25 05:18:07	nolageek	I wonder if daydream or enigma are using 2.8
+2016-03-25 05:19:48	Mercyful	ya, debian needs to update that trash and get into the mid centry on some packages.. hehe
+2016-03-25 05:20:59	nolageek	guess I could rename them and see what happens. heh
+2016-03-25 05:25:54	nolageek	ok, removed sqlite 2 and everyhing seems to still be working.
+2016-03-25 05:30:44	Mercyful	:)
+2016-03-25 05:30:55	Mercyful	mostl ikely they just call 3..
+2016-03-25 05:32:06	nolageek	I spoke too soon. But I think it's related to the update I ran. I rebooted and now getting connection issues with enigma again. Hmm.
+2016-03-25 05:33:38	Mercyful	hopefully he's be back tonight to help out..
+2016-03-25 05:34:10	Mercyful	i'm buckeling down trying to get the prompts, and login process going..  lots of little things..
+2016-03-25 05:38:23	nolageek	nevermind I was being stupid, it's working.
+2016-03-25 05:40:26	@NuSkooler_	nolageek: Sorry was AFK for a bit - is it working now?
+2016-03-25 05:40:46	@NuSkooler_	fs0ciety: You can create a menu bar'd / BBS looking website with just a CMS and some CSS
+2016-03-25 05:40:56	@NuSkooler_	I can get you a few example URLs, sec
+2016-03-25 05:41:28	@NuSkooler_	http://deadline.aegis-corp.org/
+2016-03-25 05:44:23	@NuSkooler_	http://www.masswerk.at/googleBBS/
+2016-03-25 05:47:46	nolageek	deadline is pretty hot. I've never seem their site before.
+2016-03-25 05:47:52	nolageek	seen
+2016-03-25 05:50:04	@NuSkooler_	Their PCBoard setup is pretty slick too
+2016-03-25 05:50:21	@NuSkooler_	the board is pretty much dead, but stays online and it's pretty slick hehe
+2016-03-25 05:50:30	nolageek	hehe
+2016-03-25 05:50:47	@NuSkooler_	Oh and https://jcs.org/notaweblog/2015/04/02/creating_a_bbs_in_2015/
+2016-03-25 05:51:26	@NuSkooler_	nolageek: Lemme know what issues you run into - this stuff is likely buggy at this point. I havent' even migrated Xibalba over yet
+2016-03-25 05:51:43	@NuSkooler_	I'll do that this weekened and be checking in any bug fixes I come up with hehe
+2016-03-25 05:52:07	@NuSkooler_	Working on a official announcement, migration instructions, etc. as well
+2016-03-25 05:52:11	@NuSkooler_	and docs docs docs haha
+2016-03-25 05:53:23	nolageek	No issues really, but I basically just re-installed the whole shebang.
+2016-03-25 05:54:24	nolageek	one thing I may not have noticed before, but I added more message areas this time around - is there a way to specify the display order of the message areas?
+2016-03-25 05:55:41	@NuSkooler_	Hrm... currently they're sorted alphabetically... at least I think I put that in by the 'name'
+2016-03-25 05:55:54	nolageek	yep.
+2016-03-25 05:56:04	@NuSkooler_	Throw a enhancement on github and I'll get to it. should be easy to do
+2016-03-25 05:56:38	@NuSkooler_	will put in a 'sort' field or soemthing so you could do like sort: 1 ... sort: 2, etc.
+2016-03-25 05:57:08	nolageek	Yeah, I wanted all gaming subs together, entertainment, etc...  guess you could put them in different groups
+2016-03-25 05:58:29	@NuSkooler_	you could, but I think user-defined sort woudl be better
+2016-03-25 05:58:53	@NuSkooler_	cuz groups get's complicated when you want to tie together foreign (e.g. AgoraNet) areas and such
+2016-03-25 05:59:25	@NuSkooler_	adding the 'sort' key support is probably like a one line change
+2016-03-25 05:59:38	@NuSkooler_	lemem find the code, you coudl test it easy (i'll have to wait till i'm home)
+2016-03-25 06:00:20	@NuSkooler_	https://github.com/NuSkooler/enigma-bbs/blob/master/core/message_area.js#L100
+2016-03-25 06:03:46	nolageek	added
+2016-03-25 06:04:19	@NuSkooler_	You could try this if you want it now: http://pastebin.com/BP8hjzk7
+2016-03-25 06:04:45	@NuSkooler_	I think that's basically what I'd do... but fix the TODO for localeCompare and also do this for conf's
+2016-03-25 06:04:51	nolageek	what file is that in?
+2016-03-25 06:04:54	nolageek	oh, duh
+2016-03-25 06:05:15	@NuSkooler_	it's untested but I think it should work :D If it fails you can just git checkout core/message_area.js to revert
+2016-03-25 06:24:20	@NuSkooler_	Oh just saw above: That sqlite3_close_v2() is actually from newer versions of SQLite
+2016-03-25 06:24:52	@NuSkooler_	it's intended to be used when binding via garbage collected languages/etc.; It "attempts" to close, but may not fully deallocate everything until all pending actions are complete
+2016-03-25 06:25:05	@NuSkooler_	whereas sqlite3_close() returns "busy" if there is pending stuff
+2016-03-25 06:26:17	nolageek	and it didn't like the change to the message_area.js
+2016-03-25 06:27:36	nolageek	oh, I also had to run this after updating my system: nvm use --delete-prefix v4.3.1 --silent
+2016-03-25 06:28:18	@NuSkooler_	What did the change do? crash?
+2016-03-25 06:28:25	@NuSkooler_	or just not work
+2016-03-25 06:28:33	nolageek	my message areas weren't listed at all
+2016-03-25 06:29:16	nolageek	Hmm, trying to think if I restarted after making the change.
+2016-03-25 06:29:39	nolageek	this is what happens when I'm messing around with this stuff at work.
+2016-03-25 06:29:41	nolageek	hehe
+2016-03-25 06:29:45	@NuSkooler_	could be needed stirng conversion, so: o.area.sort ? o.area.sort.toString() : o.area.name
+2016-03-25 06:29:57	@NuSkooler_	yeah know how that goes...always a bazillion things going on hehe
+2016-03-25 06:31:04	@NuSkooler_	or even:  }), o => { return o.area.sort ? o.area.sort.toString() : o.area.name } );
+2016-03-25 06:31:05	@NuSkooler_	to be safe
+2016-03-25 06:31:06	@NuSkooler_	hehe
+2016-03-25 06:31:20	@NuSkooler_	I'll mess with it tonight either way
+2016-03-25 06:38:31	nolageek	cool.  looking great though.
+2016-03-25 06:51:57	@NuSkooler_	Gonna try to smash out other major bugs and todo's that are not tied to big features next
+2016-03-25 06:52:15	@NuSkooler_	then prob start on distributed network stuff and/or file base
+2016-03-25 06:52:36	@NuSkooler_	unless someone else using this thing asks for something more important
+2016-03-25 06:56:12	nolageek	hehe
+2016-03-25 06:56:31	nolageek	I want to start working on some menus.
+2016-03-25 06:56:36	nolageek	also, how do I add doors?
+2016-03-25 07:11:43	@NuSkooler_	nolageek: https://github.com/NuSkooler/enigma-bbs/blob/master/docs/doors.md
+2016-03-25 07:12:03	@NuSkooler_	If there are parts there that don't make sense, I'll try and fix them up
+2016-03-25 07:12:14	@NuSkooler_	If you're under Linux, I suggest DOSEMU for stuff
+2016-03-25 07:21:27	nolageek	excellent. thanks!
+2016-03-25 07:57:11	@NuSkooler_	lemme know if it's not clear as mud hehehe
+2016-03-25 13:59:18	nolageek	sup
+2016-03-25 14:47:53	@NuSkooler	yo
+2016-03-25 14:50:54	nolageek	yo yo
+2016-03-25 14:51:25	nolageek	I cannot make up my mind how to re-structure my menus. Way over thinking it.
+2016-03-25 14:53:17	nolageek	some things are a given for the main menu - message area, doors, chat, email, settings.. but then I get to all of the other things...  rumors, last callers, etc..
+2016-03-25 15:02:19	@NuSkooler	haha
+2016-03-25 15:02:57	@NuSkooler	I've made sure not to impose any like special menu types in enigma, like you can do them however
+2016-03-25 15:03:00	@NuSkooler	or at least is the idea
+2016-03-25 15:03:01	@NuSkooler	hehe
+2016-03-25 15:10:44	nolageek	I'm completely redoing mine in synchronet since I was never happy with them - they were based on Mystic, which I like. (different menus for main, msg, games, etc...)
+2016-03-25 15:10:59	nolageek	I dont like boards when they have a big wall of options for a main menu.
+2016-03-25 15:11:56	nolageek	some are easy - message menu... but things get fuzzy on say, the system info menu.
+2016-03-25 15:12:54	nolageek	there's a lot that can be considered 'system info'  :)
+2016-03-25 15:23:00	Mercyful	always the fun part :)
+2016-03-25 15:25:34	Mercyful	writting asynchronous i/o for everything is a handful.. this will either rock when i'm done, or blow chunks.. haha
+2016-03-25 15:29:42	Mercyful	it's smooth,, just when tricky when you want to query and get a response, you have to make hoops and add timers incase you don't get a response.. heh
+2016-03-25 15:29:56	nolageek	I'm doing this command shell so that I can basically rename the file and have a directory named the same with the new menu files. Nothing is hardcoded into the scripts like all the others are.  Should make it much easier to have multiple themes without re-coding everything. Just need to make sure the menus are arranged well. hehe
+2016-03-25 15:30:35	Mercyful	sounds like a good idea :)
+2016-03-25 15:30:54	nolageek	It also keeps track of the user's session activity like the amiga style boards..  --F-P-H etc...
+2016-03-25 15:32:11	nolageek	also added automessage and rumors mod - didn't like any of the ones available for synchronet.
+2016-03-25 15:34:58	Mercyful	i hear that.. :)
+2016-03-25 15:37:45	Mercyful	i'm trying to nail down the login and pre login processes right now,  a bit of work getting the terminal detection, ansi detecting going the way it's all setup..  slowly coming togheter.. just so darn tedious casue i have alot of function pointers going and jumping all around. just hope i'm not over doing the normalization hehe
+2016-03-25 15:38:53	nolageek	I can't imagine how much work it is to write a whole BBS. :)  Can't wait to see it.
+2016-03-25 15:45:38	@NuSkooler	nice
+2016-03-25 15:45:40	Mercyful	ya, and c++ isn't the most rapid development environment either.. hehe but tx, can't wait to iron this all out.  NuSkooler has done an amazing job himself with what he has done in node.js.
+2016-03-25 15:45:49	@NuSkooler	i still haven't even added ansi detection... i just assume you have it heheh
+2016-03-25 15:46:59	@NuSkooler	yeah async is def a handful to get a hang of... and can be a pain compared to syncronous code
+2016-03-25 15:47:03	Mercyful	well ansi detect is just send a lame ESC[6n  and get x/y coords response.. of the cursor position.. not much of a detection,  but will tell if they client at least has an ANSI capable terminal..
+2016-03-25 15:47:05	@NuSkooler	but huge benefits
+2016-03-25 15:47:34	@NuSkooler	i should prob add that at some point... i haven't even bothered to test when terminal is in ascii only though in theory it "should work" (TM)
+2016-03-25 15:47:35	@NuSkooler	hehe
+2016-03-25 15:48:29	Mercyful	ya, it's not much to worry about, i mean just about all terms should have color, and ESC sequence support.. hehe
+2016-03-25 15:48:46	Mercyful	but it's nice to detect and display hehe
+2016-03-25 15:49:46	Mercyful	ya, even with all the crazy async stuff,  virtual classes, and smart pointers.. a conection is still barely taking 0.7 megs of memory which was shocking.. hehe
+2016-03-25 15:50:30	Mercyful	although i don't have much yet.. but we'll see as it goes along..
+2016-03-25 15:52:41	Mercyful	my first time doing real async stuff,, other than the rewrite i did to EtherTerm which helped alot too,  but that was more direct to one area,, this spawns and handles so much more..  just hope my design isn't too flawed.. hehe
+2016-03-25 16:45:40	@NuSkooler	the compiler will take away almost all of the overhead of all that stuff and compile code just as if it weren't there... just ends up being less buggy & async code
+2016-03-25 16:46:01	@NuSkooler	nolageek: I checked in the sorting stuff... i think it should do the trick for you
+2016-03-25 22:33:31	Mercyful	22222/8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+2016-03-25 22:33:31	Mercyful	8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+2016-03-25 22:33:31	Mercyful	88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+2016-03-25 22:33:31	Mercyful	8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+2016-03-26 00:46:27	nolageek	999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+2016-03-26 00:55:24		Mercyful (~mercyful2@216-80-115-17.c3-0.frg-ubr1.chi-frg.il.cable.rcn.com) has quit (Ping timeout: 276 seconds)
+2016-03-26 03:17:44	@NuSkooler	lulwut
+2016-03-26 03:19:34	@NuSkooler	nolageek: Were you able to get doors going?
+2016-03-26 03:20:44	nolageek	will try today. took a break last night - been up late working on it every night this week.
+2016-03-26 03:21:27	nolageek	knocking out the rest of these trouble tickets and am going to set it up.
+2016-03-26 03:22:39	nolageek	how can I force git to do a pull and overwrite any changes I made?
+2016-03-26 03:22:59	nolageek	it doesn't like that I manually tried to change message_area.js yesturday
+2016-03-26 03:27:59	nolageek	git reset --hard fixed that. :)
+2016-03-26 03:29:30	nolageek	ok, pull complete and seeing the same issue as before - no message areas are being displayed.
+2016-03-26 03:32:05	nolageek	nevermind.
+2016-03-26 03:32:08	nolageek	:/
+2016-03-26 03:32:11	nolageek	got it
+2016-03-26 03:34:37	@NuSkooler	git checkout path/to/file.ext
+2016-03-26 03:34:45	@NuSkooler	that will give you a clean copy of said file
+2016-03-26 03:46:50	nolageek	sort works awesome.
+2016-03-26 04:20:47	@NuSkooler	woot!
+2016-03-26 09:53:19	-	Mercyful (~mercyful2@216-80-115-17.c3-0.frg-ubr1.chi-frg.il.cable.rcn.com) has joined #enigma-bbs
+2016-03-26 10:25:09	Mercyful	lol, think my cat was on the keyboard this morning.. :)
+2016-03-26 10:52:51		Mercyful (~mercyful2@216-80-115-17.c3-0.frg-ubr1.chi-frg.il.cable.rcn.com) has quit (Quit: Nettalk6 - www.ntalk.de)
+2016-03-26 12:59:33	nolageek	hehe
+2016-03-26 13:43:43		PaddyMac (~patrick@2602:4b:78f5:7200:211:50ff:fef5:592f) has quit (Read error: Connection reset by peer)
+2016-03-26 13:44:06	-	PaddyMac (~patrick@2602:4b:78f5:7200:211:50ff:fef5:592f) has joined #enigma-bbs
+2016-03-26 14:27:57	-	Mercyful (~mercyful2@216-80-115-17.c3-0.frg-ubr1.chi-frg.il.cable.rcn.com) has joined #enigma-bbs
+2016-03-26 21:48:37		irc: disconnected from server

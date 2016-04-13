@@ -1,0 +1,643 @@
+2016-03-11 04:49:07	 > 	fs0ciety (~whoami@c27-253-43-52.thoms4.vic.optusnet.com.au) has joined #godotengine
+2016-03-11 04:49:07	 - 	Topic for #godotengine is "Godot Engine | http://www.godotengine.org | GitHub: https://github.com/okamstudio/godot | Twitter: @godotengine | Want to contribute to Godot? New channel for engine development #godotengine-devel | Godot joins Conservancy! http://sfconservancy.org/news/2015/nov/04/godot-joins/"
+2016-03-11 04:49:07	 - 	Topic set by punto (~punto@181.169.129.45) on Thu, 05 Nov 2015 04:58:28
+2016-03-11 04:49:07	 - 	Channel #godotengine: 105 nicks (0 ops, 0 voices, 105 normals)
+2016-03-11 04:49:08	 - 	Channel created on Tue, 11 Feb 2014 18:43:18
+2016-03-11 04:49:34	fs0ciety	i'm not sure but did OKAM reach the goal to release their adventure game template for Godot?
+2016-03-11 04:49:54	 > 	Fryy (~Fryy@ipservice-092-211-201-147.092.211.pools.vodafone-ip.de) has joined #godotengine
+2016-03-11 04:51:38	 > 	bojidar_bg (~bojidar-b@79-100-84-150.btc-net.bg) has joined #godotengine
+2016-03-11 04:52:46	 > 	demok (~okan@78.169.35.231) has joined #godotengine
+2016-03-11 04:54:15	 > 	draxdeveloper (~passarinh@179.34.12.189) has joined #godotengine
+2016-03-11 04:56:34	Akien	fs0ciety: Nope, but it will be done nevertheless.
+2016-03-11 04:56:55	Akien	It will likely take some time to make it suitable for any game and not just Dog Mendonça
+2016-03-11 05:02:57	 > 	BoBsoN (~admin@93.175.72.67) has joined #godotengine
+2016-03-11 05:03:55	fs0ciety	Akien: Wonderful - I looked at the demo code of Mendonca a while back.. but yeah it was clearly not designed to be used in any template form
+2016-03-11 05:04:17	fs0ciety	but i did purchase the game, and gives me hopes for making an awesome point n click in godot
+2016-03-11 05:04:32	 > 	Griefchief|2 (~kvirc@95.180.98.101) has joined #godotengine
+2016-03-11 05:04:39	 > 	PLyczkowski (~quassel@89-65-89-170.dynamic.chello.pl) has joined #godotengine
+2016-03-11 05:05:02	Calinou	"Call of Godot: Nodeception"
+2016-03-11 05:06:14	 > 	turtleman (~turtleman@pool-98-109-183-75.nwrknj.fios.verizon.net) has joined #godotengine
+2016-03-11 05:06:49	 < 	Griefchief (~kvirc@95.180.98.101) has quit (Ping timeout: 260 seconds)
+2016-03-11 05:10:39	 > 	Salvakiya (~Salvakiya@host81-135-213-235.range81-135.btcentralplus.com) has joined #godotengine
+2016-03-11 05:12:21	 < 	Akien (~akien@unaffiliated/akien) has quit (Ping timeout: 244 seconds)
+2016-03-11 05:17:43	 > 	mipesom (~mipesom@p5B048097.dip0.t-ipconnect.de) has joined #godotengine
+2016-03-11 05:22:20	 < 	chibiko|2 (~Chibiko@109-184-177-175.dynamic.mts-nn.ru) has quit (Quit: Bugaga.)
+2016-03-11 05:22:20	 > 	LeonardMeagher2 (49ef6ed7@gateway/web/freenode/ip.73.239.110.215) has joined #godotengine
+2016-03-11 05:24:48	Megalomaniak	slapin: I'm asking about shaderGraphs because I like to use them for shader prototyping/testing ideas
+2016-03-11 05:24:58	Megalomaniak	slapin: but having to recreate certain mundane networks every time gets old quick
+2016-03-11 05:25:59	Megalomaniak	however if its not possible yet, then no big deal, hopefully it will be possible to do so once we have gdscript editoor plugins supported. :)
+2016-03-11 05:26:29	 > 	jn_jn (~jn@net-188-217-122-131.cust.vodafonedsl.it) has joined #godotengine
+2016-03-11 05:27:01	jn_jn	is possible install godot in gentoo?
+2016-03-11 05:32:48	HER0_01	Yes
+2016-03-11 05:33:31	HER0_01	There are overlays for it
+2016-03-11 05:34:17	jn_jn	abendbrod
+2016-03-11 05:34:23	jn_jn	maybe
+2016-03-11 05:34:27	jn_jn	i try, ty
+2016-03-11 05:35:31	 < 	_ahti (~ahti@212.253.112.159) has quit (Ping timeout: 250 seconds)
+2016-03-11 05:35:47	 < 	n-pigeon_ (~n-pigeon@z-artifexmundi1.static.3s.pl) has quit (Read error: Connection reset by peer)
+2016-03-11 05:49:09	 > 	dc1a0 (~dc1a0@68-200-243-74.res.bhn.net) has joined #godotengine
+2016-03-11 05:50:09	 < 	Fryy (~Fryy@ipservice-092-211-201-147.092.211.pools.vodafone-ip.de) has quit (Quit: Leaving)
+2016-03-11 05:51:55	 > 	Sembei (~Sembei@unaffiliated/sembei) has joined #godotengine
+2016-03-11 06:02:22	 < 	PLyczkowski (~quassel@89-65-89-170.dynamic.chello.pl) has quit (Ping timeout: 248 seconds)
+2016-03-11 06:08:46	 < 	LeonardMeagher2 (49ef6ed7@gateway/web/freenode/ip.73.239.110.215) has quit (Ping timeout: 252 seconds)
+2016-03-11 06:12:26	 < 	Torakx (25e4eb8e@gateway/web/freenode/ip.37.228.235.142) has quit (Ping timeout: 252 seconds)
+2016-03-11 06:14:17	 > 	Raven67854 (~Raven6785@70-33-140-24.unassigned.ntelos.net) has joined #godotengine
+2016-03-11 06:15:11	jn_jn	yep work fine :D
+2016-03-11 06:15:23	jn_jn	ty devs
+2016-03-11 06:15:33	Raven67854	Calinou, !
+2016-03-11 06:16:44	Calinou	hi Raven67854
+2016-03-11 06:16:54	Calinou	Raven67854, I am 18 now :D
+2016-03-11 06:17:10	Raven67854	Congrats happy birthday
+2016-03-11 06:17:14	Calinou	thanks
+2016-03-11 06:18:11	jn_jn	HB Calinou :D
+2016-03-11 06:18:28	john_cephalopoda	!confetti
+2016-03-11 06:18:35	john_cephalopoda	Do we even have a bot in here?
+2016-03-11 06:18:40	john_cephalopoda	.confetti
+2016-03-11 06:18:46	john_cephalopoda	Probably not :D
+2016-03-11 06:19:01	jn_jn	LOL
+2016-03-11 06:20:16	 > 	PLyczkowski (~quassel@89-65-89-170.dynamic.chello.pl) has joined #godotengine
+2016-03-11 06:20:35	john_cephalopoda	Happy birthday anyway.
+2016-03-11 06:21:04	 < 	kubecz3k (~kubeczek@87-205-94-149.adsl.inetia.pl) has quit (Ping timeout: 244 seconds)
+2016-03-11 06:26:12	bojidar_bg	Calinou: congrats
+2016-03-11 06:27:05	vaded	Calinou: welcome to the fraternity of old farts, you are now 64% from being over the hill(50). Enjoy! >=)
+2016-03-11 06:29:36	 > 	ndee_ (54870977@gateway/web/cgi-irc/kiwiirc.com/ip.84.135.9.119) has joined #godotengine
+2016-03-11 06:30:24	 > 	falsaber (~hetdegon@188.86.253.74) has joined #godotengine
+2016-03-11 06:34:31	 > 	glasz (~quassel@ALyon-656-1-720-39.w92-144.abo.wanadoo.fr) has joined #godotengine
+2016-03-11 06:35:50	 > 	paolobb4 (~paolobb4@5.170.105.55) has joined #godotengine
+2016-03-11 06:35:52	 < 	paolobb4 (~paolobb4@5.170.105.55) has left #godotengine
+2016-03-11 06:38:38	 > 	kubecz3k (~kubeczek@87-205-94-149.adsl.inetia.pl) has joined #godotengine
+2016-03-11 06:41:19	 < 	glasz (~quassel@ALyon-656-1-720-39.w92-144.abo.wanadoo.fr) has quit (Read error: Connection reset by peer)
+2016-03-11 06:45:05	 < 	turtleman (~turtleman@pool-98-109-183-75.nwrknj.fios.verizon.net) has quit (Quit: Leaving)
+2016-03-11 06:45:12	 > 	turtleman_ (~turtleman@pool-98-109-183-75.nwrknj.fios.verizon.net) has joined #godotengine
+2016-03-11 06:46:20	 < 	turtleman_ (~turtleman@pool-98-109-183-75.nwrknj.fios.verizon.net) has quit (Remote host closed the connection)
+2016-03-11 06:47:25	 < 	draxdeveloper (~passarinh@179.34.12.189) has quit (Quit: Konversation terminated!)
+2016-03-11 06:48:04	 > 	turtleman (~turtleman@pool-98-109-183-75.nwrknj.fios.verizon.net) has joined #godotengine
+2016-03-11 06:50:20	 < 	turtleman (~turtleman@pool-98-109-183-75.nwrknj.fios.verizon.net) has quit (Client Quit)
+2016-03-11 06:50:49	 > 	turtleman (~turtleman@pool-98-109-183-75.nwrknj.fios.verizon.net) has joined #godotengine
+2016-03-11 06:53:56	 < 	falsaber (~hetdegon@188.86.253.74) has quit (Quit: Leaving.)
+2016-03-11 06:53:58	 > 	falsaber1 (~hetdegon@188.86.253.74) has joined #godotengine
+2016-03-11 06:56:02	 > 	manokara|lap (~manokara@187.65.66.71) has joined #godotengine
+2016-03-11 07:00:38	 > 	luizrpgluiz (~luizrpglu@201-27-158-138.dsl.telesp.net.br) has joined #godotengine
+2016-03-11 07:01:16	luizrpgluiz	hi
+2016-03-11 07:01:38	bojidar_bg	luizrpgluiz: hey
+2016-03-11 07:01:41	kaadmy	Calinou: happy birthday :D
+2016-03-11 07:02:05	luizrpgluiz	:)
+2016-03-11 07:02:28	bojidar_bg	luizrpgluiz: BTW, what game were you making? :)
+2016-03-11 07:03:26	luizrpgluiz	at the moment no, I was thinking of doing some voxel clone of minecraft
+2016-03-11 07:03:33	bojidar_bg	ah, ok
+2016-03-11 07:03:40	luizrpgluiz	and you?
+2016-03-11 07:03:51	bojidar_bg	various 2D opensource games
+2016-03-11 07:04:02	luizrpgluiz	:D
+2016-03-11 07:04:04	bojidar_bg	https://github.com/KOBUGE-Games
+2016-03-11 07:04:06	[-einbot2-]	`KOBUGE-Games · GitHub`
+2016-03-11 07:04:17	bojidar_bg	good I'm not alone at doing this.. :D
+2016-03-11 07:05:06	 > 	GarrettShields_ (~GarrettSh@CPE1caff7d8f472-CM68b6fc40c630.cpe.net.cable.rogers.com) has joined #godotengine
+2016-03-11 07:06:16	luizrpgluiz	anyone here but me is Brazilian?
+2016-03-11 07:06:16	vaded	do you pronounce kobuge as "Koh-Boo-Gee"?
+2016-03-11 07:07:23	bojidar_bg	vaded: I guess so, though I tend to lean more to "Koh-Buge" (first part seperated, everything else together)
+2016-03-11 07:07:31	bojidar_bg	but who knows...
+2016-03-11 07:07:37	 < 	GarrettShields (~GarrettSh@2607:fea8:a120:2b:c00f:de45:4c58:5765) has quit (Ping timeout: 240 seconds)
+2016-03-11 07:07:40	vaded	k sounds good
+2016-03-11 07:08:16	bojidar_bg	:)
+2016-03-11 07:11:30	luizrpgluiz	bojidar,you speak portuguese?
+2016-03-11 07:11:48	bojidar_bg	now, I'm still struggling with French :P
+2016-03-11 07:11:55	bojidar_bg	*no
+2016-03-11 07:12:06	luizrpgluiz	^_^
+2016-03-11 07:13:50	manokara|lap	luizrpgluiz: você não está sozinho meu chapa
+2016-03-11 07:14:45	 < 	StraToN-- (~AndChat34@182.110.127.78.rev.sfr.net) has quit (Ping timeout: 250 seconds)
+2016-03-11 07:16:23	luizrpgluiz	guys, I'm thinking of developing the first clone game game dev tycoon or some similar game only to leave the open source game
+2016-03-11 07:17:33	 > 	pwcjr (~pwcjr@pool-173-79-51-148.washdc.fios.verizon.net) has joined #godotengine
+2016-03-11 07:18:04	manokara|lap	that would be nice
+2016-03-11 07:18:29	 < 	kubecz3k (~kubeczek@87-205-94-149.adsl.inetia.pl) has quit (Quit: good night good people!)
+2016-03-11 07:21:12	 > 	mfoxdogg (~mfoxdogg@CPE-121-218-162-212.lnse4.cht.bigpond.net.au) has joined #godotengine
+2016-03-11 07:31:05	 < 	bojidar_bg (~bojidar-b@79-100-84-150.btc-net.bg) has quit (Quit: Leave)
+2016-03-11 07:32:22	 < 	Salvakiya (~Salvakiya@host81-135-213-235.range81-135.btcentralplus.com) has quit (Ping timeout: 244 seconds)
+2016-03-11 07:33:31	 > 	Robert_Zenz (~Robert_Ze@chello084114214250.5.15.vie.surfer.at) has joined #godotengine
+2016-03-11 07:36:32	ArcFutahito	oh maaan
+2016-03-11 07:36:33	ArcFutahito	http://arstechnica.com/gadgets/2016/03/hands-on-with-android-n-increased-customization-better-notifications-and-more/
+2016-03-11 07:36:35	[-einbot2-]	Hands-on with Android N: Increased customization, better notifications, and more | Ars Technica
+2016-03-11 07:37:30	ArcFutahito	Android 6 didn't even spread that much and they are already introducing a new os
+2016-03-11 07:38:07	falsaber1	hell, it's still hard to find android 4 stuff here
+2016-03-11 07:40:20	ArcFutahito	It was really hard to find a good budget phone with 5.0 (won't even spend any good money on anything that's not a Nexus which I don't really need yet). Finding 6.0 in physical stores with a price tag that wouldn't be insane at the time I was buying it (winter 2015) was completely impossible
+2016-03-11 07:40:50	falsaber1	indeed
+2016-03-11 07:41:12	 < 	vaded (~vade@unaffiliated/vaded) has quit (Read error: No route to host)
+2016-03-11 07:42:51	ArcFutahito	Well, now games, in theory, should support split screen. Awesome, it's like devs didn't have permissions and other stuff on their hands already
+2016-03-11 07:43:02	falsaber1	lol yeah
+2016-03-11 07:43:10	 < 	PLyczkowski (~quassel@89-65-89-170.dynamic.chello.pl) has quit (Ping timeout: 248 seconds)
+2016-03-11 07:44:19	 > 	chibiko|2 (~Chibiko@109-184-177-175.dynamic.mts-nn.ru) has joined #godotengine
+2016-03-11 07:44:54	 > 	vaded (~vade@unaffiliated/vaded) has joined #godotengine
+2016-03-11 07:45:32	 < 	Calinou (~Calinou@unaffiliated/calinou) has quit (Quit: Calinou)
+2016-03-11 07:45:43	henkz	ArcFutahito, it's always like this, they announce new version before or at IO, then release it later that year.. "winter 2015" android 6 had been out like 2 months or something, no wonder you couldn't find a cheap one
+2016-03-11 07:46:46	ArcFutahito	well, it's spring 2016 and there's android 7 developer preview already, with plans to launch it Q3 2016 if I recall correctly
+2016-03-11 07:46:58	 > 	alket (~alket@megaglest/contributor/alket) has joined #godotengine
+2016-03-11 07:47:04	henkz	yea, thats how it works
+2016-03-11 07:47:47	henkz	a year agi there where almost no devices with 5, now it's the one with largest installbase
+2016-03-11 07:48:26	ArcFutahito	Well, the thing is that most device manufacturers don't really do such major updates. Heck, my phone is still on 5.2 and I don't think that there will be any plans about doing 6
+2016-03-11 07:49:15	ArcFutahito	Lower version life means manufacturers will stop giving a damn earlier
+2016-03-11 07:49:26	ArcFutahito	Which, in turn, means less security updates
+2016-03-11 07:49:54	ArcFutahito	To be honest, updates is the only thing I'm choosing Nexus as my next device
+2016-03-11 07:50:17	henkz	maybe, my nexus 10 never got 6, but it gets security updates monthly.. bu ye thats a nexus
+2016-03-11 07:51:08	ArcFutahito	Well, I haven't got an update in god knows how long (actually, somewhere in the winter my phone got 5.2 and that's it).
+2016-03-11 07:51:51	ArcFutahito	so, uh, that's why fast releases of android are not as good as they seem 101 for ya
+2016-03-11 07:52:57	ArcFutahito	Also, major changes tend to break things like Xposed framework, which is a must if you want to have at least some control over your private information
+2016-03-11 07:53:39	ArcFutahito	And, yes, android 6 permission management system is shit
+2016-03-11 07:54:13	henkz	well yea, Im not saying it's any good :D in fact I dont like the android apis at all
+2016-03-11 07:54:47	 < 	alket (~alket@megaglest/contributor/alket) has quit (Quit: Tung)
+2016-03-11 07:54:58	ArcFutahito	I don't really have anything against the idea per se, but realization can be titled "everything wrong with google in one design"
+2016-03-11 07:55:43	ArcFutahito	My old JellyBean tablet has better permission management system with XPrivacy than android 6
+2016-03-11 07:55:57	ArcFutahito	Says something about implementation of the feature
+2016-03-11 07:56:15	manokara|lap	yeah. kitkat and the external sd stuff.
+2016-03-11 07:57:51	ArcFutahito	It's just so stupid after how on IO they said that they would off load most of the OS on Google Store so every system will get all the updates despite manufacturers not caring and they still continue with this crap
+2016-03-11 07:59:13	manokara|lap	someone should start a smartphone company focused on freedom for the users...
+2016-03-11 07:59:17	manokara|lap	the GNUphone!
+2016-03-11 07:59:57	ArcFutahito	You mean this? https://www.youtube.com/watch?v=fiEkCaA_P7c
+2016-03-11 07:59:58	[-einbot2-]	| Ubuntu Unity 8 & Convergence Demo at MWC 2016[6M33S][While the initial excitement of all the new releases is starting to die down, there is still a lot to see... ][Views:46,809][871][7]|
+2016-03-11 08:00:15	manokara|lap	yeah, something like that
+2016-03-11 08:00:30	ArcFutahito	I really want something like Debian touch rather than ubuntu though
+2016-03-11 08:00:41	 > 	Divlji (~Miroslav@cable-178-148-92-37.dynamic.sbb.rs) has joined #godotengine
+2016-03-11 08:01:43	 > 	cruelnoise (~cruelnois@GLPHON2233W-LP130-06-3096532305.dsl.bell.ca) has joined #godotengine
+2016-03-11 08:01:55	manokara|lap	i've heard somewhere that ubuntu phone has an android/java layer. is that true?
+2016-03-11 08:02:05	ArcFutahito	not anymore
+2016-03-11 08:02:14	ArcFutahito	Oh wait
+2016-03-11 08:02:17	ArcFutahito	Yeah
+2016-03-11 08:02:20	ArcFutahito	It actually is
+2016-03-11 08:02:30	manokara|lap	meh
+2016-03-11 08:02:37	ArcFutahito	I though you were asking if ubuntu runs on top of android
+2016-03-11 08:02:49	ArcFutahito	And it did for quite some time
+2016-03-11 08:03:36	manokara|lap	hmm, i see
+2016-03-11 08:05:22	ArcFutahito	the hilarious thing, there's no way to see ubuntu "store" on your PC. unofficial store is a pretty nice thing to show how active the community is (spoiler alert: not very active) https://uappexplorer.com/apps
+2016-03-11 08:05:24	[-einbot2-]	uApp Explorer
+2016-03-11 08:07:55	manokara|lap	iirc there was even an exploit app someone put in that app store
+2016-03-11 08:09:10	 > 	PLyczkowski (~quassel@89-65-89-170.dynamic.chello.pl) has joined #godotengine
+2016-03-11 08:09:29	DerRidda	Bullshizzle alert!
+2016-03-11 08:09:39	 > 	neikeq_ (~neikeq@90.165.11.14) has joined #godotengine
+2016-03-11 08:09:49	DerRidda	Ubuntu Touch doesn't run on Java/Android.
+2016-03-11 08:10:20	manokara|lap	great!
+2016-03-11 08:10:25	ArcFutahito	I'll do the multiboot on my hypothetical nexus and install ubuntu touch just for shits and giggles. Don't see it as a good phone os option right now. Maybe only as a convergence device
+2016-03-11 08:10:54	Raven67854	Ubuntu doesn't have java
+2016-03-11 08:10:54	ArcFutahito	DerRidda, it did. Not anymore. But I think ubuntu touch has compatibility layer for android apps?
+2016-03-11 08:10:56	Raven67854	or an android layer
+2016-03-11 08:11:05	Raven67854	At all
+2016-03-11 08:11:08	Raven67854	It never has
+2016-03-11 08:11:18	Raven67854	It was a proposed suggestion once but that's about it
+2016-03-11 08:11:43	DerRidda	At no time did Ubuntu touch use an Android layer, what you are thinking of is an explicitly different project called Ubuntu for Android which never went anywhere.
+2016-03-11 08:11:59	manokara|lap	oh. so the apps are 100% ELF? yay
+2016-03-11 08:12:10	ArcFutahito	Ok, guys, ok, relax
+2016-03-11 08:12:18	DerRidda	Yes, natively compiled armhf.
+2016-03-11 08:13:06	DerRidda	The official SDK basically only offers C/C++ and Go, plus some built in support for JavaScript/HTML5 apps.
+2016-03-11 08:13:19	Raven67854	I'm really surprised they have Go support
+2016-03-11 08:13:20	DerRidda	But you can get everything running that compiles down to an ELF.
+2016-03-11 08:13:29	DerRidda	Raven67854: It's broken though.
+2016-03-11 08:13:33	DerRidda	Hilalriously so.
+2016-03-11 08:13:33	falsaber1	the elvenkind
+2016-03-11 08:13:47	Raven67854	You can also quite easily add java/mono apps if you wanted too. Or even python
+2016-03-11 08:13:56	falsaber1	santa's favorite executable format
+2016-03-11 08:14:00	Raven67854	Canonical doesn't limit you
+2016-03-11 08:14:11	DerRidda	They depend on a Go QML lib that is one version behind the latest one, doesn't compile and even the latest one is no longer maintained and also doesn't compile.
+2016-03-11 08:14:31	Raven67854	DerRidda, Should be removed then. I haven't used it. I just use QML
+2016-03-11 08:14:55	DerRidda	Yeah, there are other Go Qt libs that might work but the template is wank.
+2016-03-11 08:14:56	 > 	razvanc-r (~razvanc_r@79.116.13.123) has joined #godotengine
+2016-03-11 08:16:06	HER0_01	In my very limited experience, the default state of anything Go is "broken"
+2016-03-11 08:16:19	HER0_01	It just isn't very fun to get working
+2016-03-11 08:16:41	Raven67854	I've used it by itself int he desktop space and it works fairly well there. As it should since it was meant for servers.
+2016-03-11 08:16:52	Raven67854	Not really a fan of it though
+2016-03-11 08:17:07	Raven67854	Would much rather use Rust <3
+2016-03-11 08:17:11	slapin	as soon as one of the solutions to provide ability to run android apps on arm linux works, I will move from nokia n900 to a newer phone with hardware keyboard
+2016-03-11 08:17:42	Raven67854	So go with sailfish
+2016-03-11 08:17:50	Raven67854	They have an android layer
+2016-03-11 08:18:04	DerRidda	Go seems like a nice choice for decent performance while not caring about memory management and the standard lib is fairly feature rich, you can get quite the app going with minimal additional dependencies.
+2016-03-11 08:18:31	Raven67854	Go and Rust are starting to have a huge # of libs ready to go on their "package managers"
+2016-03-11 08:18:44	 < 	mfoxdogg (~mfoxdogg@CPE-121-218-162-212.lnse4.cht.bigpond.net.au) has quit (Quit: Leaving)
+2016-03-11 08:18:54	Raven67854	Pretty much anything you can want exists in some form
+2016-03-11 08:19:16	DerRidda	Also every language now needs multiple return values without wrapping them up in tuples or other objects.
+2016-03-11 08:19:39	DerRidda	That's a thing every other language may copy from Go right now please.
+2016-03-11 08:20:22	falsaber1	eh, returning an array or tuple isn't that much of a big deal
+2016-03-11 08:20:56	 - 	falsaber1 is now known as falsaber
+2016-03-11 08:21:37	DerRidda	It isn't but apparently neither is having multiple return values and those have less overhead and are more intuitive once you get used to it.
+2016-03-11 08:21:50	slapin	Raven67854: well, their device is expensive one, have no keyboard, very closed and proprietary, and they have not secured future, they promise many things, but remembering Nokia, you can beleive only what they do now.
+2016-03-11 08:21:57	falsaber	a lot of people is going to put those return values into an array, table or tuple anyway
+2016-03-11 08:22:02	DerRidda	Though I'm not a Go guy (yet), I will definitely delve deeper into it given the time.
+2016-03-11 08:22:40	Raven67854	slapin, All you said was Linux that can run android apps. You weren't very specific
+2016-03-11 08:23:01	slapin	Raven67854: well I said I need keyboard
+2016-03-11 08:23:14	Raven67854	I enjoy my Ubuntu Phone
+2016-03-11 08:23:17	 < 	ndee_ (54870977@gateway/web/cgi-irc/kiwiirc.com/ip.84.135.9.119) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2016-03-11 08:23:25	DerRidda	That limits your selection to 2 phones or so.
+2016-03-11 08:23:25	Raven67854	can hook it up to a monitor with keyboard/mouse it's great
+2016-03-11 08:23:39	falsaber	so for most use cases, returning one of those is the most sensible option, a lot of people will be using that taplerray (table tuple or array) anyway so it even saves steps
+2016-03-11 08:24:06	slapin	Raven67854: also, open source allows self-support for the device, companies come and go, as long as you have spare parts and source code you can support your phone for a long time
+2016-03-11 08:24:15	DerRidda	That falls flat on its face when the values are of different types.
+2016-03-11 08:24:28	Raven67854	slapin, Well Ubuntu Phone is your best bet then
+2016-03-11 08:24:29	falsaber	how so?
+2016-03-11 08:25:02	falsaber	a lot of languages allow returning structs, tables can hold multiple types in languages like Lua, so can a gdscript dictionary or a python tuple
+2016-03-11 08:25:18	DerRidda	Arrays of different types, unless in a dynamic language are a silly idea, at that point you use Tuples just to be able to do it at all not for anything beyond that.
+2016-03-11 08:25:52	falsaber	if you are in a strongly typed language then just have it return a struct then
+2016-03-11 08:28:07	 > 	Akien (~akien@unaffiliated/akien) has joined #godotengine
+2016-03-11 08:28:35	slapin	Raven67854: I can support my n900 quie well, with needed apps, etc. and I don't see ubuntu touch as better solution, as they use android kernel and android drivers, which is not the way I like things to be
+2016-03-11 08:28:37	 < 	Obani (~Obani@tui.pi-et-ro.net) has quit (Quit: Hello Ben, I'm Ben)
+2016-03-11 08:28:49	DerRidda	Great, means I have to define a struct for every function that returns a different combination of values, take another identifier, make the compiler do extra work to resolve that, to then get something with extra memory and access time overhead... yeah... nope.
+2016-03-11 08:28:51	Raven67854	slapin, They don't use android kernel
+2016-03-11 08:28:55	Raven67854	They use the Linux ARM kernel
+2016-03-11 08:29:07	falsaber	DerRidda: be a man, people has been doing that for decades! xD
+2016-03-11 08:29:09	Raven67854	which is what every fucking thing besides windows/apple uses
+2016-03-11 08:29:10	 > 	StraToN-zirc (~AndChat34@80.12.42.218) has joined #godotengine
+2016-03-11 08:29:21	slapin	Raven67854: as soon as I see next proper based Linux phone, I'll wait
+2016-03-11 08:29:39	AlienCat	to be honest I do not understand the whole deal with returning multiple results
+2016-03-11 08:29:41	Raven67854	slapin, It is a proper Linux phone. In fact it's the only actual Linux phone =/
+2016-03-11 08:29:49	 < 	czlowiekimadlo (~czlowieki@host-195-80-130-46.wtvk.pl) has quit (Ping timeout: 260 seconds)
+2016-03-11 08:29:54	masonjoyers	apple is BSD
+2016-03-11 08:30:02	masonjoyers	with a pretty overlay
+2016-03-11 08:30:02	Raven67854	masonjoyers, Yes and your point is?
+2016-03-11 08:30:19	slapin	Raven67854: I heard they use android kernel with android drivers with pmlocks and various other not very clever things
+2016-03-11 08:30:36	masonjoyers	Raven67854: i suppose the statement is correct, but 90% of the world runs on UNIX
+2016-03-11 08:30:48	Raven67854	The statement is correct
+2016-03-11 08:30:52	AlienCat	I expect one result when running a function, if it starts to return multiple results I would be confused...
+2016-03-11 08:31:00	Raven67854	all ARM devices that aren't done by Windows/Apple run Linux ARM
+2016-03-11 08:31:06	Raven67854	Or a custom OS
+2016-03-11 08:31:16	Raven67854	But in the smartphone space it's one of the three
+2016-03-11 08:31:17	falsaber	AlienCat: hard to go against several years of conditioning
+2016-03-11 08:32:01	falsaber	And it's not something you'll use for every function, so it's kind of niche
+2016-03-11 08:32:02	AlienCat	me guess
+2016-03-11 08:32:13	masonjoyers	anyone familar with pin joints?
+2016-03-11 08:33:09	AlienCat	if I was more into mathematics I might understand the multiple results concept better
+2016-03-11 08:33:20	falsaber	nah, no need to be
+2016-03-11 08:34:34	Divlji	Tybobobo_, about reference question, String& is a string reference. It's similar to String* but it's automatically dereferenced for you. As in you don't need to use '->' or (*var).somethig(). There are differences between references and pointers, but at this point, ignore them.
+2016-03-11 08:35:07	Tybobobo_	Ah
+2016-03-11 08:35:38	Tybobobo_	But what difference is there between String& varname and String &varname?
+2016-03-11 08:35:40	Divlji	Tybobobo_, const keyword is... Interesting. It's read from right to left but if there is nothing to the left of it then it applies to the thing that is right of it.
+2016-03-11 08:35:48	 < 	chibiko|2 (~Chibiko@109-184-177-175.dynamic.mts-nn.ru) has quit (Quit: Bugaga.)
+2016-03-11 08:36:00	Divlji	Tybobobo_, no difference.
+2016-03-11 08:36:07	Tybobobo_	I am trying to make heads and tails out of RichTextLabel :) Thank you
+2016-03-11 08:36:09	 - 	GarrettShields_ is now known as GarrettShields
+2016-03-11 08:36:51	falsaber	Ah, since there's a bunch of people around. Anyone has any idea of how to replace specific colors in a sprite (NOT modulate) with shaders? I got a preliminary way to do it working already, but I can't wrap my head around replacing many colors (say skin, hair and clothes color for a human character) in a convenient way ,or how to draw the sprites to allow it well.
+2016-03-11 08:37:23	falsaber	(also my current method adds the color and I'd like a more straightforward replacement)
+2016-03-11 08:38:16	 < 	LucaTM (~LucaTM@unaffiliated/lucatm) has quit (Quit: To infinity and beyond...)
+2016-03-11 08:38:40	Divlji	Tybobobo_, deal with String &var is that & and * in declarations apply only to the first thing after them. So String &ref, *pointer, object; declares 1 reference to String, one pointer to String and one String object.
+2016-03-11 08:38:56	vaded	Tybobobo_: white space is not important in c++ like it is in gdscript
+2016-03-11 08:38:56	Divlji	All in one line.
+2016-03-11 08:39:12	Tybobobo_	Good to know!
+2016-03-11 08:39:19	Divlji	vaded, it was with templates. xP
+2016-03-11 08:39:38	vaded	true
+2016-03-11 08:39:53	vaded	but template syntax has always been stupid
+2016-03-11 08:40:00	Tybobobo_	Going to do some more work and experiments with pointers and references :)
+2016-03-11 08:40:21	 > 	germinolegrand (~Thunderbi@ANantes-655-1-261-51.w90-59.abo.wanadoo.fr) has joined #godotengine
+2016-03-11 08:41:04	Divlji	vaded, it so cryptic and retro! One of the rare languages that makes me feel "clever". And hate myself when I need to go back to some old code...
+2016-03-11 08:43:04	 < 	razvanc-r (~razvanc_r@79.116.13.123) has quit (Ping timeout: 252 seconds)
+2016-03-11 08:43:49	 > 	Salvakiya (~Salvakiya@host81-135-213-235.range81-135.btcentralplus.com) has joined #godotengine
+2016-03-11 08:45:48	DerRidda	Tybobobo_: 'char *carr = carr;' and then print that array, observe what happens and try to understand why it happens.
+2016-03-11 08:46:43	 < 	jn_jn (~jn@net-188-217-122-131.cust.vodafonedsl.it) has quit (Ping timeout: 248 seconds)
+2016-03-11 08:46:46	Tybobobo_	one char is 2 bytes, I believe, 2*4, 8 bytes.. uhh... pointer to 8 bytes?
+2016-03-11 08:46:48	Tybobobo_	hm
+2016-03-11 08:46:53	Tybobobo_	I will run it and see
+2016-03-11 08:47:02	falsaber	sizeof(char)
+2016-03-11 08:47:11	Tybobobo_	Oh yes, I was thinking of sizeof probably
+2016-03-11 08:47:28	falsaber	just use it to be sure
+2016-03-11 08:47:51	falsaber	like a string of 4 characters would be sizeof(char)*5 (\0 string terminator)
+2016-03-11 08:51:41	 > 	glasz (~quassel@ALyon-656-1-720-39.w92-144.abo.wanadoo.fr) has joined #godotengine
+2016-03-11 09:05:38	 < 	bdero (~bdero@2601:18d:4101:3f50:ae29:3aff:feda:9529) has quit (Ping timeout: 240 seconds)
+2016-03-11 09:10:06	 > 	Sockstah (~Socke@p5793D9D6.dip0.t-ipconnect.de) has joined #godotengine
+2016-03-11 09:13:50	 < 	PLyczkowski (~quassel@89-65-89-170.dynamic.chello.pl) has quit (Ping timeout: 248 seconds)
+2016-03-11 09:20:26	 < 	manokara|lap (~manokara@187.65.66.71) has quit (Quit: Vanished)
+2016-03-11 09:20:28	 > 	bdero (~bdero@2601:18d:4101:3f50:cae0:ebff:fe14:eaf9) has joined #godotengine
+2016-03-11 09:21:10	 > 	draxdeveloper (~passarinh@179.34.12.189) has joined #godotengine
+2016-03-11 09:25:50	 < 	draxdeveloper (~passarinh@179.34.12.189) has quit (Read error: No route to host)
+2016-03-11 09:26:00	 > 	draxdeveloper (~passarinh@179.34.12.189) has joined #godotengine
+2016-03-11 09:27:01	 > 	TakaOtaku (58d93a9a@gateway/web/freenode/ip.88.217.58.154) has joined #godotengine
+2016-03-11 09:27:13	TakaOtaku	Hello Guys,
+2016-03-11 09:27:24	TakaOtaku	I need help with creating a Tileset
+2016-03-11 09:28:14	TakaOtaku	when I want to export a Tileset it says "can't load Tileset for merging" do you guys know why that is?
+2016-03-11 09:33:27	henkz	TakaOtaku, theres a checkbox or something checked that you should uncheck..
+2016-03-11 09:34:18	 < 	Salvakiya (~Salvakiya@host81-135-213-235.range81-135.btcentralplus.com) has quit (Ping timeout: 244 seconds)
+2016-03-11 09:37:32	TakaOtaku	henkz where is a checkbox? Could you be more specific?
+2016-03-11 09:38:52	henkz	TakaOtaku, in the export dialog I think, sorry Ive never done this it's just that this question answered many times
+2016-03-11 09:39:20	TakaOtaku	Ok thank you I try to find it :D
+2016-03-11 09:39:27	henkz	:D
+2016-03-11 09:43:07	TakaOtaku	It was a bug with the option "merge with existing" :D with this off it worked :)
+2016-03-11 09:43:13	 > 	Kalos (~Kalos@96-40-149-166.dhcp.mtpk.ca.charter.com) has joined #godotengine
+2016-03-11 09:43:33	 < 	planetkiller (~jack_spad@68.153.114.176) has quit (Ping timeout: 246 seconds)
+2016-03-11 09:59:25	 < 	luizrpgluiz (~luizrpglu@201-27-158-138.dsl.telesp.net.br) has quit (Read error: Connection reset by peer)
+2016-03-11 10:11:17	 > 	PLyczkowski (~quassel@89-65-89-170.dynamic.chello.pl) has joined #godotengine
+2016-03-11 10:16:10	 > 	StraToN_ (~StraToN@182.110.127.78.rev.sfr.net) has joined #godotengine
+2016-03-11 10:17:09	 < 	draxdeveloper (~passarinh@179.34.12.189) has quit (Read error: No route to host)
+2016-03-11 10:17:30	 > 	draxdeveloper (~passarinh@179.34.12.189) has joined #godotengine
+2016-03-11 10:19:42	john_cephalopoda	Hmmm...
+2016-03-11 10:19:57	john_cephalopoda	For me, most materials are shown as black...
+2016-03-11 10:20:03	john_cephalopoda	And completely unshaded.
+2016-03-11 10:23:11	 > 	Bran (bd061839@gateway/web/freenode/ip.189.6.24.57) has joined #godotengine
+2016-03-11 10:23:21	 < 	TakaOtaku (58d93a9a@gateway/web/freenode/ip.88.217.58.154) has quit (Quit: Page closed)
+2016-03-11 10:24:02	 < 	Robert_Zenz (~Robert_Ze@chello084114214250.5.15.vie.surfer.at) has quit (Quit: What do you mean that wasn't a smart idea?)
+2016-03-11 10:26:47	john_cephalopoda	When it's in editor, it works perfectly well though... What's the difference between rendering in editor and in game?
+2016-03-11 10:28:28	john_cephalopoda	Also textures don't show... >:|
+2016-03-11 10:29:56	Sockstah	do you not have any lights set up?
+2016-03-11 10:30:08	 < 	ArcFutahito (~arc@176.105.9.230) has quit (Quit: Leaving.)
+2016-03-11 10:30:54	HER0_01	You probably have the editor set to have a default light (View -> Use default light)
+2016-03-11 10:31:49	HER0_01	If you remove that, everything will probably look the same
+2016-03-11 10:32:31	HER0_01	You can add global light in the world, or add directional/omni/spot light(s)
+2016-03-11 10:35:01	 < 	Akien (~akien@unaffiliated/akien) has quit (Remote host closed the connection)
+2016-03-11 10:37:11	trollworkout	<3
+2016-03-11 10:39:47	Raven67854	HER0_01, I'd love to add that global world light as an icon somewhere you can just click
+2016-03-11 10:41:17	john_cephalopoda	Sockstah: Yep, there are lights set up.
+2016-03-11 10:42:13	 > 	tuga3d (~paulo@47.252.61.94.rev.vodafone.pt) has joined #godotengine
+2016-03-11 10:42:38	john_cephalopoda	Huh..
+2016-03-11 10:42:45	john_cephalopoda	Looks like omnilight isn't working...
+2016-03-11 10:46:37	john_cephalopoda	What...
+2016-03-11 10:46:51	john_cephalopoda	Okay, suddenly everything works again, for some ominous reason,,,
+2016-03-11 10:53:36	 < 	StraToN_ (~StraToN@182.110.127.78.rev.sfr.net) has quit (Quit: Quitte)
+2016-03-11 10:55:11	 < 	StraToN-zirc (~AndChat34@80.12.42.218) has quit (Quit: Bye)
+2016-03-11 10:55:32	 > 	StraToN-zirc (~AndChat34@182.110.127.78.rev.sfr.net) has joined #godotengine
+2016-03-11 10:57:41	 < 	falsaber (~hetdegon@188.86.253.74) has quit (Quit: Leaving.)
+2016-03-11 11:02:48	 > 	falsaber (~hetdegon@188.86.253.74) has joined #godotengine
+2016-03-11 11:03:23	 < 	falsaber (~hetdegon@188.86.253.74) has quit (Client Quit)
+2016-03-11 11:05:02	 < 	BoBsoN (~admin@93.175.72.67) has quit (Quit: Leaving.)
+2016-03-11 11:06:01	 > 	est31 (~est31@unaffiliated/est31) has joined #godotengine
+2016-03-11 11:06:54	 < 	nikolous (~rick@cpe-65-29-170-41.wi.res.rr.com) has quit (Ping timeout: 276 seconds)
+2016-03-11 11:07:56	 > 	nikolous (~rick@cpe-65-29-170-41.wi.res.rr.com) has joined #godotengine
+2016-03-11 11:10:35	 > 	BoBsoN (~admin@93.175.72.67) has joined #godotengine
+2016-03-11 11:11:46	 < 	john_cephalopoda (~john@unaffiliated/john-minetest/x-5335115) has quit (Quit: Trees can see into your soul.)
+2016-03-11 11:17:46	 < 	BoBsoN (~admin@93.175.72.67) has quit (Quit: Leaving.)
+2016-03-11 11:20:04	 > 	Bran_ (bd061839@gateway/web/freenode/ip.189.6.24.57) has joined #godotengine
+2016-03-11 11:20:26	 < 	Bran (bd061839@gateway/web/freenode/ip.189.6.24.57) has quit (Ping timeout: 252 seconds)
+2016-03-11 11:23:42	 < 	AlienCat (~Katt@unaffiliated/aliencat) has quit (Remote host closed the connection)
+2016-03-11 11:28:58	 > 	canis_latrans (~root@cpe-70-118-229-190.kc.res.rr.com) has joined #godotengine
+2016-03-11 11:37:04	 < 	punto (~pete275@190.244.48.52) has quit (Ping timeout: 260 seconds)
+2016-03-11 11:37:50	 > 	punto (~pete275@190.244.48.52) has joined #godotengine
+2016-03-11 11:50:44	 > 	rubenwardy (~rubenward@unaffiliated/rubenwardy) has joined #godotengine
+2016-03-11 11:50:52	 < 	henkz (~henke@c-c4c671d5.215-6-64736c10.cust.bredbandsbolaget.se) has quit (Quit: Leaving)
+2016-03-11 11:57:15	 < 	est31 (~est31@unaffiliated/est31) has quit (Quit: Leaving)
+2016-03-11 11:57:45	 < 	neikeq_ (~neikeq@90.165.11.14) has quit (Quit: Leaving<3)
+2016-03-11 12:00:40	 < 	DreadKnight (~DreadKnig@unaffiliated/dreadknight) has quit (Quit: #AncientBeast - Master Your Beasts ( www.AncientBeast.com ))
+2016-03-11 12:02:40	 > 	manokara|lap (~manokara@187.65.66.71) has joined #godotengine
+2016-03-11 12:03:56	 < 	punto (~pete275@190.244.48.52) has quit (Ping timeout: 268 seconds)
+2016-03-11 12:04:24	 > 	punto (~pete275@190.244.48.52) has joined #godotengine
+2016-03-11 12:08:21	 > 	Salvakiya (~Salvakiya@host81-135-213-235.range81-135.btcentralplus.com) has joined #godotengine
+2016-03-11 12:11:55	 > 	Sockstah_ (~Socke@p5793D9C4.dip0.t-ipconnect.de) has joined #godotengine
+2016-03-11 12:12:30	masonjoyers	is there an easy way to get a global to local for a point?
+2016-03-11 12:14:28	 < 	Salvakiya (~Salvakiya@host81-135-213-235.range81-135.btcentralplus.com) has quit (Ping timeout: 244 seconds)
+2016-03-11 12:15:48	 < 	Sockstah (~Socke@p5793D9D6.dip0.t-ipconnect.de) has quit (Ping timeout: 248 seconds)
+2016-03-11 12:35:03	 < 	Sik (~Sik@179.39.142.108) has quit (Ping timeout: 246 seconds)
+2016-03-11 12:37:03	 < 	canis_latrans (~root@cpe-70-118-229-190.kc.res.rr.com) has quit (Read error: Connection reset by peer)
+2016-03-11 12:37:38	Bran_	masonjoyers in 3d?
+2016-03-11 12:38:09	 > 	canis_latrans (~root@cpe-70-118-229-190.kc.res.rr.com) has joined #godotengine
+2016-03-11 12:38:44	masonjoyers	Bran_: yes
+2016-03-11 12:38:46	 > 	Sik (~Sik@179.39.142.108) has joined #godotengine
+2016-03-11 12:39:06	Bran_	masonjoyers i guess u can just get the parent affine inverse and do a xform on the matrix u wan't
+2016-03-11 12:39:08	masonjoyers	not seeing a global->local function
+2016-03-11 12:39:29	Bran_	masonjoyers there's none
+2016-03-11 12:39:50	masonjoyers	i was thinking clone my actor transform, make it look at the point in question then determin the rotation
+2016-03-11 12:40:19	masonjoyers	essentially i need to know if the point in question is + or - z from the current position
+2016-03-11 12:41:25	masonjoyers	so if the point is +z there wouldn't be much rotation, if it -z there would be about 180 degrees of rotation
+2016-03-11 12:42:05	*	masonjoyers so wishes there was a get_velocity() for Vehicles
+2016-03-11 12:43:42	Bran_	well my english is not good so i didn't understand that.
+2016-03-11 12:43:54	Bran_	u can just get the delta of the position
+2016-03-11 12:43:59	masonjoyers	yes
+2016-03-11 12:43:59	Bran_	for the velocity
+2016-03-11 12:44:11	masonjoyers	but i need to know if the car is moving forward or backward
+2016-03-11 12:44:47	masonjoyers	i already sorted out how to get the velocity and scaled to units that make sense.
+2016-03-11 12:45:02	masonjoyers	but now i need to know if it going forward or backward
+2016-03-11 12:45:20	Bran_	get an foward vector, the transform it with the global transformation of the vehicle the u can do a dot product with the velocity
+2016-03-11 12:45:45	Bran_	with velocity normalized of course
+2016-03-11 12:46:12	Bran_	var foward = get_global_transform().basis.xform(Vector3(1, 0, 0))
+2016-03-11 12:46:43	Bran_	the dot product will return an angle... the cos
+2016-03-11 12:46:49	masonjoyers	forward should be Vector3(0, 0, 1)?
+2016-03-11 12:46:53	Bran_	yes
+2016-03-11 12:46:57	Bran_	-1
+2016-03-11 12:47:05	masonjoyers	right
+2016-03-11 12:47:13	masonjoyers	into the screen
+2016-03-11 12:47:47	Bran_	opengl is a little odd =/
+2016-03-11 12:48:14	 < 	Sik (~Sik@179.39.142.108) has quit (Ping timeout: 260 seconds)
+2016-03-11 12:48:24	masonjoyers	it makes sense if you recall that x is horiztal of the screen and y is the vertical of the screen
+2016-03-11 12:48:46	 < 	PLyczkowski (~quassel@89-65-89-170.dynamic.chello.pl) has quit (Ping timeout: 248 seconds)
+2016-03-11 12:49:10	masonjoyers	so var forward = get_global_transform().basis.xform(Vector3(0,0,-1))
+2016-03-11 12:49:32	masonjoyers	dot (nomalized) velocity?
+2016-03-11 12:50:27	Bran_	foward.dot(velocity.normalized)
+2016-03-11 12:51:14	masonjoyers	Vector3 velocity = (currentPos - lastPos)
+2016-03-11 12:51:42	 < 	draxdeveloper (~passarinh@179.34.12.189) has quit (Ping timeout: 244 seconds)
+2016-03-11 12:51:44	Bran_	i think that is the inverse
+2016-03-11 12:52:06	Bran_	since you need to get the vector from last to curr
+2016-03-11 12:52:19	 < 	thc202 (~thc202@unaffiliated/thc202) has quit (Ping timeout: 250 seconds)
+2016-03-11 12:52:25	masonjoyers	ok
+2016-03-11 12:52:34	masonjoyers	I will implament and report back ;)
+2016-03-11 12:52:45	Bran_	ok them ^^
+2016-03-11 12:55:03	masonjoyers	in a little bit... gotta get the kids to bed.
+2016-03-11 12:55:11	masonjoyers	thanks for the insight
+2016-03-11 12:56:54	Bran_	well i hope it will work. u welcome
+2016-03-11 13:13:05	 < 	guybrush_ (~smuxi@82.113.98.139) has quit (Read error: Connection reset by peer)
+2016-03-11 13:29:29	 > 	Moguri (~quassel@c-67-185-127-210.hsd1.wa.comcast.net) has joined #godotengine
+2016-03-11 13:32:08	 > 	YeOldeDM (~nimda@72-160-29-33.dyn.centurytel.net) has joined #godotengine
+2016-03-11 13:32:26	YeOldeDM	hello
+2016-03-11 13:32:48	 < 	manokara|lap (~manokara@187.65.66.71) has quit (Ping timeout: 246 seconds)
+2016-03-11 13:34:05	masonjoyers	howdy
+2016-03-11 13:34:06	Bran_	hallo
+2016-03-11 13:41:40	 < 	mipesom (~mipesom@p5B048097.dip0.t-ipconnect.de) has quit (Ping timeout: 248 seconds)
+2016-03-11 13:42:17	 > 	mipesom (~mipesom@p5B0498BF.dip0.t-ipconnect.de) has joined #godotengine
+2016-03-11 13:42:28	 < 	demok (~okan@78.169.35.231) has quit (Ping timeout: 264 seconds)
+2016-03-11 13:44:15	masonjoyers	Bran_: works like a charm : )
+2016-03-11 13:44:18	masonjoyers	thanks again
+2016-03-11 13:44:38	Bran_	really? cool!
+2016-03-11 13:45:01	masonjoyers	yep. now i will be able to do braking much more effectively
+2016-03-11 13:45:30	 < 	tuga3d (~paulo@47.252.61.94.rev.vodafone.pt) has left #godotengine
+2016-03-11 13:47:21	 < 	glasz (~quassel@ALyon-656-1-720-39.w92-144.abo.wanadoo.fr) has quit (Ping timeout: 250 seconds)
+2016-03-11 13:47:47	Bran_	i'ts a pleasure to be helpful =)
+2016-03-11 13:50:01	 < 	turtleman (~turtleman@pool-98-109-183-75.nwrknj.fios.verizon.net) has quit (Quit: Leaving)
+2016-03-11 13:50:53	Bran_	cya guys/girls have a good night/day/whatevar
+2016-03-11 13:50:58	 < 	Bran_ (bd061839@gateway/web/freenode/ip.189.6.24.57) has quit (Quit: Page closed)
+2016-03-11 14:06:52	masonjoyers	grr... there is a reason why i like {}
+2016-03-11 14:11:50	 > 	glasz (~quassel@ALyon-656-1-720-39.w92-144.abo.wanadoo.fr) has joined #godotengine
+2016-03-11 14:14:33	 < 	Einlander (~Einlander@adsl-99-135-198-50.dsl.chcgil.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2016-03-11 14:14:58	 > 	Einlander (~Einlander@adsl-99-135-198-50.dsl.chcgil.sbcglobal.net) has joined #godotengine
+2016-03-11 14:21:59	 > 	SudsDev (~quassel@203-206-162-9.perm.iinet.net.au) has joined #godotengine
+2016-03-11 14:26:55	 < 	Sockstah_ (~Socke@p5793D9C4.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2016-03-11 14:28:35	 < 	GarrettShields (~GarrettSh@CPE1caff7d8f472-CM68b6fc40c630.cpe.net.cable.rogers.com) has quit (Read error: Connection reset by peer)
+2016-03-11 14:30:13	 < 	SudsDev__ (~quassel@203-206-162-9.perm.iinet.net.au) has quit (Ping timeout: 260 seconds)
+2016-03-11 14:33:24	 > 	mfoxdogg|work (~mfoxdogg|@203.213.245.105) has joined #godotengine
+2016-03-11 14:39:45	 < 	rubenwardy (~rubenward@unaffiliated/rubenwardy) has quit (Read error: Connection reset by peer)
+2016-03-11 14:43:57	 > 	manokara|lap (~manokara@181.77.212.177) has joined #godotengine
+2016-03-11 14:46:44	manokara|lap	that moment when your desktop computer's graphics card is working but doesn't show anything... $$$
+2016-03-11 15:01:32	 < 	StraToN-zirc (~AndChat34@182.110.127.78.rev.sfr.net) has quit (Ping timeout: 268 seconds)
+2016-03-11 15:11:05	 > 	StraToN-zirc (~AndChat34@80.12.43.10) has joined #godotengine
+2016-03-11 15:11:06	 < 	StraToN-zirc (~AndChat34@80.12.43.10) has quit (Client Quit)
+2016-03-11 15:11:18	 > 	StraToN-zirc (~AndChat34@182.110.127.78.rev.sfr.net) has joined #godotengine
+2016-03-11 15:13:07	 < 	glasz (~quassel@ALyon-656-1-720-39.w92-144.abo.wanadoo.fr) has quit (Remote host closed the connection)
+2016-03-11 15:20:10	 < 	Divlji (~Miroslav@cable-178-148-92-37.dynamic.sbb.rs) has quit (Ping timeout: 252 seconds)
+2016-03-11 15:22:27	 < 	bdero (~bdero@2601:18d:4101:3f50:cae0:ebff:fe14:eaf9) has quit (Quit: Leaving.)
+2016-03-11 15:26:03	 < 	germinolegrand (~Thunderbi@ANantes-655-1-261-51.w90-59.abo.wanadoo.fr) has quit (Ping timeout: 240 seconds)
+2016-03-11 15:32:47	 > 	Dooncam (ba060241@gateway/web/freenode/ip.186.6.2.65) has joined #godotengine
+2016-03-11 15:33:22	 < 	cruelnoise (~cruelnois@GLPHON2233W-LP130-06-3096532305.dsl.bell.ca) has quit (Read error: Connection reset by peer)
+2016-03-11 15:33:46	 < 	Dooncam (ba060241@gateway/web/freenode/ip.186.6.2.65) has quit (Client Quit)
+2016-03-11 15:41:17	 < 	zeioth (~zeioth@117.Red-83-57-15.dynamicIP.rima-tde.net) has quit (Remote host closed the connection)
+2016-03-11 15:42:06	 > 	zeioth (~zeioth@117.Red-83-57-15.dynamicIP.rima-tde.net) has joined #godotengine
+2016-03-11 15:45:15	 < 	zeioth (~zeioth@117.Red-83-57-15.dynamicIP.rima-tde.net) has quit (Client Quit)
+2016-03-11 15:56:22	 > 	zeioth (~zeioth@117.Red-83-57-15.dynamicIP.rima-tde.net) has joined #godotengine
+2016-03-11 15:56:40	 < 	zeioth (~zeioth@117.Red-83-57-15.dynamicIP.rima-tde.net) has quit (Remote host closed the connection)
+2016-03-11 16:00:45	 < 	mfoxdogg|work (~mfoxdogg|@203.213.245.105) has quit (Read error: Connection reset by peer)
+2016-03-11 16:05:05	 > 	zeioth (~zeioth@117.Red-83-57-15.dynamicIP.rima-tde.net) has joined #godotengine
+2016-03-11 16:10:17	 > 	razvanc-r (~razvanc_r@79.116.13.123) has joined #godotengine
+2016-03-11 16:14:45	 < 	manokara|lap (~manokara@181.77.212.177) has quit (Quit: Vanished)
+2016-03-11 16:17:09	 > 	chibiko|2 (~Chibiko@93-120-195-223.dynamic.mts-nn.ru) has joined #godotengine
+2016-03-11 16:17:14	 > 	mfoxdogg (~mfoxdogg@CPE-121-218-162-212.lnse4.cht.bigpond.net.au) has joined #godotengine
+2016-03-11 16:45:08	 < 	zeioth (~zeioth@117.Red-83-57-15.dynamicIP.rima-tde.net) has quit (Ping timeout: 268 seconds)
+2016-03-11 16:47:36	 < 	StraToN-zirc (~AndChat34@182.110.127.78.rev.sfr.net) has quit (Ping timeout: 268 seconds)
+2016-03-11 16:47:56	 > 	StraToN-zirc (~AndChat34@182.110.127.78.rev.sfr.net) has joined #godotengine
+2016-03-11 16:48:17	 > 	MyMind (~Sembei@unaffiliated/sembei) has joined #godotengine
+2016-03-11 16:50:13	 < 	Sembei (~Sembei@unaffiliated/sembei) has quit (Ping timeout: 250 seconds)
+2016-03-11 16:51:55	 < 	freeman (~freeman@89-79-155-173.dynamic.chello.pl) has quit (Ping timeout: 268 seconds)
+2016-03-11 16:52:11	 > 	freeman (~freeman@89-79-155-173.dynamic.chello.pl) has joined #godotengine
+2016-03-11 16:56:12	 > 	Kalos_ (~Kalos@96-40-149-166.dhcp.mtpk.ca.charter.com) has joined #godotengine
+2016-03-11 16:56:50	 < 	angular_mike___ (sid45533@gateway/web/irccloud.com/x-ybtxajeumwpftuwp) has quit (*.net *.split)
+2016-03-11 16:56:50	 < 	sakea (samhie@leka.asteriski.fi) has quit (*.net *.split)
+2016-03-11 16:56:50	 < 	ugly_cat (~quassel@c-76-104-204-149.hsd1.wa.comcast.net) has quit (*.net *.split)
+2016-03-11 16:57:54	 > 	angular_mike___ (sid45533@gateway/web/irccloud.com/x-eotilfhjtnykziyv) has joined #godotengine
+2016-03-11 16:58:27	 < 	Kalos (~Kalos@96-40-149-166.dhcp.mtpk.ca.charter.com) has quit (Ping timeout: 250 seconds)
+2016-03-11 17:00:34	 < 	chibiko|2 (~Chibiko@93-120-195-223.dynamic.mts-nn.ru) has quit (Quit: Bugaga.)
+2016-03-11 17:02:47	 > 	sakea (samhie@leka.asteriski.fi) has joined #godotengine
+2016-03-11 17:02:47	 > 	ugly_cat (~quassel@c-76-104-204-149.hsd1.wa.comcast.net) has joined #godotengine
+2016-03-11 17:02:49	 < 	StraToN-zirc (~AndChat34@182.110.127.78.rev.sfr.net) has quit (Ping timeout: 244 seconds)
+2016-03-11 17:08:51	 > 	demok (~okan@78.169.35.231) has joined #godotengine
+2016-03-11 17:10:54	 < 	demok (~okan@78.169.35.231) has quit (Remote host closed the connection)
+2016-03-11 17:16:02	 > 	ndee_ (c1669b27@gateway/web/cgi-irc/kiwiirc.com/ip.193.102.155.39) has joined #godotengine
+2016-03-11 17:16:08	 > 	LucaTM (~LucaTM@unaffiliated/lucatm) has joined #godotengine
+2016-03-11 17:22:05	 < 	mfoxdogg (~mfoxdogg@CPE-121-218-162-212.lnse4.cht.bigpond.net.au) has quit (Remote host closed the connection)
+2016-03-11 17:26:43	 > 	Akien (~akien@unaffiliated/akien) has joined #godotengine
+2016-03-11 17:39:34	 > 	BoBsoN (~admin@93.175.72.67) has joined #godotengine
+2016-03-11 17:40:25	 > 	Zika (~Zikaa@89.110.195.79) has joined #godotengine
+2016-03-11 17:41:43	 > 	vsrinu26f (4c5cf85a@gateway/web/freenode/ip.76.92.248.90) has joined #godotengine
+2016-03-11 17:43:29	vsrinu26f		get_node("/root/game/alphabet").set_pos(Vector2(get_node("/root/game/alphabet").get ?? .x, root.get_rect().size.y/2))
+2016-03-11 17:43:42	vsrinu26f	how to get sprite position
+2016-03-11 17:46:00	vsrinu26f	alphabet is a sprite
+2016-03-11 17:47:02	vsrinu26f	I could do a set_scale and it works
+2016-03-11 17:47:10	vsrinu26f	Please help
+2016-03-11 17:47:59	dc1a0	well, can't you simply use get_pos() to get the position?
+2016-03-11 17:48:55	dc1a0	but from the looks of it, it looks like you might be making things harder on yourself. What exactly are you trying to accomplish?
+2016-03-11 17:50:28	 > 	Obani (~Obani@tui.pi-et-ro.net) has joined #godotengine
+2016-03-11 17:51:09	 > 	mfoxdogg (~mfoxdogg@CPE-121-218-162-212.lnse4.cht.bigpond.net.au) has joined #godotengine
+2016-03-11 17:51:22	vsrinu26f	yes, sorry intellisense kind of thingy does not show that method
+2016-03-11 17:51:30	vsrinu26f	it worked now
+2016-03-11 17:51:36	 > 	Calinou (~Calinou@unaffiliated/calinou) has joined #godotengine
+2016-03-11 17:52:11	vsrinu26f	viewport scaling is degrading my sprite
+2016-03-11 17:52:41	vsrinu26f	so I disabled viewport scaling and handling scaling myself as per aspect ratio
+2016-03-11 17:53:00	dc1a0	well as you scale the viewport all things get smaller, I'm guessing you want the background to scale but not the sprite?
+2016-03-11 17:53:47	Calinou	I don't think anyone should use viewport scaling today :|
+2016-03-11 17:53:52	vsrinu26f	my background is a seemless one keeps moving in a parallax
+2016-03-11 17:54:10	vsrinu26f	so I dont care about background scaling
+2016-03-11 17:55:10	dc1a0	why Calinou? have there been other issues I've not been paying attention to?
+2016-03-11 17:56:16	dc1a0	I think, usually the easiest solution is to use a camera node and scale that in most cases. If you want the sprite to scale, have the camera above your sprite, if you want the scene to scale without the sprite have the camera below the sprite in the hierarchy
+2016-03-11 17:56:40	Calinou	it looks terrible
+2016-03-11 17:56:43	dc1a0	zoom would be the correct term for the camera
+2016-03-11 17:57:21	dc1a0	I think it's more how it's applied Calinou, I agree I wouldn't make things bigger, but if you want to make things smaller it seems to do alright Calinou
+2016-03-11 17:57:51	 < 	mfoxdogg (~mfoxdogg@CPE-121-218-162-212.lnse4.cht.bigpond.net.au) has quit (Remote host closed the connection)
+2016-03-11 17:57:53	Calinou	use "2d" scaling to make GUI elements smaller or larger
+2016-03-11 17:58:09	vsrinu26f	oh ok I am yet to use and learn camera, this is my first app and learning godot too :)
+2016-03-11 17:58:23	Calinou	even then I wouldn't recommend it as it makes fonts blurry or pixelated
+2016-03-11 17:58:52	dc1a0	My project is my first app too but I've learned a lot slipping original scope and turning it into a monster...lol
+2016-03-11 17:59:02	vsrinu26f	yes 2d scaling is what I guess I am doing manually :)
+2016-03-11 17:59:13	vsrinu26f	I will check that too
+2016-03-11 17:59:49	Calinou	Godot 3.0 should get g-buffer scaling so that one can use degraded 3D rendering for better performance, without affecting HUD elements
+2016-03-11 18:00:02	dc1a0	I wouldn't use either for text Calinou. I agree. but I wouldn't use sprites in place of fonts in that case either.
+2016-03-11 18:02:14	dc1a0	When I get to polishing, I'll be making 3 font sizes for the things I scale, and choose the one to display based upon that scale. I don't right now in my project, but the game portion has so little text it's not important right now.
+2016-03-11 18:03:08	vsrinu26f	My alphabets are actually spritesheet 200ppi. Is 300ppi generally used? or what is general recommendation.
+2016-03-11 18:04:22	 > 	StraToN-zirc (~AndChat34@80.12.42.202) has joined #godotengine
+2016-03-11 18:04:52	 > 	mfoxdogg (~mfoxdogg@CPE-121-218-162-212.lnse4.cht.bigpond.net.au) has joined #godotengine
+2016-03-11 18:05:11	dc1a0	If it was me, after I knew what sizes I'd need, I'd turn it into a fnt file. It seems using sprites like that could get taxing quick I'd think.
+2016-03-11 18:05:14	vsrinu26f	I did not believed my eyes when my phone needed such high ppi to show decent on screen
+2016-03-11 18:05:47	vsrinu26f	it is telugu, can I still create a fnt file ?
+2016-03-11 18:06:46	vsrinu26f	its not english again I have some understanding of shaders, but I have done manually as image for now
+2016-03-11 18:07:00	vsrinu26f	in inkscape
+2016-03-11 18:07:46	dc1a0	I don't imagine a reason you wouldn't be able to. A font is basically a graphical representation formatted a certain way to the best of my knowledge. That said I'm not an expert in fonts or languages.
+2016-03-11 18:09:04	vsrinu26f	the problem is a character is made with one to about 5 characters
+2016-03-11 18:09:18	vsrinu26f	they will not be placed side by side horizantally
+2016-03-11 18:09:23	dc1a0	I figure if chinese and japanese characters can be put into a font, I don't see why telugu or any other language couldn't
+2016-03-11 18:09:56	vsrinu26f	such kind of things, so some sort of processing or engine kind of thing has to be there, I am just wondering if that will work in godot
+2016-03-11 18:10:13	vsrinu26f	oh ok then it will work for telugu too
+2016-03-11 18:10:18	Calinou	my phone has 530dpi
+2016-03-11 18:10:23	Calinou	2560×1440, 5.5"
+2016-03-11 18:10:47	 < 	sakea (samhie@leka.asteriski.fi) has quit (*.net *.split)
+2016-03-11 18:10:47	 < 	ugly_cat (~quassel@c-76-104-204-149.hsd1.wa.comcast.net) has quit (*.net *.split)
+2016-03-11 18:11:16	dc1a0	I don't know how any of that works with godot though. I have to admit to being an ignorant American in that regard...lol
+2016-03-11 18:11:27	vsrinu26f	:)
+2016-03-11 18:12:03	vsrinu26f	so, 300 ppi and scale up from there or 200 ppi and scale up from there  ( tablets, tv's)
+2016-03-11 18:13:37	dc1a0	Calinou, you might have better advise on scaling text than I would.
+2016-03-11 18:14:03	 < 	vaded (~vade@unaffiliated/vaded) has quit (Remote host closed the connection)
+2016-03-11 18:14:14	dc1a0	I barely know how to use fonts. I haven't made an effort to understand many of the internals.
+2016-03-11 18:16:21	dc1a0	YeOldeDM, you were talking about the pain of making fonts from scratch a while back. Maybe you can add to this discussion if you're around?
+2016-03-11 18:16:32	Calinou	fonts are not dynamic yet, they will be much better in 2.1 or 3.0
+2016-03-11 18:16:49	 > 	vaded (~vade@unaffiliated/vaded) has joined #godotengine
+2016-03-11 18:18:02	YeOldeDM	all I know is they aren't exactly easy to make...I'm sure there's software out there that can help make it easier though
+2016-03-11 18:19:30	dc1a0	vsrinu26f, was asking about a proper initial ppi for a spritesheet they're thinking of turning into a font YeOldeDM. I figured you might have some expertise in that area. I've changed files to fnt files but never even looked at how big they were to start with.
+2016-03-11 18:20:25	Calinou	BirdFont can be used to make fonts: http://birdfont.org/
+2016-03-11 18:20:27	[-einbot2-]	`Birdfont – A free font editor for TTF, EOT and SVG fonts`
+2016-03-11 18:21:32	 > 	sakea (samhie@leka.asteriski.fi) has joined #godotengine
+2016-03-11 18:21:32	 > 	ugly_cat (~quassel@c-76-104-204-149.hsd1.wa.comcast.net) has joined #godotengine
+2016-03-11 18:21:34	YeOldeDM	fonts are all done in vectors from what I know, so the bigger the better, I guess
+2016-03-11 18:22:13	dc1a0	But now, it's starting to get early my time and kiddo's been getting up extra early. Toddler alarm clocks can't be turned off like the electric ones...lol
+2016-03-11 18:22:40	 < 	kaadmy (uid135503@gateway/web/irccloud.com/x-jovmzewrktxmvbkv) has quit (Quit: Connection closed for inactivity)
+2016-03-11 18:23:09	 > 	demok (~okan@85.98.190.121) has joined #godotengine
+2016-03-11 18:23:20	dc1a0	night people.
+2016-03-11 18:23:29	YeOldeDM	good night dc1a0
+2016-03-11 18:23:38	 < 	dc1a0 (~dc1a0@68-200-243-74.res.bhn.net) has quit (Quit: Leaving)
+2016-03-11 18:26:13	Calinou	once we get dynamic font support, one could exploit it to have icons as "vectors"
+2016-03-11 18:26:19	Calinou	using icon fonts like Font Awesome
+2016-03-11 18:28:03	 < 	Zika (~Zikaa@89.110.195.79) has quit (Ping timeout: 244 seconds)
+2016-03-11 18:28:44	 < 	Moguri (~quassel@c-67-185-127-210.hsd1.wa.comcast.net) has quit (Quit: Moguri)
+2016-03-11 18:31:27	vaded	I actually really like SDF fonts over full vector fonts
+2016-03-11 18:31:40	vaded	they have a more organic look to them and still scale really well
+2016-03-11 18:32:32	vaded	on the app I'm making right now I am testing with 50 point open sans with SDF enabled and it looks so damn good on my samsung s5
+2016-03-11 18:33:15	vaded	and I have it scaled up 6x
+2016-03-11 18:34:30	 > 	czlowiekimadlo (~wojciechc@213-241-16-177.static.ip.netia.com.pl) has joined #godotengine
+2016-03-11 18:36:40	 > 	Satek (5b9be088@gateway/web/freenode/ip.91.155.224.136) has joined #godotengine
+2016-03-11 18:40:45	 > 	paolobb4 (~paolobb4@5.170.105.55) has joined #godotengine
+2016-03-11 18:40:47	 < 	paolobb4 (~paolobb4@5.170.105.55) has left #godotengine
+2016-03-11 18:42:40	 > 	alket_work (~alket@megaglest/contributor/alket) has joined #godotengine
+2016-03-11 18:42:59	 - 	alket_work is now known as alket
+2016-03-11 18:46:03	 > 	Zika (~Zikaa@89.110.195.79) has joined #godotengine
+2016-03-11 18:46:30	 > 	Divlji (~Miroslav@cable-178-148-92-37.dynamic.sbb.rs) has joined #godotengine
+2016-03-11 18:47:21	 < 	sakea (samhie@leka.asteriski.fi) has quit (*.net *.split)
+2016-03-11 18:47:21	 < 	ugly_cat (~quassel@c-76-104-204-149.hsd1.wa.comcast.net) has quit (*.net *.split)
+2016-03-11 18:50:29	Calinou	SDF (at least in Godot) looks pixelated…
+2016-03-11 18:50:56	Calinou	I follow OS X's font philosophy of them being as smooth as possible, which isn't really a problem anymore with high-DPI screensq
+2016-03-11 18:50:57	Calinou	-q
+2016-03-11 18:53:12	vaded	yeah I agree godots implimentation is a bit ugly on PC, on mobile they look amazing though
+2016-03-11 18:54:41	 > 	sakea (samhie@leka.asteriski.fi) has joined #godotengine
+2016-03-11 18:54:41	 > 	ugly_cat (~quassel@c-76-104-204-149.hsd1.wa.comcast.net) has joined #godotengine
+2016-03-11 18:58:14	 < 	Akien (~akien@unaffiliated/akien) has quit (Quit: Quitte)
+2016-03-11 18:58:44	Zika	Is windows phone support being worked on?
+2016-03-11 19:03:31	Calinou	Zika, there is almost-ready support but it lacks sound
+2016-03-11 19:03:42	 < 	Calinou (~Calinou@unaffiliated/calinou) has quit (Remote host closed the connection)
+2016-03-11 19:04:27	 > 	desophos (~desophos@71-83-197-83.dhcp.hspr.ca.charter.com) has joined #godotengine
+2016-03-11 19:10:59	 < 	Obani (~Obani@tui.pi-et-ro.net) has quit (Quit: Hello Ben, I'm Ben)
+2016-03-11 19:23:33	 < 	desophos (~desophos@71-83-197-83.dhcp.hspr.ca.charter.com) has quit (Read error: Connection reset by peer)
+2016-03-11 19:24:06	 > 	Akien (d5fc8d15@gateway/web/freenode/ip.213.252.141.21) has joined #godotengine
+2016-03-11 19:30:58	 < 	alket (~alket@megaglest/contributor/alket) has quit (Ping timeout: 252 seconds)
+2016-03-11 19:32:04	 < 	Divlji (~Miroslav@cable-178-148-92-37.dynamic.sbb.rs) has quit (Ping timeout: 252 seconds)
+2016-03-11 19:38:28	 > 	Stabington_work (~CptStabin@unaffiliated/cptstabington) has joined #godotengine
+2016-03-11 19:39:22	 > 	Serpent7776 (~Serpent77@90-156-68-175.internetia.net.pl) has joined #godotengine
+2016-03-11 19:44:36	 < 	vsrinu26f (4c5cf85a@gateway/web/freenode/ip.76.92.248.90) has quit (Ping timeout: 252 seconds)
+2016-03-11 19:46:34	 > 	Chibiko (~Chibiko@93-120-195-223.dynamic.mts-nn.ru) has joined #godotengine
+2016-03-11 19:47:49	 > 	paramite (~paramite@109.164.120.19) has joined #godotengine
+2016-03-11 19:52:06	 > 	Divlji (~Miroslav@cable-178-148-92-37.dynamic.sbb.rs) has joined #godotengine
+2016-03-11 19:55:00	 > 	alket_work (~alket@megaglest/contributor/alket) has joined #godotengine
+2016-03-11 19:55:19	 > 	ArcFutahito (~arc@176.105.9.230) has joined #godotengine
+2016-03-11 19:58:12	 > 	john_cephalopoda (~john@unaffiliated/john-minetest/x-5335115) has joined #godotengine
+2016-03-11 19:58:54	 - 	alket_work is now known as alket
+2016-03-11 20:03:58	 < 	Divlji (~Miroslav@cable-178-148-92-37.dynamic.sbb.rs) has quit (Ping timeout: 252 seconds)
+2016-03-11 20:18:39	 > 	Alcor (55f5d3f4@gateway/web/freenode/ip.85.245.211.244) has joined #godotengine
+2016-03-11 20:18:49	 < 	Alcor (55f5d3f4@gateway/web/freenode/ip.85.245.211.244) has quit (Client Quit)
+2016-03-11 20:29:14	 > 	paolobb4 (~paolobb4@5.170.105.55) has joined #godotengine
+2016-03-11 20:38:41	 > 	Anarchid (~Adium@72.139.35.213.sta.estpak.ee) has joined #godotengine
+2016-03-11 20:42:38	 > 	nunod (~nuno@to-217-129-248-253.netvisao.pt) has joined #godotengine
+2016-03-11 20:42:54	nunod	'morning
+2016-03-11 20:48:08	 < 	BoBsoN (~admin@93.175.72.67) has quit (Quit: Leaving.)
+2016-03-11 20:48:31	paolobb4	hey people. I'm trying to close a small project in godot-1.1 before jumping into godot-2.0. when I import a scene (dae) the collision shapes are empty. both -col and -colonly. I see no outlines. Any ideas?
+2016-03-11 20:52:17	paolobb4	I am using the better collada plugin.
+2016-03-11 20:59:03	paolobb4	ok, so I just noticed that they were created as concave shapes instead of convex shapes.
+2016-03-11 21:02:49	paolobb4	didn't find any options on the import menu to indicate them as convex. Do I have to do something different in blender before exporting?
+2016-03-11 21:03:46	 < 	YeOldeDM (~nimda@72-160-29-33.dyn.centurytel.net) has quit (Quit: Leaving)
+2016-03-11 21:04:39	 - 	paramite is now known as paramite|afk
+2016-03-11 21:09:27	 < 	slapin (~slapin@slapinbuild.ihdev.net) has quit (Ping timeout: 276 seconds)
+2016-03-11 21:10:20	 < 	mfoxdogg (~mfoxdogg@CPE-121-218-162-212.lnse4.cht.bigpond.net.au) has quit (Quit: Leaving)
+2016-03-11 21:12:57	paolobb4	anybody?
+2016-03-11 21:13:00	 < 	Kalos_ (~Kalos@96-40-149-166.dhcp.mtpk.ca.charter.com) has quit (Quit: Leaving)
+2016-03-11 21:16:05	 - 	paramite|afk is now known as paramite
+2016-03-11 21:22:04	Stabington_work	Patience, young padawan
+2016-03-11 21:24:29	 > 	thc202 (~thc202@unaffiliated/thc202) has joined #godotengine
+2016-03-11 21:26:02	nunod	paolobb4, I got that problem too
+2016-03-11 21:26:07	nunod	they still work.. but I cant seem them :/
+2016-03-11 21:29:09	 - 	irc: disconnected from server

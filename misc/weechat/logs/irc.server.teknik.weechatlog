@@ -1,0 +1,1674 @@
+2016-03-24 10:49:12	 - 	irc: connecting to server irc.teknik.io/6697 (SSL)...
+2016-03-24 10:49:13	 !!! 	irc: TLS handshake failed
+2016-03-24 10:49:13	 !!! 	irc: error: An unexpected TLS packet was received.
+2016-03-24 10:49:13	 - 	irc: reconnecting to server in 10 seconds
+2016-03-24 10:49:19		irc: auto-reconnection is cancelled
+2016-03-24 10:49:19	 - 	irc: disconnected from server
+2016-03-24 10:50:01	 - 	irc: connecting to server irc.teknik.io/6667...
+2016-03-24 10:50:02	 - 	irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-24 10:50:02	 - 	irc.teknik.io: *** Looking up your hostname...
+2016-03-24 10:50:02	 - 	irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-03-24 10:50:03	 - 	irc.teknik.io: Welcome to Teknik!
+2016-03-24 10:50:03	 - 	Welcome to the Teknik IRC Network fsociety!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-24 10:50:03	 - 	Your host is irc.teknik.io, running version 2.0
+2016-03-24 10:50:03	 - 	This server was created 16:34:47 Aug 28 2013
+2016-03-24 10:50:03	 - 	irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-24 10:50:03	 - 	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-24 10:50:03	 - 	MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-24 10:50:03	 - 	USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-24 10:50:03	 - 	97KAAFF3W :your unique ID
+2016-03-24 10:50:03	 - 	irc.teknik.io message of the day
+2016-03-24 10:50:03	 - 	-
+2016-03-24 10:50:03	 - 	-      _______   _          _ _    _____ _____   _____
+2016-03-24 10:50:03	 - 	-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-24 10:50:03	 - 	-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-24 10:50:03	 - 	-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-24 10:50:03	 - 	-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-24 10:50:03	 - 	-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-24 10:50:03	 - 	-
+2016-03-24 10:50:03	 - 	-
+2016-03-24 10:50:03	 - 	-
+2016-03-24 10:50:03	 - 	-         ---- Welcome to the Teknik IRC Network ----
+2016-03-24 10:50:03	 - 	-        /                                           \
+2016-03-24 10:50:03	 - 	-       /   * Web: http://www.teknik.io               \
+2016-03-24 10:50:03	 - 	-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-24 10:50:03	 - 	-       |                                             |
+2016-03-24 10:50:03	 - 	-       |                   -- The Teknik Team        |
+2016-03-24 10:50:03	 - 	-       |                                             |
+2016-03-24 10:50:03	 - 	-       |--------------- Server Rules ----------------|
+2016-03-24 10:50:03	 - 	-       |                                             |
+2016-03-24 10:50:03	 - 	-       |   * Be Respectful to other users            |
+2016-03-24 10:50:03	 - 	-       |   * No Flooding                             |
+2016-03-24 10:50:03	 - 	-       |   * No Takeovers                            |
+2016-03-24 10:50:03	 - 	-       |   * Access granted to this server is a      |
+2016-03-24 10:50:03	 - 	-       |     privilege                               |
+2016-03-24 10:50:03	 - 	-       |   * Staff members may disconnect clients    |
+2016-03-24 10:50:03	 - 	-       |     for any or no reason.                   |
+2016-03-24 10:50:03	 - 	-       |                                             |
+2016-03-24 10:50:03	 - 	-       |------------ Important Channels -------------|
+2016-03-24 10:50:03	 - 	-       |                                             |
+2016-03-24 10:50:03	 - 	-       |   - #help - assistance with irc things      |
+2016-03-24 10:50:03	 - 	-       |   - #teknik - support the server!           |
+2016-03-24 10:50:03	 - 	-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-24 10:50:03	 - 	-       \                                             /
+2016-03-24 10:50:03	 - 	-        --------------------------------------------
+2016-03-24 10:50:03	 - 	End of message of the day.
+2016-03-24 10:50:03	 - 	There are 14 users and 0 invisible on 2 servers
+2016-03-24 10:50:03	 - 	1 :operator(s) online
+2016-03-24 10:50:03	 - 	2 :unknown connections
+2016-03-24 10:50:03	 - 	12 :channels formed
+2016-03-24 10:50:03	 - 	I have 7 clients and 1 servers
+2016-03-24 10:50:03	 - 	Current Local Users: 7  Max: 8
+2016-03-24 10:50:03	 - 	Current Global Users: 14  Max: 15
+2016-03-24 10:50:03	 - 	Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-24 10:50:03	 - 	User mode [+x] by fsociety
+2016-03-24 10:50:03	 - 	NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-24 10:50:16	 - 	You are now known as dividebyzero
+2016-03-24 12:45:04	 - 	irc: disconnected from server
+2016-03-24 12:46:02		irc: connecting to server irc.teknik.io/6667...
+2016-03-24 12:46:02		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-24 12:46:02		irc.teknik.io: *** Looking up your hostname...
+2016-03-24 12:46:02		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-03-24 12:46:03		irc.teknik.io: Welcome to Teknik!
+2016-03-24 12:46:03		Welcome to the Teknik IRC Network fsociety!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-24 12:46:03		Your host is irc.teknik.io, running version 2.0
+2016-03-24 12:46:03		This server was created 16:34:47 Aug 28 2013
+2016-03-24 12:46:03		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-24 12:46:03		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-24 12:46:03		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-24 12:46:03		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-24 12:46:03		97KAAFG51 :your unique ID
+2016-03-24 12:46:03		irc.teknik.io message of the day
+2016-03-24 12:46:03		-
+2016-03-24 12:46:03		-      _______   _          _ _    _____ _____   _____
+2016-03-24 12:46:03		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-24 12:46:03		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-24 12:46:03		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-24 12:46:03		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-24 12:46:03		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-24 12:46:03		-
+2016-03-24 12:46:03		-
+2016-03-24 12:46:03		-
+2016-03-24 12:46:03		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-24 12:46:03		-        /                                           \
+2016-03-24 12:46:03		-       /   * Web: http://www.teknik.io               \
+2016-03-24 12:46:03		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-24 12:46:03		-       |                                             |
+2016-03-24 12:46:03		-       |                   -- The Teknik Team        |
+2016-03-24 12:46:03		-       |                                             |
+2016-03-24 12:46:03		-       |--------------- Server Rules ----------------|
+2016-03-24 12:46:03		-       |                                             |
+2016-03-24 12:46:03		-       |   * Be Respectful to other users            |
+2016-03-24 12:46:03		-       |   * No Flooding                             |
+2016-03-24 12:46:03		-       |   * No Takeovers                            |
+2016-03-24 12:46:03		-       |   * Access granted to this server is a      |
+2016-03-24 12:46:03		-       |     privilege                               |
+2016-03-24 12:46:03		-       |   * Staff members may disconnect clients    |
+2016-03-24 12:46:03		-       |     for any or no reason.                   |
+2016-03-24 12:46:04		-       |                                             |
+2016-03-24 12:46:04		-       |------------ Important Channels -------------|
+2016-03-24 12:46:04		-       |                                             |
+2016-03-24 12:46:04		-       |   - #help - assistance with irc things      |
+2016-03-24 12:46:04		-       |   - #teknik - support the server!           |
+2016-03-24 12:46:04		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-24 12:46:04		-       \                                             /
+2016-03-24 12:46:04		-        --------------------------------------------
+2016-03-24 12:46:04		End of message of the day.
+2016-03-24 12:46:04		There are 14 users and 0 invisible on 2 servers
+2016-03-24 12:46:04		1 :operator(s) online
+2016-03-24 12:46:04		12 :channels formed
+2016-03-24 12:46:04		I have 7 clients and 1 servers
+2016-03-24 12:46:04		Current Local Users: 7  Max: 8
+2016-03-24 12:46:04		Current Global Users: 14  Max: 15
+2016-03-24 12:46:04		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-24 12:46:04		User mode [+x] by fsociety
+2016-03-24 12:46:04		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-24 12:46:15		You are now known as dividebyzero
+2016-03-24 15:14:38		irc: disconnected from server
+2016-03-24 15:14:45		irc: connecting to server irc.teknik.io/6667...
+2016-03-24 15:14:46		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-24 15:14:46		irc.teknik.io: *** Looking up your hostname...
+2016-03-24 15:14:46		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-03-24 15:14:47		irc.teknik.io: Welcome to Teknik!
+2016-03-24 15:14:47		Welcome to the Teknik IRC Network fsociety!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-24 15:14:47		Your host is irc.teknik.io, running version 2.0
+2016-03-24 15:14:47		This server was created 16:34:47 Aug 28 2013
+2016-03-24 15:14:47		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-24 15:14:47		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-24 15:14:47		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-24 15:14:47		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-24 15:14:47		97KAAFIIY :your unique ID
+2016-03-24 15:14:47		irc.teknik.io message of the day
+2016-03-24 15:14:47		-
+2016-03-24 15:14:47		-      _______   _          _ _    _____ _____   _____
+2016-03-24 15:14:47		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-24 15:14:47		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-24 15:14:47		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-24 15:14:47		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-24 15:14:47		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-24 15:14:47		-
+2016-03-24 15:14:47		-
+2016-03-24 15:14:47		-
+2016-03-24 15:14:47		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-24 15:14:47		-        /                                           \
+2016-03-24 15:14:47		-       /   * Web: http://www.teknik.io               \
+2016-03-24 15:14:47		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-24 15:14:47		-       |                                             |
+2016-03-24 15:14:47		-       |                   -- The Teknik Team        |
+2016-03-24 15:14:47		-       |                                             |
+2016-03-24 15:14:47		-       |--------------- Server Rules ----------------|
+2016-03-24 15:14:47		-       |                                             |
+2016-03-24 15:14:47		-       |   * Be Respectful to other users            |
+2016-03-24 15:14:47		-       |   * No Flooding                             |
+2016-03-24 15:14:47		-       |   * No Takeovers                            |
+2016-03-24 15:14:47		-       |   * Access granted to this server is a      |
+2016-03-24 15:14:47		-       |     privilege                               |
+2016-03-24 15:14:47		-       |   * Staff members may disconnect clients    |
+2016-03-24 15:14:47		-       |     for any or no reason.                   |
+2016-03-24 15:14:47		-       |                                             |
+2016-03-24 15:14:47		-       |------------ Important Channels -------------|
+2016-03-24 15:14:47		-       |                                             |
+2016-03-24 15:14:47		-       |   - #help - assistance with irc things      |
+2016-03-24 15:14:47		-       |   - #teknik - support the server!           |
+2016-03-24 15:14:47		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-24 15:14:47		-       \                                             /
+2016-03-24 15:14:47		-        --------------------------------------------
+2016-03-24 15:14:47		End of message of the day.
+2016-03-24 15:14:47		There are 14 users and 0 invisible on 2 servers
+2016-03-24 15:14:47		1 :operator(s) online
+2016-03-24 15:14:47		12 :channels formed
+2016-03-24 15:14:47		I have 7 clients and 1 servers
+2016-03-24 15:14:47		Current Local Users: 7  Max: 8
+2016-03-24 15:14:47		Current Global Users: 14  Max: 15
+2016-03-24 15:14:47		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-24 15:14:47		User mode [+x] by fsociety
+2016-03-24 15:14:47		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-26 21:48:37		irc: disconnected from server
+2016-03-29 06:21:56		irc: connecting to server irc.teknik.io/6667...
+2016-03-29 06:21:57		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-29 06:21:57		irc.teknik.io: *** Looking up your hostname...
+2016-03-29 06:21:57		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au)
+2016-03-29 06:21:58		irc.teknik.io: Welcome to Teknik!
+2016-03-29 06:21:58		Welcome to the Teknik IRC Network fsociety!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-29 06:21:58		Your host is irc.teknik.io, running version 2.0
+2016-03-29 06:21:58		This server was created 16:34:47 Aug 28 2013
+2016-03-29 06:21:58		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-29 06:21:58		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-29 06:21:58		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-29 06:21:58		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-29 06:21:58		97KAAG7D4 :your unique ID
+2016-03-29 06:21:58		irc.teknik.io message of the day
+2016-03-29 06:21:58		-
+2016-03-29 06:21:58		-      _______   _          _ _    _____ _____   _____
+2016-03-29 06:21:58		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-29 06:21:58		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-29 06:21:58		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-29 06:21:58		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-29 06:21:58		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-29 06:21:58		-
+2016-03-29 06:21:58		-
+2016-03-29 06:21:58		-
+2016-03-29 06:21:58		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-29 06:21:58		-        /                                           \
+2016-03-29 06:21:58		-       /   * Web: http://www.teknik.io               \
+2016-03-29 06:21:58		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-29 06:21:58		-       |                                             |
+2016-03-29 06:21:58		-       |                   -- The Teknik Team        |
+2016-03-29 06:21:58		-       |                                             |
+2016-03-29 06:21:58		-       |--------------- Server Rules ----------------|
+2016-03-29 06:21:58		-       |                                             |
+2016-03-29 06:21:58		-       |   * Be Respectful to other users            |
+2016-03-29 06:21:58		-       |   * No Flooding                             |
+2016-03-29 06:21:58		-       |   * No Takeovers                            |
+2016-03-29 06:21:58		-       |   * Access granted to this server is a      |
+2016-03-29 06:21:58		-       |     privilege                               |
+2016-03-29 06:21:58		-       |   * Staff members may disconnect clients    |
+2016-03-29 06:21:58		-       |     for any or no reason.                   |
+2016-03-29 06:21:58		-       |                                             |
+2016-03-29 06:21:58		-       |------------ Important Channels -------------|
+2016-03-29 06:21:58		-       |                                             |
+2016-03-29 06:21:58		-       |   - #help - assistance with irc things      |
+2016-03-29 06:21:58		-       |   - #teknik - support the server!           |
+2016-03-29 06:21:58		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-29 06:21:58		-       \                                             /
+2016-03-29 06:21:58		-        --------------------------------------------
+2016-03-29 06:21:58		End of message of the day.
+2016-03-29 06:21:58		There are 14 users and 0 invisible on 2 servers
+2016-03-29 06:21:58		1 :operator(s) online
+2016-03-29 06:21:58		12 :channels formed
+2016-03-29 06:21:58		I have 7 clients and 1 servers
+2016-03-29 06:21:58		Current Local Users: 7  Max: 8
+2016-03-29 06:21:58		Current Global Users: 14  Max: 15
+2016-03-29 06:21:58		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-29 06:21:58		User mode [+x] by fsociety
+2016-03-29 06:21:58		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-29 06:25:20		irc: disconnected from server
+2016-03-29 06:25:21		irc: connecting to server irc.teknik.io/6667...
+2016-03-29 06:25:21		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-29 06:25:22		irc.teknik.io: *** Looking up your hostname...
+2016-03-29 06:25:22		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-03-29 06:25:23		irc.teknik.io: Welcome to Teknik!
+2016-03-29 06:25:23		Welcome to the Teknik IRC Network fsociety!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-29 06:25:23		Your host is irc.teknik.io, running version 2.0
+2016-03-29 06:25:23		This server was created 16:34:47 Aug 28 2013
+2016-03-29 06:25:23		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-29 06:25:23		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-29 06:25:23		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-29 06:25:23		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-29 06:25:23		97KAAG7FA :your unique ID
+2016-03-29 06:25:23		irc.teknik.io message of the day
+2016-03-29 06:25:23		-
+2016-03-29 06:25:23		-      _______   _          _ _    _____ _____   _____
+2016-03-29 06:25:23		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-29 06:25:23		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-29 06:25:23		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-29 06:25:23		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-29 06:25:23		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-29 06:25:23		-
+2016-03-29 06:25:23		-
+2016-03-29 06:25:23		-
+2016-03-29 06:25:23		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-29 06:25:23		-        /                                           \
+2016-03-29 06:25:23		-       /   * Web: http://www.teknik.io               \
+2016-03-29 06:25:23		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-29 06:25:23		-       |                                             |
+2016-03-29 06:25:23		-       |                   -- The Teknik Team        |
+2016-03-29 06:25:23		-       |                                             |
+2016-03-29 06:25:23		-       |--------------- Server Rules ----------------|
+2016-03-29 06:25:23		-       |                                             |
+2016-03-29 06:25:23		-       |   * Be Respectful to other users            |
+2016-03-29 06:25:23		-       |   * No Flooding                             |
+2016-03-29 06:25:23		-       |   * No Takeovers                            |
+2016-03-29 06:25:23		-       |   * Access granted to this server is a      |
+2016-03-29 06:25:23		-       |     privilege                               |
+2016-03-29 06:25:23		-       |   * Staff members may disconnect clients    |
+2016-03-29 06:25:23		-       |     for any or no reason.                   |
+2016-03-29 06:25:23		-       |                                             |
+2016-03-29 06:25:23		-       |------------ Important Channels -------------|
+2016-03-29 06:25:23		-       |                                             |
+2016-03-29 06:25:23		-       |   - #help - assistance with irc things      |
+2016-03-29 06:25:23		-       |   - #teknik - support the server!           |
+2016-03-29 06:25:23		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-29 06:25:23		-       \                                             /
+2016-03-29 06:25:23		-        --------------------------------------------
+2016-03-29 06:25:23		End of message of the day.
+2016-03-29 06:25:23		There are 14 users and 0 invisible on 2 servers
+2016-03-29 06:25:23		1 :operator(s) online
+2016-03-29 06:25:23		2 :unknown connections
+2016-03-29 06:25:23		12 :channels formed
+2016-03-29 06:25:23		I have 7 clients and 1 servers
+2016-03-29 06:25:23		Current Local Users: 7  Max: 8
+2016-03-29 06:25:23		Current Global Users: 14  Max: 15
+2016-03-29 06:25:23		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-29 06:25:23		User mode [+x] by fsociety
+2016-03-29 06:25:23		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-29 06:31:38		irc: disconnected from server
+2016-03-29 06:31:39		irc: connecting to server irc.teknik.io/6667...
+2016-03-29 06:31:39		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-29 06:31:39		irc.teknik.io: *** Looking up your hostname...
+2016-03-29 06:31:39		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-03-29 06:31:40		irc.teknik.io: Welcome to Teknik!
+2016-03-29 06:31:40		Welcome to the Teknik IRC Network fsociety!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-29 06:31:40		Your host is irc.teknik.io, running version 2.0
+2016-03-29 06:31:40		This server was created 16:34:47 Aug 28 2013
+2016-03-29 06:31:40		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-29 06:31:40		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-29 06:31:40		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-29 06:31:40		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-29 06:31:40		97KAAG7HD :your unique ID
+2016-03-29 06:31:40		irc.teknik.io message of the day
+2016-03-29 06:31:40		-
+2016-03-29 06:31:40		-      _______   _          _ _    _____ _____   _____
+2016-03-29 06:31:40		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-29 06:31:40		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-29 06:31:40		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-29 06:31:40		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-29 06:31:40		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-29 06:31:40		-
+2016-03-29 06:31:40		-
+2016-03-29 06:31:40		-
+2016-03-29 06:31:40		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-29 06:31:40		-        /                                           \
+2016-03-29 06:31:40		-       /   * Web: http://www.teknik.io               \
+2016-03-29 06:31:40		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-29 06:31:40		-       |                                             |
+2016-03-29 06:31:40		-       |                   -- The Teknik Team        |
+2016-03-29 06:31:40		-       |                                             |
+2016-03-29 06:31:40		-       |--------------- Server Rules ----------------|
+2016-03-29 06:31:40		-       |                                             |
+2016-03-29 06:31:40		-       |   * Be Respectful to other users            |
+2016-03-29 06:31:40		-       |   * No Flooding                             |
+2016-03-29 06:31:40		-       |   * No Takeovers                            |
+2016-03-29 06:31:40		-       |   * Access granted to this server is a      |
+2016-03-29 06:31:40		-       |     privilege                               |
+2016-03-29 06:31:40		-       |   * Staff members may disconnect clients    |
+2016-03-29 06:31:40		-       |     for any or no reason.                   |
+2016-03-29 06:31:40		-       |                                             |
+2016-03-29 06:31:40		-       |------------ Important Channels -------------|
+2016-03-29 06:31:40		-       |                                             |
+2016-03-29 06:31:40		-       |   - #help - assistance with irc things      |
+2016-03-29 06:31:40		-       |   - #teknik - support the server!           |
+2016-03-29 06:31:40		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-29 06:31:40		-       \                                             /
+2016-03-29 06:31:40		-        --------------------------------------------
+2016-03-29 06:31:40		End of message of the day.
+2016-03-29 06:31:40		There are 14 users and 0 invisible on 2 servers
+2016-03-29 06:31:40		1 :operator(s) online
+2016-03-29 06:31:40		1 :unknown connections
+2016-03-29 06:31:40		12 :channels formed
+2016-03-29 06:31:40		I have 7 clients and 1 servers
+2016-03-29 06:31:40		Current Local Users: 7  Max: 8
+2016-03-29 06:31:40		Current Global Users: 14  Max: 15
+2016-03-29 06:31:40		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-29 06:31:40		User mode [+x] by fsociety
+2016-03-29 06:31:40		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-29 06:31:53		You are now known as dividebyzero
+2016-03-29 06:33:28		irc: disconnected from server
+2016-03-29 06:33:29		irc: connecting to server irc.teknik.io/6667...
+2016-03-29 06:33:29		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-29 06:33:29		irc.teknik.io: *** Looking up your hostname...
+2016-03-29 06:33:29		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-03-29 06:33:31		irc.teknik.io: Welcome to Teknik!
+2016-03-29 06:33:31		Welcome to the Teknik IRC Network fsociety!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-29 06:33:31		Your host is irc.teknik.io, running version 2.0
+2016-03-29 06:33:31		This server was created 16:34:47 Aug 28 2013
+2016-03-29 06:33:31		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-29 06:33:31		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-29 06:33:31		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-29 06:33:31		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-29 06:33:31		97KAAG7H0 :your unique ID
+2016-03-29 06:33:31		irc.teknik.io message of the day
+2016-03-29 06:33:31		-
+2016-03-29 06:33:31		-      _______   _          _ _    _____ _____   _____
+2016-03-29 06:33:31		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-29 06:33:31		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-29 06:33:31		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-29 06:33:31		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-29 06:33:31		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-29 06:33:31		-
+2016-03-29 06:33:31		-
+2016-03-29 06:33:31		-
+2016-03-29 06:33:31		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-29 06:33:31		-        /                                           \
+2016-03-29 06:33:31		-       /   * Web: http://www.teknik.io               \
+2016-03-29 06:33:31		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-29 06:33:31		-       |                                             |
+2016-03-29 06:33:31		-       |                   -- The Teknik Team        |
+2016-03-29 06:33:31		-       |                                             |
+2016-03-29 06:33:31		-       |--------------- Server Rules ----------------|
+2016-03-29 06:33:31		-       |                                             |
+2016-03-29 06:33:31		-       |   * Be Respectful to other users            |
+2016-03-29 06:33:31		-       |   * No Flooding                             |
+2016-03-29 06:33:31		-       |   * No Takeovers                            |
+2016-03-29 06:33:31		-       |   * Access granted to this server is a      |
+2016-03-29 06:33:31		-       |     privilege                               |
+2016-03-29 06:33:31		-       |   * Staff members may disconnect clients    |
+2016-03-29 06:33:31		-       |     for any or no reason.                   |
+2016-03-29 06:33:31		-       |                                             |
+2016-03-29 06:33:31		-       |------------ Important Channels -------------|
+2016-03-29 06:33:31		-       |                                             |
+2016-03-29 06:33:31		-       |   - #help - assistance with irc things      |
+2016-03-29 06:33:31		-       |   - #teknik - support the server!           |
+2016-03-29 06:33:31		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-29 06:33:31		-       \                                             /
+2016-03-29 06:33:31		-        --------------------------------------------
+2016-03-29 06:33:31		End of message of the day.
+2016-03-29 06:33:31		There are 14 users and 0 invisible on 2 servers
+2016-03-29 06:33:31		1 :operator(s) online
+2016-03-29 06:33:31		2 :unknown connections
+2016-03-29 06:33:31		12 :channels formed
+2016-03-29 06:33:31		I have 7 clients and 1 servers
+2016-03-29 06:33:31		Current Local Users: 7  Max: 8
+2016-03-29 06:33:31		Current Global Users: 14  Max: 15
+2016-03-29 06:33:31		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-29 06:33:31		User mode [+x] by fsociety
+2016-03-29 06:33:31		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-29 06:34:14		irc: disconnected from server
+2016-03-29 06:34:15		irc: connecting to server irc.teknik.io/6667...
+2016-03-29 06:34:16		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-29 06:34:16		irc.teknik.io: *** Looking up your hostname...
+2016-03-29 06:34:16		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-03-29 06:34:16		irc.teknik.io: Welcome to Teknik!
+2016-03-29 06:34:16		Welcome to the Teknik IRC Network fsociety!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-29 06:34:16		Your host is irc.teknik.io, running version 2.0
+2016-03-29 06:34:16		This server was created 16:34:47 Aug 28 2013
+2016-03-29 06:34:16		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-29 06:34:16		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-29 06:34:16		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-29 06:34:16		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-29 06:34:16		97KAAG7IA :your unique ID
+2016-03-29 06:34:16		irc.teknik.io message of the day
+2016-03-29 06:34:16		-
+2016-03-29 06:34:16		-      _______   _          _ _    _____ _____   _____
+2016-03-29 06:34:16		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-29 06:34:16		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-29 06:34:16		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-29 06:34:16		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-29 06:34:16		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-29 06:34:16		-
+2016-03-29 06:34:16		-
+2016-03-29 06:34:16		-
+2016-03-29 06:34:16		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-29 06:34:16		-        /                                           \
+2016-03-29 06:34:16		-       /   * Web: http://www.teknik.io               \
+2016-03-29 06:34:16		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-29 06:34:16		-       |                                             |
+2016-03-29 06:34:16		-       |                   -- The Teknik Team        |
+2016-03-29 06:34:16		-       |                                             |
+2016-03-29 06:34:16		-       |--------------- Server Rules ----------------|
+2016-03-29 06:34:16		-       |                                             |
+2016-03-29 06:34:16		-       |   * Be Respectful to other users            |
+2016-03-29 06:34:16		-       |   * No Flooding                             |
+2016-03-29 06:34:16		-       |   * No Takeovers                            |
+2016-03-29 06:34:16		-       |   * Access granted to this server is a      |
+2016-03-29 06:34:16		-       |     privilege                               |
+2016-03-29 06:34:16		-       |   * Staff members may disconnect clients    |
+2016-03-29 06:34:16		-       |     for any or no reason.                   |
+2016-03-29 06:34:16		-       |                                             |
+2016-03-29 06:34:16		-       |------------ Important Channels -------------|
+2016-03-29 06:34:16		-       |                                             |
+2016-03-29 06:34:16		-       |   - #help - assistance with irc things      |
+2016-03-29 06:34:16		-       |   - #teknik - support the server!           |
+2016-03-29 06:34:16		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-29 06:34:16		-       \                                             /
+2016-03-29 06:34:16		-        --------------------------------------------
+2016-03-29 06:34:16		End of message of the day.
+2016-03-29 06:34:16		There are 14 users and 0 invisible on 2 servers
+2016-03-29 06:34:16		1 :operator(s) online
+2016-03-29 06:34:16		2 :unknown connections
+2016-03-29 06:34:16		12 :channels formed
+2016-03-29 06:34:16		I have 7 clients and 1 servers
+2016-03-29 06:34:16		Current Local Users: 7  Max: 8
+2016-03-29 06:34:16		Current Global Users: 14  Max: 15
+2016-03-29 06:34:16		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-29 06:34:16		User mode [+x] by fsociety
+2016-03-29 06:34:16		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-29 06:34:21		You are now known as dividebyzero
+2016-03-29 06:35:32		irc: disconnected from server
+2016-03-29 06:35:32		irc: connecting to server irc.teknik.io/6667...
+2016-03-29 06:35:32		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-29 06:35:33		irc.teknik.io: *** Looking up your hostname...
+2016-03-29 06:35:33		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-03-29 06:35:34		irc.teknik.io: Welcome to Teknik!
+2016-03-29 06:35:34		Welcome to the Teknik IRC Network fsociety!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-29 06:35:34		Your host is irc.teknik.io, running version 2.0
+2016-03-29 06:35:34		This server was created 16:34:47 Aug 28 2013
+2016-03-29 06:35:34		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-29 06:35:34		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-29 06:35:34		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-29 06:35:34		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-29 06:35:34		97KAAG7IQ :your unique ID
+2016-03-29 06:35:34		irc.teknik.io message of the day
+2016-03-29 06:35:34		-
+2016-03-29 06:35:34		-      _______   _          _ _    _____ _____   _____
+2016-03-29 06:35:34		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-29 06:35:34		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-29 06:35:34		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-29 06:35:34		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-29 06:35:34		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-29 06:35:34		-
+2016-03-29 06:35:34		-
+2016-03-29 06:35:34		-
+2016-03-29 06:35:34		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-29 06:35:34		-        /                                           \
+2016-03-29 06:35:34		-       /   * Web: http://www.teknik.io               \
+2016-03-29 06:35:34		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-29 06:35:34		-       |                                             |
+2016-03-29 06:35:34		-       |                   -- The Teknik Team        |
+2016-03-29 06:35:34		-       |                                             |
+2016-03-29 06:35:34		-       |--------------- Server Rules ----------------|
+2016-03-29 06:35:34		-       |                                             |
+2016-03-29 06:35:34		-       |   * Be Respectful to other users            |
+2016-03-29 06:35:34		-       |   * No Flooding                             |
+2016-03-29 06:35:34		-       |   * No Takeovers                            |
+2016-03-29 06:35:34		-       |   * Access granted to this server is a      |
+2016-03-29 06:35:34		-       |     privilege                               |
+2016-03-29 06:35:34		-       |   * Staff members may disconnect clients    |
+2016-03-29 06:35:34		-       |     for any or no reason.                   |
+2016-03-29 06:35:34		-       |                                             |
+2016-03-29 06:35:34		-       |------------ Important Channels -------------|
+2016-03-29 06:35:34		-       |                                             |
+2016-03-29 06:35:34		-       |   - #help - assistance with irc things      |
+2016-03-29 06:35:34		-       |   - #teknik - support the server!           |
+2016-03-29 06:35:34		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-29 06:35:34		-       \                                             /
+2016-03-29 06:35:34		-        --------------------------------------------
+2016-03-29 06:35:34		End of message of the day.
+2016-03-29 06:35:34		There are 14 users and 0 invisible on 2 servers
+2016-03-29 06:35:34		1 :operator(s) online
+2016-03-29 06:35:34		1 :unknown connections
+2016-03-29 06:35:34		12 :channels formed
+2016-03-29 06:35:34		I have 7 clients and 1 servers
+2016-03-29 06:35:34		Current Local Users: 7  Max: 8
+2016-03-29 06:35:34		Current Global Users: 14  Max: 15
+2016-03-29 06:35:34		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-29 06:35:34		User mode [+x] by fsociety
+2016-03-29 06:35:34		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-29 06:36:12		irc: disconnected from server
+2016-03-29 06:36:15		irc: connecting to server irc.teknik.io/6667...
+2016-03-29 06:36:15		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-29 06:36:15		irc.teknik.io: *** Looking up your hostname...
+2016-03-29 06:36:15		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-03-29 06:36:17		irc.teknik.io: Welcome to Teknik!
+2016-03-29 06:36:17		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-29 06:36:17		Your host is irc.teknik.io, running version 2.0
+2016-03-29 06:36:17		This server was created 16:34:47 Aug 28 2013
+2016-03-29 06:36:17		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-29 06:36:17		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-29 06:36:17		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-29 06:36:17		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-29 06:36:17		97KAAG7IZ :your unique ID
+2016-03-29 06:36:17		irc.teknik.io message of the day
+2016-03-29 06:36:17		-
+2016-03-29 06:36:17		-      _______   _          _ _    _____ _____   _____
+2016-03-29 06:36:17		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-29 06:36:17		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-29 06:36:17		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-29 06:36:17		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-29 06:36:17		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-29 06:36:17		-
+2016-03-29 06:36:17		-
+2016-03-29 06:36:17		-
+2016-03-29 06:36:17		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-29 06:36:17		-        /                                           \
+2016-03-29 06:36:17		-       /   * Web: http://www.teknik.io               \
+2016-03-29 06:36:17		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-29 06:36:17		-       |                                             |
+2016-03-29 06:36:17		-       |                   -- The Teknik Team        |
+2016-03-29 06:36:17		-       |                                             |
+2016-03-29 06:36:17		-       |--------------- Server Rules ----------------|
+2016-03-29 06:36:17		-       |                                             |
+2016-03-29 06:36:17		-       |   * Be Respectful to other users            |
+2016-03-29 06:36:17		-       |   * No Flooding                             |
+2016-03-29 06:36:17		-       |   * No Takeovers                            |
+2016-03-29 06:36:17		-       |   * Access granted to this server is a      |
+2016-03-29 06:36:17		-       |     privilege                               |
+2016-03-29 06:36:17		-       |   * Staff members may disconnect clients    |
+2016-03-29 06:36:17		-       |     for any or no reason.                   |
+2016-03-29 06:36:17		-       |                                             |
+2016-03-29 06:36:17		-       |------------ Important Channels -------------|
+2016-03-29 06:36:17		-       |                                             |
+2016-03-29 06:36:17		-       |   - #help - assistance with irc things      |
+2016-03-29 06:36:17		-       |   - #teknik - support the server!           |
+2016-03-29 06:36:17		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-29 06:36:17		-       \                                             /
+2016-03-29 06:36:17		-        --------------------------------------------
+2016-03-29 06:36:17		End of message of the day.
+2016-03-29 06:36:17		There are 14 users and 0 invisible on 2 servers
+2016-03-29 06:36:17		1 :operator(s) online
+2016-03-29 06:36:17		3 :unknown connections
+2016-03-29 06:36:17		12 :channels formed
+2016-03-29 06:36:17		I have 7 clients and 1 servers
+2016-03-29 06:36:17		Current Local Users: 7  Max: 8
+2016-03-29 06:36:17		Current Global Users: 14  Max: 15
+2016-03-29 06:36:17		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-29 06:36:17		User mode [+x] by dividebyzero
+2016-03-29 06:36:17		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-29 10:18:22		Channel Users Name
+2016-03-29 10:18:22		#Teknik(5): [+nrt]
+2016-03-29 10:18:22		#testing(3): [+nt]
+2016-03-29 10:18:22		#Combot(4): [+nrt]
+2016-03-29 10:18:22		#services(8): [+nt]
+2016-03-29 10:18:22		#help(3): [+nrt]
+2016-03-29 10:18:22		#programming(2): [+nrt]
+2016-03-29 10:18:22		#me0wz(1): [+nt]
+2016-03-29 10:18:22		#soup(2): [+nt]
+2016-03-29 10:18:22		#code(2): [+nrt]
+2016-03-29 10:18:22		#/g/technology(1): [+nt]
+2016-03-29 10:18:22		#IRCBot(2): [+nt]
+2016-03-29 10:18:22		#randomz(1): [+nt]
+2016-03-29 10:18:22		End of channel list.
+2016-03-29 13:39:45		irc: disconnected from server
+2016-03-29 13:52:12		irc: connecting to server irc.teknik.io/6667...
+2016-03-29 13:52:12		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-29 13:52:13		irc.teknik.io: *** Looking up your hostname...
+2016-03-29 13:52:13		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au)
+2016-03-29 13:52:14		irc.teknik.io: Welcome to Teknik!
+2016-03-29 13:52:14		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-29 13:52:14		Your host is irc.teknik.io, running version 2.0
+2016-03-29 13:52:14		This server was created 16:34:47 Aug 28 2013
+2016-03-29 13:52:14		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-29 13:52:14		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-29 13:52:14		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-29 13:52:14		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-29 13:52:14		97KAAHBIB :your unique ID
+2016-03-29 13:52:14		irc.teknik.io message of the day
+2016-03-29 13:52:14		-
+2016-03-29 13:52:14		-      _______   _          _ _    _____ _____   _____
+2016-03-29 13:52:14		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-29 13:52:14		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-29 13:52:14		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-29 13:52:14		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-29 13:52:14		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-29 13:52:14		-
+2016-03-29 13:52:14		-
+2016-03-29 13:52:14		-
+2016-03-29 13:52:14		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-29 13:52:14		-        /                                           \
+2016-03-29 13:52:14		-       /   * Web: http://www.teknik.io               \
+2016-03-29 13:52:14		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-29 13:52:14		-       |                                             |
+2016-03-29 13:52:14		-       |                   -- The Teknik Team        |
+2016-03-29 13:52:14		-       |                                             |
+2016-03-29 13:52:14		-       |--------------- Server Rules ----------------|
+2016-03-29 13:52:14		-       |                                             |
+2016-03-29 13:52:14		-       |   * Be Respectful to other users            |
+2016-03-29 13:52:14		-       |   * No Flooding                             |
+2016-03-29 13:52:14		-       |   * No Takeovers                            |
+2016-03-29 13:52:14		-       |   * Access granted to this server is a      |
+2016-03-29 13:52:14		-       |     privilege                               |
+2016-03-29 13:52:14		-       |   * Staff members may disconnect clients    |
+2016-03-29 13:52:14		-       |     for any or no reason.                   |
+2016-03-29 13:52:14		-       |                                             |
+2016-03-29 13:52:14		-       |------------ Important Channels -------------|
+2016-03-29 13:52:14		-       |                                             |
+2016-03-29 13:52:14		-       |   - #help - assistance with irc things      |
+2016-03-29 13:52:14		-       |   - #teknik - support the server!           |
+2016-03-29 13:52:14		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-29 13:52:14		-       \                                             /
+2016-03-29 13:52:14		-        --------------------------------------------
+2016-03-29 13:52:14		End of message of the day.
+2016-03-29 13:52:14		There are 14 users and 0 invisible on 2 servers
+2016-03-29 13:52:14		1 :operator(s) online
+2016-03-29 13:52:14		2 :unknown connections
+2016-03-29 13:52:14		12 :channels formed
+2016-03-29 13:52:14		I have 7 clients and 1 servers
+2016-03-29 13:52:14		Current Local Users: 7  Max: 8
+2016-03-29 13:52:14		Current Global Users: 14  Max: 15
+2016-03-29 13:52:14		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-29 13:52:14		User mode [+x] by dividebyzero
+2016-03-29 13:52:14		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-29 14:33:27		irc: disconnected from server
+2016-03-29 14:33:28		irc: connecting to server irc.teknik.io/6667...
+2016-03-29 14:33:28		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-29 14:33:29		irc.teknik.io: *** Looking up your hostname...
+2016-03-29 14:33:29		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-03-29 14:33:29		irc.teknik.io: Welcome to Teknik!
+2016-03-29 14:33:29		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-29 14:33:29		Your host is irc.teknik.io, running version 2.0
+2016-03-29 14:33:29		This server was created 16:34:47 Aug 28 2013
+2016-03-29 14:33:29		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-29 14:33:29		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-29 14:33:29		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-29 14:33:29		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-29 14:33:29		97KAAHBVW :your unique ID
+2016-03-29 14:33:29		irc.teknik.io message of the day
+2016-03-29 14:33:29		-
+2016-03-29 14:33:29		-      _______   _          _ _    _____ _____   _____
+2016-03-29 14:33:29		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-29 14:33:29		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-29 14:33:29		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-29 14:33:29		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-29 14:33:29		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-29 14:33:29		-
+2016-03-29 14:33:29		-
+2016-03-29 14:33:29		-
+2016-03-29 14:33:29		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-29 14:33:29		-        /                                           \
+2016-03-29 14:33:29		-       /   * Web: http://www.teknik.io               \
+2016-03-29 14:33:29		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-29 14:33:29		-       |                                             |
+2016-03-29 14:33:29		-       |                   -- The Teknik Team        |
+2016-03-29 14:33:29		-       |                                             |
+2016-03-29 14:33:29		-       |--------------- Server Rules ----------------|
+2016-03-29 14:33:29		-       |                                             |
+2016-03-29 14:33:29		-       |   * Be Respectful to other users            |
+2016-03-29 14:33:29		-       |   * No Flooding                             |
+2016-03-29 14:33:29		-       |   * No Takeovers                            |
+2016-03-29 14:33:29		-       |   * Access granted to this server is a      |
+2016-03-29 14:33:29		-       |     privilege                               |
+2016-03-29 14:33:29		-       |   * Staff members may disconnect clients    |
+2016-03-29 14:33:29		-       |     for any or no reason.                   |
+2016-03-29 14:33:29		-       |                                             |
+2016-03-29 14:33:29		-       |------------ Important Channels -------------|
+2016-03-29 14:33:29		-       |                                             |
+2016-03-29 14:33:29		-       |   - #help - assistance with irc things      |
+2016-03-29 14:33:29		-       |   - #teknik - support the server!           |
+2016-03-29 14:33:29		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-29 14:33:29		-       \                                             /
+2016-03-29 14:33:29		-        --------------------------------------------
+2016-03-29 14:33:29		End of message of the day.
+2016-03-29 14:33:29		There are 14 users and 0 invisible on 2 servers
+2016-03-29 14:33:29		1 :operator(s) online
+2016-03-29 14:33:29		1 :unknown connections
+2016-03-29 14:33:29		12 :channels formed
+2016-03-29 14:33:29		I have 7 clients and 1 servers
+2016-03-29 14:33:29		Current Local Users: 7  Max: 8
+2016-03-29 14:33:29		Current Global Users: 14  Max: 15
+2016-03-29 14:33:29		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-29 14:33:29		User mode [+x] by dividebyzero
+2016-03-29 14:33:29		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-29 15:35:45		irc: disconnected from server
+2016-03-29 15:35:46		irc: connecting to server irc.teknik.io/6667...
+2016-03-29 15:35:47		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-29 15:35:47		irc.teknik.io: *** Looking up your hostname...
+2016-03-29 15:35:47		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-03-29 15:35:48		irc.teknik.io: Welcome to Teknik!
+2016-03-29 15:35:48		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-29 15:35:48		Your host is irc.teknik.io, running version 2.0
+2016-03-29 15:35:48		This server was created 16:34:47 Aug 28 2013
+2016-03-29 15:35:48		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-29 15:35:48		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-29 15:35:48		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-29 15:35:48		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-29 15:35:48		97KAAHCGF :your unique ID
+2016-03-29 15:35:48		irc.teknik.io message of the day
+2016-03-29 15:35:48		-
+2016-03-29 15:35:48		-      _______   _          _ _    _____ _____   _____
+2016-03-29 15:35:48		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-29 15:35:48		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-29 15:35:48		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-29 15:35:48		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-29 15:35:48		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-29 15:35:48		-
+2016-03-29 15:35:48		-
+2016-03-29 15:35:48		-
+2016-03-29 15:35:48		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-29 15:35:48		-        /                                           \
+2016-03-29 15:35:48		-       /   * Web: http://www.teknik.io               \
+2016-03-29 15:35:48		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-29 15:35:48		-       |                                             |
+2016-03-29 15:35:48		-       |                   -- The Teknik Team        |
+2016-03-29 15:35:48		-       |                                             |
+2016-03-29 15:35:48		-       |--------------- Server Rules ----------------|
+2016-03-29 15:35:48		-       |                                             |
+2016-03-29 15:35:48		-       |   * Be Respectful to other users            |
+2016-03-29 15:35:48		-       |   * No Flooding                             |
+2016-03-29 15:35:48		-       |   * No Takeovers                            |
+2016-03-29 15:35:48		-       |   * Access granted to this server is a      |
+2016-03-29 15:35:48		-       |     privilege                               |
+2016-03-29 15:35:48		-       |   * Staff members may disconnect clients    |
+2016-03-29 15:35:48		-       |     for any or no reason.                   |
+2016-03-29 15:35:48		-       |                                             |
+2016-03-29 15:35:48		-       |------------ Important Channels -------------|
+2016-03-29 15:35:48		-       |                                             |
+2016-03-29 15:35:48		-       |   - #help - assistance with irc things      |
+2016-03-29 15:35:48		-       |   - #teknik - support the server!           |
+2016-03-29 15:35:48		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-29 15:35:48		-       \                                             /
+2016-03-29 15:35:48		-        --------------------------------------------
+2016-03-29 15:35:48		End of message of the day.
+2016-03-29 15:35:48		There are 14 users and 0 invisible on 2 servers
+2016-03-29 15:35:48		1 :operator(s) online
+2016-03-29 15:35:48		2 :unknown connections
+2016-03-29 15:35:48		12 :channels formed
+2016-03-29 15:35:48		I have 7 clients and 1 servers
+2016-03-29 15:35:48		Current Local Users: 7  Max: 8
+2016-03-29 15:35:48		Current Global Users: 14  Max: 15
+2016-03-29 15:35:48		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-29 15:35:48		User mode [+x] by dividebyzero
+2016-03-29 15:35:49		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-29 20:45:43		irc: disconnected from server
+2016-03-30 11:45:34		irc: connecting to server irc.teknik.io/6667...
+2016-03-30 11:45:34		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-03-30 11:45:34		irc.teknik.io: *** Looking up your hostname...
+2016-03-30 11:45:35		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au)
+2016-03-30 11:45:36		irc.teknik.io: Welcome to Teknik!
+2016-03-30 11:45:36		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-03-30 11:45:36		Your host is irc.teknik.io, running version 2.0
+2016-03-30 11:45:36		This server was created 16:34:47 Aug 28 2013
+2016-03-30 11:45:36		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-03-30 11:45:36		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-03-30 11:45:36		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-03-30 11:45:36		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-03-30 11:45:36		97KAAHNH3 :your unique ID
+2016-03-30 11:45:36		irc.teknik.io message of the day
+2016-03-30 11:45:36		-
+2016-03-30 11:45:36		-      _______   _          _ _    _____ _____   _____
+2016-03-30 11:45:36		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-03-30 11:45:36		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-03-30 11:45:36		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-03-30 11:45:36		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-03-30 11:45:36		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-03-30 11:45:36		-
+2016-03-30 11:45:36		-
+2016-03-30 11:45:36		-
+2016-03-30 11:45:36		-         ---- Welcome to the Teknik IRC Network ----
+2016-03-30 11:45:36		-        /                                           \
+2016-03-30 11:45:36		-       /   * Web: http://www.teknik.io               \
+2016-03-30 11:45:36		-       |   * IRC: irc.teknik.io #teknik              |
+2016-03-30 11:45:36		-       |                                             |
+2016-03-30 11:45:36		-       |                   -- The Teknik Team        |
+2016-03-30 11:45:36		-       |                                             |
+2016-03-30 11:45:36		-       |--------------- Server Rules ----------------|
+2016-03-30 11:45:36		-       |                                             |
+2016-03-30 11:45:36		-       |   * Be Respectful to other users            |
+2016-03-30 11:45:36		-       |   * No Flooding                             |
+2016-03-30 11:45:36		-       |   * No Takeovers                            |
+2016-03-30 11:45:36		-       |   * Access granted to this server is a      |
+2016-03-30 11:45:36		-       |     privilege                               |
+2016-03-30 11:45:36		-       |   * Staff members may disconnect clients    |
+2016-03-30 11:45:36		-       |     for any or no reason.                   |
+2016-03-30 11:45:36		-       |                                             |
+2016-03-30 11:45:36		-       |------------ Important Channels -------------|
+2016-03-30 11:45:36		-       |                                             |
+2016-03-30 11:45:36		-       |   - #help - assistance with irc things      |
+2016-03-30 11:45:36		-       |   - #teknik - support the server!           |
+2016-03-30 11:45:36		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-03-30 11:45:36		-       \                                             /
+2016-03-30 11:45:36		-        --------------------------------------------
+2016-03-30 11:45:36		End of message of the day.
+2016-03-30 11:45:36		There are 14 users and 0 invisible on 2 servers
+2016-03-30 11:45:36		1 :operator(s) online
+2016-03-30 11:45:36		1 :unknown connections
+2016-03-30 11:45:36		12 :channels formed
+2016-03-30 11:45:36		I have 7 clients and 1 servers
+2016-03-30 11:45:36		Current Local Users: 7  Max: 8
+2016-03-30 11:45:36		Current Global Users: 14  Max: 15
+2016-03-30 11:45:36		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-03-30 11:45:36		User mode [+x] by dividebyzero
+2016-03-30 11:45:36		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-03-30 18:34:06		irc: disconnected from server
+2016-04-06 11:36:31		irc: connecting to server irc.teknik.io/6667...
+2016-04-06 11:36:31		[11:36]
+2016-04-06 11:36:32		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-06 11:36:32		irc.teknik.io: *** Looking up your hostname...
+2016-04-06 11:36:33		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au)
+2016-04-06 11:36:33		irc.teknik.io: Welcome to Teknik!
+2016-04-06 11:36:33		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-06 11:36:33		Your host is irc.teknik.io, running version 2.0
+2016-04-06 11:36:33		This server was created 16:34:47 Aug 28 2013
+2016-04-06 11:36:33		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-06 11:36:33		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-06 11:36:33		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-06 11:36:33		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-06 11:36:33		97KAAJ73L :your unique ID
+2016-04-06 11:36:33		irc.teknik.io message of the day
+2016-04-06 11:36:33		-
+2016-04-06 11:36:33		-      _______   _          _ _    _____ _____   _____
+2016-04-06 11:36:33		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-06 11:36:33		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-06 11:36:33		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-06 11:36:33		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-06 11:36:33		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-06 11:36:33		-
+2016-04-06 11:36:33		-
+2016-04-06 11:36:33		-
+2016-04-06 11:36:33		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-06 11:36:33		-        /                                           \
+2016-04-06 11:36:33		-       /   * Web: http://www.teknik.io               \
+2016-04-06 11:36:33		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-06 11:36:33		-       |                                             |
+2016-04-06 11:36:33		-       |                   -- The Teknik Team        |
+2016-04-06 11:36:33		-       |                                             |
+2016-04-06 11:36:33		-       |--------------- Server Rules ----------------|
+2016-04-06 11:36:33		-       |                                             |
+2016-04-06 11:36:33		-       |   * Be Respectful to other users            |
+2016-04-06 11:36:33		-       |   * No Flooding                             |
+2016-04-06 11:36:33		-       |   * No Takeovers                            |
+2016-04-06 11:36:33		-       |   * Access granted to this server is a      |
+2016-04-06 11:36:33		-       |     privilege                               |
+2016-04-06 11:36:33		-       |   * Staff members may disconnect clients    |
+2016-04-06 11:36:33		-       |     for any or no reason.                   |
+2016-04-06 11:36:33		-       |                                             |
+2016-04-06 11:36:33		-       |------------ Important Channels -------------|
+2016-04-06 11:36:33		-       |                                             |
+2016-04-06 11:36:33		-       |   - #help - assistance with irc things      |
+2016-04-06 11:36:33		-       |   - #teknik - support the server!           |
+2016-04-06 11:36:33		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-06 11:36:33		-       \                                             /
+2016-04-06 11:36:33		-        --------------------------------------------
+2016-04-06 11:36:33		End of message of the day.
+2016-04-06 11:36:33		There are 13 users and 0 invisible on 2 servers
+2016-04-06 11:36:33		1 :operator(s) online
+2016-04-06 11:36:33		2 :unknown connections
+2016-04-06 11:36:33		12 :channels formed
+2016-04-06 11:36:33		I have 6 clients and 1 servers
+2016-04-06 11:36:33		Current Local Users: 6  Max: 8
+2016-04-06 11:36:33		Current Global Users: 13  Max: 15
+2016-04-06 11:36:33		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-06 11:36:33		User mode [+x] by dividebyzero
+2016-04-06 11:36:33		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-04-06 11:42:00		[11:36]
+2016-04-06 16:41:19		irc: disconnected from server
+2016-04-07 06:58:07		irc: connecting to server irc.teknik.io/6667...
+2016-04-07 06:58:07		[06:58]
+2016-04-07 06:58:07		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-07 06:58:08		irc.teknik.io: *** Looking up your hostname...
+2016-04-07 06:58:08		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au)
+2016-04-07 06:58:09		irc.teknik.io: Welcome to Teknik!
+2016-04-07 06:58:09		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-07 06:58:09		Your host is irc.teknik.io, running version 2.0
+2016-04-07 06:58:09		This server was created 16:34:47 Aug 28 2013
+2016-04-07 06:58:09		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-07 06:58:09		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-07 06:58:09		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-07 06:58:09		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-07 06:58:09		97KAAKIPF :your unique ID
+2016-04-07 06:58:09		irc.teknik.io message of the day
+2016-04-07 06:58:09		-
+2016-04-07 06:58:09		-      _______   _          _ _    _____ _____   _____
+2016-04-07 06:58:09		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-07 06:58:09		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-07 06:58:09		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-07 06:58:09		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-07 06:58:09		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-07 06:58:09		-
+2016-04-07 06:58:09		-
+2016-04-07 06:58:09		-
+2016-04-07 06:58:09		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-07 06:58:09		-        /                                           \
+2016-04-07 06:58:09		-       /   * Web: http://www.teknik.io               \
+2016-04-07 06:58:09		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-07 06:58:09		-       |                                             |
+2016-04-07 06:58:09		-       |                   -- The Teknik Team        |
+2016-04-07 06:58:09		-       |                                             |
+2016-04-07 06:58:09		-       |--------------- Server Rules ----------------|
+2016-04-07 06:58:09		-       |                                             |
+2016-04-07 06:58:09		-       |   * Be Respectful to other users            |
+2016-04-07 06:58:09		-       |   * No Flooding                             |
+2016-04-07 06:58:09		-       |   * No Takeovers                            |
+2016-04-07 06:58:09		-       |   * Access granted to this server is a      |
+2016-04-07 06:58:09		-       |     privilege                               |
+2016-04-07 06:58:09		-       |   * Staff members may disconnect clients    |
+2016-04-07 06:58:09		-       |     for any or no reason.                   |
+2016-04-07 06:58:09		-       |                                             |
+2016-04-07 06:58:09		-       |------------ Important Channels -------------|
+2016-04-07 06:58:09		-       |                                             |
+2016-04-07 06:58:09		-       |   - #help - assistance with irc things      |
+2016-04-07 06:58:09		-       |   - #teknik - support the server!           |
+2016-04-07 06:58:09		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-07 06:58:09		-       \                                             /
+2016-04-07 06:58:09		-        --------------------------------------------
+2016-04-07 06:58:09		End of message of the day.
+2016-04-07 06:58:09		There are 13 users and 0 invisible on 2 servers
+2016-04-07 06:58:09		1 :operator(s) online
+2016-04-07 06:58:09		2 :unknown connections
+2016-04-07 06:58:09		12 :channels formed
+2016-04-07 06:58:09		I have 6 clients and 1 servers
+2016-04-07 06:58:09		Current Local Users: 6  Max: 8
+2016-04-07 06:58:09		Current Global Users: 13  Max: 15
+2016-04-07 06:58:09		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-07 06:58:09		User mode [+x] by dividebyzero
+2016-04-07 06:58:09		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-04-07 07:04:00		[06:58]
+2016-04-07 07:34:37		irc: disconnected from server
+2016-04-07 07:56:50		irc: connecting to server irc.teknik.io/6667...
+2016-04-07 07:56:50		[07:56]
+2016-04-07 07:56:51		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-07 07:56:51		irc.teknik.io: *** Looking up your hostname...
+2016-04-07 07:56:51		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-04-07 07:56:51		irc.teknik.io: Welcome to Teknik!
+2016-04-07 07:56:51		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-07 07:56:51		Your host is irc.teknik.io, running version 2.0
+2016-04-07 07:56:51		This server was created 16:34:47 Aug 28 2013
+2016-04-07 07:56:51		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-07 07:56:51		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-07 07:56:51		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-07 07:56:51		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-07 07:56:51		97KAAKI8R :your unique ID
+2016-04-07 07:56:51		irc.teknik.io message of the day
+2016-04-07 07:56:51		-
+2016-04-07 07:56:51		-      _______   _          _ _    _____ _____   _____
+2016-04-07 07:56:51		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-07 07:56:51		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-07 07:56:51		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-07 07:56:51		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-07 07:56:51		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-07 07:56:51		-
+2016-04-07 07:56:51		-
+2016-04-07 07:56:51		-
+2016-04-07 07:56:51		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-07 07:56:51		-        /                                           \
+2016-04-07 07:56:51		-       /   * Web: http://www.teknik.io               \
+2016-04-07 07:56:51		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-07 07:56:51		-       |                                             |
+2016-04-07 07:56:51		-       |                   -- The Teknik Team        |
+2016-04-07 07:56:51		-       |                                             |
+2016-04-07 07:56:51		-       |--------------- Server Rules ----------------|
+2016-04-07 07:56:51		-       |                                             |
+2016-04-07 07:56:51		-       |   * Be Respectful to other users            |
+2016-04-07 07:56:51		-       |   * No Flooding                             |
+2016-04-07 07:56:51		-       |   * No Takeovers                            |
+2016-04-07 07:56:51		-       |   * Access granted to this server is a      |
+2016-04-07 07:56:51		-       |     privilege                               |
+2016-04-07 07:56:51		-       |   * Staff members may disconnect clients    |
+2016-04-07 07:56:51		-       |     for any or no reason.                   |
+2016-04-07 07:56:51		-       |                                             |
+2016-04-07 07:56:51		-       |------------ Important Channels -------------|
+2016-04-07 07:56:51		-       |                                             |
+2016-04-07 07:56:51		-       |   - #help - assistance with irc things      |
+2016-04-07 07:56:51		-       |   - #teknik - support the server!           |
+2016-04-07 07:56:51		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-07 07:56:51		-       \                                             /
+2016-04-07 07:56:51		-        --------------------------------------------
+2016-04-07 07:56:51		End of message of the day.
+2016-04-07 07:56:51		There are 13 users and 0 invisible on 2 servers
+2016-04-07 07:56:51		1 :operator(s) online
+2016-04-07 07:56:51		1 :unknown connections
+2016-04-07 07:56:51		12 :channels formed
+2016-04-07 07:56:51		I have 6 clients and 1 servers
+2016-04-07 07:56:51		Current Local Users: 6  Max: 8
+2016-04-07 07:56:51		Current Global Users: 13  Max: 15
+2016-04-07 07:56:51		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-07 07:56:51		User mode [+x] by dividebyzero
+2016-04-07 07:56:52		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-04-07 08:02:00		[07:56]
+2016-04-07 09:11:20		irc: disconnected from server
+2016-04-07 09:36:59		irc: connecting to server irc.teknik.io/6667...
+2016-04-07 09:36:59		[09:36]
+2016-04-07 09:36:59		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-07 09:37:00		irc.teknik.io: *** Looking up your hostname...
+2016-04-07 09:37:00		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-04-07 09:37:01		irc.teknik.io: Welcome to Teknik!
+2016-04-07 09:37:01		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-07 09:37:01		Your host is irc.teknik.io, running version 2.0
+2016-04-07 09:37:01		This server was created 16:34:47 Aug 28 2013
+2016-04-07 09:37:01		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-07 09:37:01		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-07 09:37:01		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-07 09:37:01		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-07 09:37:01		97KAAKJ5P :your unique ID
+2016-04-07 09:37:01		irc.teknik.io message of the day
+2016-04-07 09:37:01		-
+2016-04-07 09:37:01		-      _______   _          _ _    _____ _____   _____
+2016-04-07 09:37:01		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-07 09:37:01		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-07 09:37:01		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-07 09:37:01		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-07 09:37:01		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-07 09:37:01		-
+2016-04-07 09:37:01		-
+2016-04-07 09:37:01		-
+2016-04-07 09:37:01		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-07 09:37:01		-        /                                           \
+2016-04-07 09:37:01		-       /   * Web: http://www.teknik.io               \
+2016-04-07 09:37:01		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-07 09:37:01		-       |                                             |
+2016-04-07 09:37:01		-       |                   -- The Teknik Team        |
+2016-04-07 09:37:01		-       |                                             |
+2016-04-07 09:37:01		-       |--------------- Server Rules ----------------|
+2016-04-07 09:37:01		-       |                                             |
+2016-04-07 09:37:01		-       |   * Be Respectful to other users            |
+2016-04-07 09:37:01		-       |   * No Flooding                             |
+2016-04-07 09:37:01		-       |   * No Takeovers                            |
+2016-04-07 09:37:01		-       |   * Access granted to this server is a      |
+2016-04-07 09:37:01		-       |     privilege                               |
+2016-04-07 09:37:01		-       |   * Staff members may disconnect clients    |
+2016-04-07 09:37:01		-       |     for any or no reason.                   |
+2016-04-07 09:37:01		-       |                                             |
+2016-04-07 09:37:01		-       |------------ Important Channels -------------|
+2016-04-07 09:37:01		-       |                                             |
+2016-04-07 09:37:01		-       |   - #help - assistance with irc things      |
+2016-04-07 09:37:01		-       |   - #teknik - support the server!           |
+2016-04-07 09:37:01		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-07 09:37:01		-       \                                             /
+2016-04-07 09:37:01		-        --------------------------------------------
+2016-04-07 09:37:01		End of message of the day.
+2016-04-07 09:37:01		There are 13 users and 0 invisible on 2 servers
+2016-04-07 09:37:01		1 :operator(s) online
+2016-04-07 09:37:01		1 :unknown connections
+2016-04-07 09:37:01		12 :channels formed
+2016-04-07 09:37:01		I have 6 clients and 1 servers
+2016-04-07 09:37:01		Current Local Users: 6  Max: 8
+2016-04-07 09:37:01		Current Global Users: 13  Max: 15
+2016-04-07 09:37:01		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-07 09:37:01		User mode [+x] by dividebyzero
+2016-04-07 09:37:01		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-04-07 09:43:00		[09:37]
+2016-04-07 10:36:48		irc: connecting to server irc.teknik.io/6667...
+2016-04-07 10:36:48		[10:36]
+2016-04-07 10:36:49		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-07 10:36:49		irc.teknik.io: *** Looking up your hostname...
+2016-04-07 10:36:49		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-04-07 10:36:50		irc.teknik.io: Welcome to Teknik!
+2016-04-07 10:36:50		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-07 10:36:50		Your host is irc.teknik.io, running version 2.0
+2016-04-07 10:36:50		This server was created 16:34:47 Aug 28 2013
+2016-04-07 10:36:50		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-07 10:36:50		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-07 10:36:50		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-07 10:36:50		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-07 10:36:50		97KAAKKPD :your unique ID
+2016-04-07 10:36:50		irc.teknik.io message of the day
+2016-04-07 10:36:50		-
+2016-04-07 10:36:50		-      _______   _          _ _    _____ _____   _____
+2016-04-07 10:36:50		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-07 10:36:50		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-07 10:36:50		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-07 10:36:50		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-07 10:36:50		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-07 10:36:50		-
+2016-04-07 10:36:50		-
+2016-04-07 10:36:50		-
+2016-04-07 10:36:50		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-07 10:36:50		-        /                                           \
+2016-04-07 10:36:50		-       /   * Web: http://www.teknik.io               \
+2016-04-07 10:36:50		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-07 10:36:50		-       |                                             |
+2016-04-07 10:36:50		-       |                   -- The Teknik Team        |
+2016-04-07 10:36:50		-       |                                             |
+2016-04-07 10:36:50		-       |--------------- Server Rules ----------------|
+2016-04-07 10:36:50		-       |                                             |
+2016-04-07 10:36:50		-       |   * Be Respectful to other users            |
+2016-04-07 10:36:50		-       |   * No Flooding                             |
+2016-04-07 10:36:50		-       |   * No Takeovers                            |
+2016-04-07 10:36:50		-       |   * Access granted to this server is a      |
+2016-04-07 10:36:50		-       |     privilege                               |
+2016-04-07 10:36:50		-       |   * Staff members may disconnect clients    |
+2016-04-07 10:36:50		-       |     for any or no reason.                   |
+2016-04-07 10:36:50		-       |                                             |
+2016-04-07 10:36:50		-       |------------ Important Channels -------------|
+2016-04-07 10:36:50		-       |                                             |
+2016-04-07 10:36:50		-       |   - #help - assistance with irc things      |
+2016-04-07 10:36:50		-       |   - #teknik - support the server!           |
+2016-04-07 10:36:50		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-07 10:36:50		-       \                                             /
+2016-04-07 10:36:50		-        --------------------------------------------
+2016-04-07 10:36:50		End of message of the day.
+2016-04-07 10:36:50		There are 13 users and 0 invisible on 2 servers
+2016-04-07 10:36:50		1 :operator(s) online
+2016-04-07 10:36:50		2 :unknown connections
+2016-04-07 10:36:50		12 :channels formed
+2016-04-07 10:36:50		I have 6 clients and 1 servers
+2016-04-07 10:36:50		Current Local Users: 6  Max: 8
+2016-04-07 10:36:50		Current Global Users: 13  Max: 15
+2016-04-07 10:36:50		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-07 10:36:50		User mode [+x] by dividebyzero
+2016-04-07 10:36:50		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-04-07 10:42:00		[10:36]
+2016-04-07 18:31:57		irc: connecting to server irc.teknik.io/6667...
+2016-04-07 18:31:57		[18:31]
+2016-04-07 18:31:57		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-07 18:31:57		irc.teknik.io: *** Looking up your hostname...
+2016-04-07 18:31:58		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au)
+2016-04-07 18:31:58		irc.teknik.io: Welcome to Teknik!
+2016-04-07 18:31:58		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-07 18:31:58		Your host is irc.teknik.io, running version 2.0
+2016-04-07 18:31:58		This server was created 16:34:47 Aug 28 2013
+2016-04-07 18:31:58		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-07 18:31:58		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-07 18:31:58		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-07 18:31:58		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-07 18:31:58		97KAAKO1L :your unique ID
+2016-04-07 18:31:58		irc.teknik.io message of the day
+2016-04-07 18:31:58		-
+2016-04-07 18:31:58		-      _______   _          _ _    _____ _____   _____
+2016-04-07 18:31:58		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-07 18:31:58		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-07 18:31:58		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-07 18:31:58		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-07 18:31:58		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-07 18:31:58		-
+2016-04-07 18:31:58		-
+2016-04-07 18:31:58		-
+2016-04-07 18:31:58		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-07 18:31:58		-        /                                           \
+2016-04-07 18:31:58		-       /   * Web: http://www.teknik.io               \
+2016-04-07 18:31:58		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-07 18:31:58		-       |                                             |
+2016-04-07 18:31:58		-       |                   -- The Teknik Team        |
+2016-04-07 18:31:58		-       |                                             |
+2016-04-07 18:31:58		-       |--------------- Server Rules ----------------|
+2016-04-07 18:31:58		-       |                                             |
+2016-04-07 18:31:58		-       |   * Be Respectful to other users            |
+2016-04-07 18:31:58		-       |   * No Flooding                             |
+2016-04-07 18:31:58		-       |   * No Takeovers                            |
+2016-04-07 18:31:58		-       |   * Access granted to this server is a      |
+2016-04-07 18:31:58		-       |     privilege                               |
+2016-04-07 18:31:58		-       |   * Staff members may disconnect clients    |
+2016-04-07 18:31:58		-       |     for any or no reason.                   |
+2016-04-07 18:31:58		-       |                                             |
+2016-04-07 18:31:58		-       |------------ Important Channels -------------|
+2016-04-07 18:31:58		-       |                                             |
+2016-04-07 18:31:58		-       |   - #help - assistance with irc things      |
+2016-04-07 18:31:58		-       |   - #teknik - support the server!           |
+2016-04-07 18:31:58		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-07 18:31:58		-       \                                             /
+2016-04-07 18:31:58		-        --------------------------------------------
+2016-04-07 18:31:58		End of message of the day.
+2016-04-07 18:31:58		There are 13 users and 0 invisible on 2 servers
+2016-04-07 18:31:58		1 :operator(s) online
+2016-04-07 18:31:58		3 :unknown connections
+2016-04-07 18:31:58		12 :channels formed
+2016-04-07 18:31:58		I have 6 clients and 1 servers
+2016-04-07 18:31:58		Current Local Users: 6  Max: 8
+2016-04-07 18:31:58		Current Global Users: 13  Max: 15
+2016-04-07 18:31:58		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-07 18:31:58		User mode [+x] by dividebyzero
+2016-04-07 18:31:58		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-04-07 18:37:00		[18:31]
+2016-04-07 18:39:55		irc: disconnected from server
+2016-04-07 22:03:19		irc: connecting to server irc.teknik.io/6667...
+2016-04-07 22:03:19		[22:03]
+2016-04-07 22:03:19		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-07 22:03:19		irc.teknik.io: *** Looking up your hostname...
+2016-04-07 22:03:19		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-04-07 22:03:20		irc.teknik.io: Welcome to Teknik!
+2016-04-07 22:03:20		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-07 22:03:20		Your host is irc.teknik.io, running version 2.0
+2016-04-07 22:03:20		This server was created 16:34:47 Aug 28 2013
+2016-04-07 22:03:20		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-07 22:03:20		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-07 22:03:20		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-07 22:03:20		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-07 22:03:20		97KAAKQY4 :your unique ID
+2016-04-07 22:03:20		irc.teknik.io message of the day
+2016-04-07 22:03:20		-
+2016-04-07 22:03:20		-      _______   _          _ _    _____ _____   _____
+2016-04-07 22:03:20		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-07 22:03:20		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-07 22:03:20		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-07 22:03:20		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-07 22:03:20		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-07 22:03:20		-
+2016-04-07 22:03:20		-
+2016-04-07 22:03:20		-
+2016-04-07 22:03:20		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-07 22:03:20		-        /                                           \
+2016-04-07 22:03:20		-       /   * Web: http://www.teknik.io               \
+2016-04-07 22:03:20		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-07 22:03:20		-       |                                             |
+2016-04-07 22:03:20		-       |                   -- The Teknik Team        |
+2016-04-07 22:03:20		-       |                                             |
+2016-04-07 22:03:20		-       |--------------- Server Rules ----------------|
+2016-04-07 22:03:20		-       |                                             |
+2016-04-07 22:03:20		-       |   * Be Respectful to other users            |
+2016-04-07 22:03:20		-       |   * No Flooding                             |
+2016-04-07 22:03:20		-       |   * No Takeovers                            |
+2016-04-07 22:03:20		-       |   * Access granted to this server is a      |
+2016-04-07 22:03:20		-       |     privilege                               |
+2016-04-07 22:03:20		-       |   * Staff members may disconnect clients    |
+2016-04-07 22:03:20		-       |     for any or no reason.                   |
+2016-04-07 22:03:20		-       |                                             |
+2016-04-07 22:03:20		-       |------------ Important Channels -------------|
+2016-04-07 22:03:20		-       |                                             |
+2016-04-07 22:03:20		-       |   - #help - assistance with irc things      |
+2016-04-07 22:03:20		-       |   - #teknik - support the server!           |
+2016-04-07 22:03:20		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-07 22:03:20		-       \                                             /
+2016-04-07 22:03:20		-        --------------------------------------------
+2016-04-07 22:03:20		End of message of the day.
+2016-04-07 22:03:20		There are 13 users and 0 invisible on 2 servers
+2016-04-07 22:03:20		1 :operator(s) online
+2016-04-07 22:03:20		3 :unknown connections
+2016-04-07 22:03:20		12 :channels formed
+2016-04-07 22:03:20		I have 6 clients and 1 servers
+2016-04-07 22:03:20		Current Local Users: 6  Max: 8
+2016-04-07 22:03:20		Current Global Users: 13  Max: 15
+2016-04-07 22:03:20		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-07 22:03:20		User mode [+x] by dividebyzero
+2016-04-07 22:03:20		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-04-07 22:09:00		[22:03]
+2016-04-07 22:17:50		irc: disconnected from server
+2016-04-07 23:09:07		irc: connecting to server irc.teknik.io/6667...
+2016-04-07 23:09:07		[23:09]
+2016-04-07 23:09:07		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-07 23:09:08		irc.teknik.io: *** Looking up your hostname...
+2016-04-07 23:09:08		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au) -- cached
+2016-04-07 23:09:09		irc.teknik.io: Welcome to Teknik!
+2016-04-07 23:09:09		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-07 23:09:09		Your host is irc.teknik.io, running version 2.0
+2016-04-07 23:09:09		This server was created 16:34:47 Aug 28 2013
+2016-04-07 23:09:09		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-07 23:09:09		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-07 23:09:09		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-07 23:09:09		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-07 23:09:09		97KAAKRKR :your unique ID
+2016-04-07 23:09:09		irc.teknik.io message of the day
+2016-04-07 23:09:09		-
+2016-04-07 23:09:09		-      _______   _          _ _    _____ _____   _____
+2016-04-07 23:09:09		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-07 23:09:09		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-07 23:09:09		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-07 23:09:09		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-07 23:09:09		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-07 23:09:09		-
+2016-04-07 23:09:09		-
+2016-04-07 23:09:09		-
+2016-04-07 23:09:09		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-07 23:09:09		-        /                                           \
+2016-04-07 23:09:09		-       /   * Web: http://www.teknik.io               \
+2016-04-07 23:09:09		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-07 23:09:09		-       |                                             |
+2016-04-07 23:09:09		-       |                   -- The Teknik Team        |
+2016-04-07 23:09:09		-       |                                             |
+2016-04-07 23:09:09		-       |--------------- Server Rules ----------------|
+2016-04-07 23:09:09		-       |                                             |
+2016-04-07 23:09:09		-       |   * Be Respectful to other users            |
+2016-04-07 23:09:09		-       |   * No Flooding                             |
+2016-04-07 23:09:09		-       |   * No Takeovers                            |
+2016-04-07 23:09:09		-       |   * Access granted to this server is a      |
+2016-04-07 23:09:09		-       |     privilege                               |
+2016-04-07 23:09:09		-       |   * Staff members may disconnect clients    |
+2016-04-07 23:09:09		-       |     for any or no reason.                   |
+2016-04-07 23:09:09		-       |                                             |
+2016-04-07 23:09:09		-       |------------ Important Channels -------------|
+2016-04-07 23:09:09		-       |                                             |
+2016-04-07 23:09:09		-       |   - #help - assistance with irc things      |
+2016-04-07 23:09:09		-       |   - #teknik - support the server!           |
+2016-04-07 23:09:09		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-07 23:09:09		-       \                                             /
+2016-04-07 23:09:09		-        --------------------------------------------
+2016-04-07 23:09:09		End of message of the day.
+2016-04-07 23:09:09		There are 13 users and 0 invisible on 2 servers
+2016-04-07 23:09:09		1 :operator(s) online
+2016-04-07 23:09:09		3 :unknown connections
+2016-04-07 23:09:09		12 :channels formed
+2016-04-07 23:09:09		I have 6 clients and 1 servers
+2016-04-07 23:09:09		Current Local Users: 6  Max: 8
+2016-04-07 23:09:09		Current Global Users: 13  Max: 15
+2016-04-07 23:09:09		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-07 23:09:09		User mode [+x] by dividebyzero
+2016-04-07 23:09:09		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-04-07 23:15:00		[23:09]
+2016-04-08 13:40:51		irc: disconnected from server
+2016-04-08 17:53:05		irc: connecting to server irc.teknik.io/6667...
+2016-04-08 17:53:05		[17:53]
+2016-04-08 17:53:05		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-08 17:53:05		irc.teknik.io: *** Looking up your hostname...
+2016-04-08 17:53:06		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au)
+2016-04-08 17:53:07		irc.teknik.io: Welcome to Teknik!
+2016-04-08 17:53:07		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-08 17:53:07		Your host is irc.teknik.io, running version 2.0
+2016-04-08 17:53:07		This server was created 16:34:47 Aug 28 2013
+2016-04-08 17:53:07		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-08 17:53:07		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-08 17:53:07		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-08 17:53:07		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-08 17:53:07		97KAAK1T9 :your unique ID
+2016-04-08 17:53:07		irc.teknik.io message of the day
+2016-04-08 17:53:07		-
+2016-04-08 17:53:07		-      _______   _          _ _    _____ _____   _____
+2016-04-08 17:53:07		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-08 17:53:07		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-08 17:53:07		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-08 17:53:07		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-08 17:53:07		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-08 17:53:07		-
+2016-04-08 17:53:07		-
+2016-04-08 17:53:07		-
+2016-04-08 17:53:07		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-08 17:53:07		-        /                                           \
+2016-04-08 17:53:07		-       /   * Web: http://www.teknik.io               \
+2016-04-08 17:53:07		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-08 17:53:07		-       |                                             |
+2016-04-08 17:53:07		-       |                   -- The Teknik Team        |
+2016-04-08 17:53:07		-       |                                             |
+2016-04-08 17:53:07		-       |--------------- Server Rules ----------------|
+2016-04-08 17:53:07		-       |                                             |
+2016-04-08 17:53:07		-       |   * Be Respectful to other users            |
+2016-04-08 17:53:07		-       |   * No Flooding                             |
+2016-04-08 17:53:07		-       |   * No Takeovers                            |
+2016-04-08 17:53:07		-       |   * Access granted to this server is a      |
+2016-04-08 17:53:07		-       |     privilege                               |
+2016-04-08 17:53:07		-       |   * Staff members may disconnect clients    |
+2016-04-08 17:53:07		-       |     for any or no reason.                   |
+2016-04-08 17:53:07		-       |                                             |
+2016-04-08 17:53:07		-       |------------ Important Channels -------------|
+2016-04-08 17:53:07		-       |                                             |
+2016-04-08 17:53:07		-       |   - #help - assistance with irc things      |
+2016-04-08 17:53:07		-       |   - #teknik - support the server!           |
+2016-04-08 17:53:07		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-08 17:53:07		-       \                                             /
+2016-04-08 17:53:07		-        --------------------------------------------
+2016-04-08 17:53:07		End of message of the day.
+2016-04-08 17:53:07		There are 13 users and 0 invisible on 2 servers
+2016-04-08 17:53:07		1 :operator(s) online
+2016-04-08 17:53:07		2 :unknown connections
+2016-04-08 17:53:07		12 :channels formed
+2016-04-08 17:53:07		I have 6 clients and 1 servers
+2016-04-08 17:53:07		Current Local Users: 6  Max: 8
+2016-04-08 17:53:07		Current Global Users: 13  Max: 15
+2016-04-08 17:53:07		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-08 17:53:07		User mode [+x] by dividebyzero
+2016-04-08 17:53:07		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-04-08 17:59:00		[17:53]
+2016-04-09 00:49:21		irc: connecting to server irc.teknik.io/6667...
+2016-04-09 00:49:21		[00:49]
+2016-04-09 00:49:22		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-09 00:49:22		irc.teknik.io: *** Looking up your hostname...
+2016-04-09 00:49:22		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au)
+2016-04-09 00:49:22		irc.teknik.io: Welcome to Teknik!
+2016-04-09 00:49:22		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-09 00:49:22		Your host is irc.teknik.io, running version 2.0
+2016-04-09 00:49:22		This server was created 16:34:47 Aug 28 2013
+2016-04-09 00:49:22		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-09 00:49:22		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-09 00:49:22		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-09 00:49:22		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-09 00:49:22		97KAAK5M4 :your unique ID
+2016-04-09 00:49:22		irc.teknik.io message of the day
+2016-04-09 00:49:22		-
+2016-04-09 00:49:22		-      _______   _          _ _    _____ _____   _____
+2016-04-09 00:49:22		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-09 00:49:22		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-09 00:49:22		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-09 00:49:22		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-09 00:49:22		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-09 00:49:22		-
+2016-04-09 00:49:22		-
+2016-04-09 00:49:22		-
+2016-04-09 00:49:22		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-09 00:49:22		-        /                                           \
+2016-04-09 00:49:22		-       /   * Web: http://www.teknik.io               \
+2016-04-09 00:49:22		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-09 00:49:22		-       |                                             |
+2016-04-09 00:49:22		-       |                   -- The Teknik Team        |
+2016-04-09 00:49:22		-       |                                             |
+2016-04-09 00:49:22		-       |--------------- Server Rules ----------------|
+2016-04-09 00:49:22		-       |                                             |
+2016-04-09 00:49:22		-       |   * Be Respectful to other users            |
+2016-04-09 00:49:22		-       |   * No Flooding                             |
+2016-04-09 00:49:22		-       |   * No Takeovers                            |
+2016-04-09 00:49:22		-       |   * Access granted to this server is a      |
+2016-04-09 00:49:22		-       |     privilege                               |
+2016-04-09 00:49:22		-       |   * Staff members may disconnect clients    |
+2016-04-09 00:49:22		-       |     for any or no reason.                   |
+2016-04-09 00:49:22		-       |                                             |
+2016-04-09 00:49:22		-       |------------ Important Channels -------------|
+2016-04-09 00:49:22		-       |                                             |
+2016-04-09 00:49:22		-       |   - #help - assistance with irc things      |
+2016-04-09 00:49:22		-       |   - #teknik - support the server!           |
+2016-04-09 00:49:22		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-09 00:49:22		-       \                                             /
+2016-04-09 00:49:22		-        --------------------------------------------
+2016-04-09 00:49:22		End of message of the day.
+2016-04-09 00:49:22		There are 13 users and 0 invisible on 2 servers
+2016-04-09 00:49:22		1 :operator(s) online
+2016-04-09 00:49:22		2 :unknown connections
+2016-04-09 00:49:22		12 :channels formed
+2016-04-09 00:49:22		I have 6 clients and 1 servers
+2016-04-09 00:49:22		Current Local Users: 6  Max: 8
+2016-04-09 00:49:22		Current Global Users: 13  Max: 15
+2016-04-09 00:49:22		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-09 00:49:22		User mode [+x] by dividebyzero
+2016-04-09 00:49:23		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-04-09 00:55:00		[00:49]
+2016-04-09 19:55:58		irc: disconnected from server
+2016-04-11 10:21:36		irc: connecting to server irc.teknik.io/6667...
+2016-04-11 10:21:36		[10:21]
+2016-04-11 10:21:37		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-11 10:21:37		irc.teknik.io: *** Looking up your hostname...
+2016-04-11 10:21:38		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au)
+2016-04-11 10:21:39		irc.teknik.io: Welcome to Teknik!
+2016-04-11 10:21:39		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-11 10:21:39		Your host is irc.teknik.io, running version 2.0
+2016-04-11 10:21:39		This server was created 16:34:47 Aug 28 2013
+2016-04-11 10:21:39		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-11 10:21:39		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-11 10:21:39		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-11 10:21:39		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-11 10:21:39		97KAAL052 :your unique ID
+2016-04-11 10:21:39		irc.teknik.io message of the day
+2016-04-11 10:21:39		-
+2016-04-11 10:21:39		-      _______   _          _ _    _____ _____   _____
+2016-04-11 10:21:39		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-11 10:21:39		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-11 10:21:39		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-11 10:21:39		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-11 10:21:39		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-11 10:21:39		-
+2016-04-11 10:21:39		-
+2016-04-11 10:21:39		-
+2016-04-11 10:21:39		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-11 10:21:39		-        /                                           \
+2016-04-11 10:21:39		-       /   * Web: http://www.teknik.io               \
+2016-04-11 10:21:39		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-11 10:21:39		-       |                                             |
+2016-04-11 10:21:39		-       |                   -- The Teknik Team        |
+2016-04-11 10:21:39		-       |                                             |
+2016-04-11 10:21:39		-       |--------------- Server Rules ----------------|
+2016-04-11 10:21:39		-       |                                             |
+2016-04-11 10:21:39		-       |   * Be Respectful to other users            |
+2016-04-11 10:21:39		-       |   * No Flooding                             |
+2016-04-11 10:21:39		-       |   * No Takeovers                            |
+2016-04-11 10:21:39		-       |   * Access granted to this server is a      |
+2016-04-11 10:21:39		-       |     privilege                               |
+2016-04-11 10:21:39		-       |   * Staff members may disconnect clients    |
+2016-04-11 10:21:39		-       |     for any or no reason.                   |
+2016-04-11 10:21:39		-       |                                             |
+2016-04-11 10:21:39		-       |------------ Important Channels -------------|
+2016-04-11 10:21:39		-       |                                             |
+2016-04-11 10:21:39		-       |   - #help - assistance with irc things      |
+2016-04-11 10:21:39		-       |   - #teknik - support the server!           |
+2016-04-11 10:21:39		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-11 10:21:39		-       \                                             /
+2016-04-11 10:21:39		-        --------------------------------------------
+2016-04-11 10:21:39		End of message of the day.
+2016-04-11 10:21:39		There are 14 users and 0 invisible on 2 servers
+2016-04-11 10:21:39		1 :operator(s) online
+2016-04-11 10:21:39		2 :unknown connections
+2016-04-11 10:21:39		12 :channels formed
+2016-04-11 10:21:39		I have 7 clients and 1 servers
+2016-04-11 10:21:39		Current Local Users: 7  Max: 8
+2016-04-11 10:21:39		Current Global Users: 14  Max: 15
+2016-04-11 10:21:39		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-11 10:21:39		User mode [+x] by dividebyzero
+2016-04-11 10:21:39		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-04-11 10:26:30	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2016-04-11 10:26:30		irc: disconnecting from server...
+2016-04-11 10:26:30		irc: disconnected from server
+2016-04-11 10:26:30		irc: reconnecting to server in 10 seconds
+2016-04-11 10:26:40		irc: reconnecting to server...
+2016-04-11 10:26:40		irc: connecting to server irc.teknik.io/6667...
+2016-04-11 10:26:56	=!=	irc: connection refused
+2016-04-11 10:26:56		irc: reconnecting to server in 20 seconds
+2016-04-11 10:27:16		irc: reconnecting to server...
+2016-04-11 10:27:16		irc: connecting to server irc.teknik.io/6667...
+2016-04-11 10:28:16	=!=	irc: timeout
+2016-04-11 10:28:16		irc: reconnecting to server in 40 seconds
+2016-04-11 10:28:56		irc: reconnecting to server...
+2016-04-11 10:28:56		irc: connecting to server irc.teknik.io/6667...
+2016-04-11 10:29:56	=!=	irc: timeout
+2016-04-11 10:29:56		irc: reconnecting to server in 1 minute, 20 seconds
+2016-04-11 10:31:16		irc: reconnecting to server...
+2016-04-11 10:31:16		irc: connecting to server irc.teknik.io/6667...
+2016-04-11 10:31:17		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-11 10:31:17		irc.teknik.io: *** Looking up your hostname...
+2016-04-11 10:31:17		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au)
+2016-04-11 10:31:17		irc.teknik.io: Welcome to Teknik!
+2016-04-11 10:31:17		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-11 10:31:17		Your host is irc.teknik.io, running version 2.0
+2016-04-11 10:31:17		This server was created 16:34:47 Aug 28 2013
+2016-04-11 10:31:17		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-11 10:31:17		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-11 10:31:17		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-11 10:31:17		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-11 10:31:17		97KAAAAAD :your unique ID
+2016-04-11 10:31:17		irc.teknik.io message of the day
+2016-04-11 10:31:17		-
+2016-04-11 10:31:17		-      _______   _          _ _    _____ _____   _____
+2016-04-11 10:31:17		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-11 10:31:17		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-11 10:31:17		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-11 10:31:17		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-11 10:31:17		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-11 10:31:17		-
+2016-04-11 10:31:17		-
+2016-04-11 10:31:17		-
+2016-04-11 10:31:17		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-11 10:31:17		-        /                                           \
+2016-04-11 10:31:17		-       /   * Web: http://www.teknik.io               \
+2016-04-11 10:31:17		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-11 10:31:17		-       |                                             |
+2016-04-11 10:31:17		-       |                   -- The Teknik Team        |
+2016-04-11 10:31:17		-       |                                             |
+2016-04-11 10:31:17		-       |--------------- Server Rules ----------------|
+2016-04-11 10:31:17		-       |                                             |
+2016-04-11 10:31:17		-       |   * Be Respectful to other users            |
+2016-04-11 10:31:17		-       |   * No Flooding                             |
+2016-04-11 10:31:17		-       |   * No Takeovers                            |
+2016-04-11 10:31:17		-       |   * Access granted to this server is a      |
+2016-04-11 10:31:17		-       |     privilege                               |
+2016-04-11 10:31:17		-       |   * Staff members may disconnect clients    |
+2016-04-11 10:31:17		-       |     for any or no reason.                   |
+2016-04-11 10:31:17		-       |                                             |
+2016-04-11 10:31:17		-       |------------ Important Channels -------------|
+2016-04-11 10:31:17		-       |                                             |
+2016-04-11 10:31:17		-       |   - #help - assistance with irc things      |
+2016-04-11 10:31:17		-       |   - #teknik - support the server!           |
+2016-04-11 10:31:17		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-11 10:31:17		-       \                                             /
+2016-04-11 10:31:17		-        --------------------------------------------
+2016-04-11 10:31:17		End of message of the day.
+2016-04-11 10:31:17		There are 4 users and 0 invisible on 1 servers
+2016-04-11 10:31:17		9 :channels formed
+2016-04-11 10:31:17		I have 4 clients and 0 servers
+2016-04-11 10:31:17		Current Local Users: 4  Max: 4
+2016-04-11 10:31:17		Current Global Users: 4  Max: 4
+2016-04-11 10:31:17		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-11 10:31:17		User mode [+x] by dividebyzero
+2016-04-11 10:37:00		[10:31]
+2016-04-11 20:55:11		irc: disconnected from server
+2016-04-11 21:51:08		irc: connecting to server irc.teknik.io/6667...
+2016-04-11 21:51:08		[21:51]
+2016-04-11 21:51:10		irc: connected to irc.teknik.io/6667 (50.247.95.113)
+2016-04-11 21:51:11		irc.teknik.io: *** Looking up your hostname...
+2016-04-11 21:51:11		irc.teknik.io: *** Found your hostname (c27-253-43-52.thoms4.vic.optusnet.com.au)
+2016-04-11 21:51:12		irc.teknik.io: Welcome to Teknik!
+2016-04-11 21:51:12		Welcome to the Teknik IRC Network dividebyzero!whoami@c27-253-43-52.thoms4.vic.optusnet.com.au
+2016-04-11 21:51:12		Your host is irc.teknik.io, running version 2.0
+2016-04-11 21:51:12		This server was created 16:34:47 Aug 28 2013
+2016-04-11 21:51:12		irc.teknik.io 2.0 BHIRSdiorswx IMPRSabehijklmnopqrstvy Iabehjkloqvy
+2016-04-11 21:51:12		AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,jl,MPRSimnprst CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RSUm FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+2016-04-11 21:51:12		MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=Teknik NICKLEN=31 OPERLOG OVERRIDE PREFIX=(yqaohv)!~&@%+ STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES :are supported by this server
+2016-04-11 21:51:12		USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2016-04-11 21:51:12		97KAAAGHR :your unique ID
+2016-04-11 21:51:12		irc.teknik.io message of the day
+2016-04-11 21:51:12		-
+2016-04-11 21:51:12		-      _______   _          _ _    _____ _____   _____
+2016-04-11 21:51:12		-     |__   __| | |        (_) |  |_   _|  __ \ / ____|
+2016-04-11 21:51:12		-        | | ___| | ___ __  _| | __ | | | |__) | |
+2016-04-11 21:51:12		-        | |/ _ \ |/ / '_ \| | |/ / | | |  _  /| |
+2016-04-11 21:51:12		-        | |  __/   <| | | | |   < _| |_| | \ \| |____
+2016-04-11 21:51:12		-        |_|\___|_|\_\_| |_|_|_|\_\_____|_|  \_\\_____|
+2016-04-11 21:51:12		-
+2016-04-11 21:51:12		-
+2016-04-11 21:51:12		-
+2016-04-11 21:51:12		-         ---- Welcome to the Teknik IRC Network ----
+2016-04-11 21:51:12		-        /                                           \
+2016-04-11 21:51:12		-       /   * Web: http://www.teknik.io               \
+2016-04-11 21:51:12		-       |   * IRC: irc.teknik.io #teknik              |
+2016-04-11 21:51:12		-       |                                             |
+2016-04-11 21:51:12		-       |                   -- The Teknik Team        |
+2016-04-11 21:51:12		-       |                                             |
+2016-04-11 21:51:12		-       |--------------- Server Rules ----------------|
+2016-04-11 21:51:12		-       |                                             |
+2016-04-11 21:51:12		-       |   * Be Respectful to other users            |
+2016-04-11 21:51:12		-       |   * No Flooding                             |
+2016-04-11 21:51:12		-       |   * No Takeovers                            |
+2016-04-11 21:51:12		-       |   * Access granted to this server is a      |
+2016-04-11 21:51:12		-       |     privilege                               |
+2016-04-11 21:51:12		-       |   * Staff members may disconnect clients    |
+2016-04-11 21:51:12		-       |     for any or no reason.                   |
+2016-04-11 21:51:12		-       |                                             |
+2016-04-11 21:51:12		-       |------------ Important Channels -------------|
+2016-04-11 21:51:12		-       |                                             |
+2016-04-11 21:51:12		-       |   - #help - assistance with irc things      |
+2016-04-11 21:51:12		-       |   - #teknik - support the server!           |
+2016-04-11 21:51:12		-       |   - #IRCBot - Dev channel for IRCBot        |
+2016-04-11 21:51:12		-       \                                             /
+2016-04-11 21:51:12		-        --------------------------------------------
+2016-04-11 21:51:12		End of message of the day.
+2016-04-11 21:51:12		There are 14 users and 0 invisible on 2 servers
+2016-04-11 21:51:12		1 :operator(s) online
+2016-04-11 21:51:12		2 :unknown connections
+2016-04-11 21:51:12		12 :channels formed
+2016-04-11 21:51:12		I have 7 clients and 1 servers
+2016-04-11 21:51:12		Current Local Users: 7  Max: 7
+2016-04-11 21:51:12		Current Global Users: 14  Max: 14
+2016-04-11 21:51:12		Teknik-3c17a64b.optusnet.com.au :is now your displayed host
+2016-04-11 21:51:12		User mode [+x] by dividebyzero
+2016-04-11 21:51:13		NickServ (services@services.teknik.io): Your nickname is not registered. To register it, please make an account at https://www.teknik.io/
+2016-04-11 21:57:00		[21:51]
