@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# small script to sync password vault from NAS to what ever machine I use
+
+cd /tmp
+echo "Grabbing latest backup of password vault.."
+
+# getting latest update
+filenm="passwd-"
+
+# make sure there are no old password archives in tmp dir
+
+if ls /tmp/passwd* 1> /dev/null 2>&1; then
+    rm /tmp/passwd*
+fi
+
+# setup date
+filenm+=$(date +%F)
+
+# connect to sftp
+lftp -u <usrname>,<password> sftp://<ip:port> << EOF
+cd /media/fc81d3ca-3882-4cc6-a3a3-420d8799fcc9/pwd-backup/
+get $filenm.tar.xz
+
+bye
+EOF
+
+# remove most recent password database
+echo 
+echo "Removing old password vault.."
+
+cd ~/
+rm -rf ~/.password-store
+
+# extract new password vault in home directory
+echo 
+echo "Extracting new updated password vault.."
+tar xf /tmp/$filenm.tar.xz 
+

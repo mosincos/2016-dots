@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Small script to copy password vault to external NAS - set cronjob for midnight
+
+filenm="passwd-"
+filenm+=$(date +%F)
+cd /home/whoami 
+tar -cf - .password-store/  | xz -9 -c - > /tmp/$filenm.tar.xz
+mv /tmp/$filenm.tar.xz /srv/holder/pwd-backup
+
