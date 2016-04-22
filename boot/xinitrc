@@ -13,7 +13,7 @@ sudo ckb-daemon &
 xrdb -load ~/.Xresources
 compton --config /usr/local/bin/compton.conf &
 yabar -c ~/.yabar.config &
-panel.sh &
 ckb --background &
+telegram-cli -d &
 unclutter &
 exec bspwm
