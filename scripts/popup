@@ -20,10 +20,10 @@ SW=$((SW/2))
 barx=$((SW - barw / 2))
 
 
-bar_bg='#252326'
-bar_fg='#566e6B'
+bar_bg='#ad4333'
+bar_fg='#ffffff'
 
-bar_font='terminus12-8'
+bar_font='terminusmod-8'
 
 baropt="-g ${barw}x${barh}+${barx}+${bary} -B${bar_bg} -F${bar_fg} -f ${bar_font}"
 
