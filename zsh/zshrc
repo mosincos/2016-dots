@@ -2,8 +2,9 @@
  export TERM=rxvt-unicode-256color
  export ZSH=/home/whoami/.oh-my-zsh
  LS_COLORS='di=1:fi=0:ln=93:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35'
- export VISUAL="vi"
  export LS_COLORS
+ export EDITOR=vim
+ export VISUAL=vim
  eval "$(dircolors ~/.dircolors)"
 
 # Set name of the theme to load.
@@ -58,11 +59,18 @@ plugins=(git archlinux history-subsearch-string tmux zsh-navigation-tools)
 
 # User configuration
 
-  export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+  export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh_aliases
+
+eval $(thefuck --alias)
+LS_COLORS='di=1:fi=0:ln=93:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35'
+eval "$(dircolors ~/.dircolors)"
+
+# remember
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 

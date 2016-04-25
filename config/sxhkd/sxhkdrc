@@ -12,8 +12,11 @@ super + {_,shift + }q
 super + shift + t
     bspc desktop -l next
 
-super + {t,p,s,f}
-    bspc node -t {tiled,psuedo_tiled,floating,fullscreen}
+super + {t,s,f}
+    bspc node -t {tiled,floating,fullscreen}
+
+super + l
+    bspc node -t pseudo_tiled
 
 # Focus the last window/desktop
 super + {grave,Tab}
@@ -123,7 +126,7 @@ super + Return
     urxvt
 
 super + d
-    dmenu_run -b -q -z -l 1 -fn terminusmod-8 -x 1670 -o 0.9 -y 20 -w 100 -nb "#1d2426" -sb "#93503e" -sf "#c4bbb0"
+    dmenu_run -b -q -z -l 1 -fn terminusmod-8 -x 1670 -o 0.9 -y 20 -w 100 -nb "#1d2426" -sb "#aadb0f" -sf "#c4bbb0"
 
 super + shift + p
     urxvt -name "upass" --geometry 100x50 -e zsh -c "upass"
@@ -138,13 +141,13 @@ mod4 + BackSpace
     comptontoggle.sh
 
 mod4 + w
-    xterm -fa "terminusmod:size=8:antialias=false" -name "w3m" -e zsh -c "w3m google.com"
+    xterm -fa "terminus12:size=8:antialias=false" -name "w3m" -e zsh -c "w3m google.com"
 
 super + shift + u
     urxvt -name "updates" --geometry 94x100 -e zsh -c "upg"
 
 super + shift + v
-	urxvt -name "vpn" --geometry 100x50 -e zsh -c "ccavpn"
+    urxvt -name "vpn" --geometry 100x50 -e zsh -c "ccavpn"
 
 super + shift + F3
     urxvt -name "pulsemixer" --geometry 120x10 -e zsh -c "pulsemixer"
