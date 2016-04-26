@@ -3,5 +3,5 @@ filenm="passwd-"
 filenm+=$(date +%F)
 cd /home/whoami 
 tar -cf - .password-store/  | xz -9 -c - > /tmp/$filenm.tar.xz
-mv -f /tmp/$filenm.tar.xz /srv/holder/pwd-backup
+mv -f /tmp/$filenm.tar.xz /srv/nas/holder/pwd-backup
 
