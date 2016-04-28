@@ -126,7 +126,7 @@ super + Return
     urxvt
 
 super + d
-    dmenu_run -b -q -z -l 1 -fn terminusmod-8 -x 1670 -o 0.9 -y 20 -w 100 -nb "#1d2426" -sb "#aadb0f" -sf "#c4bbb0"
+    dmenu_run -b -q -z -l 1 -fn terminusmod-8 -x 1670 -o 0.9 -y 20 -w 100 -nb "#51c4d4" -nf "#ffffff" -sb "#606060" -sf "#ffffff"
 
 super + shift + p
     urxvt -name "upass" --geometry 100x50 -e zsh -c "upass"

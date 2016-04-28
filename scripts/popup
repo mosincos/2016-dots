@@ -20,8 +20,8 @@ SW=$((SW/2))
 barx=$((SW - barw / 2))
 
 
-bar_bg='#ad4333'
-bar_fg='#ffffff'
+bar_bg='#51c4d4'
+bar_fg='#202020'
 
 bar_font='terminusmod-8'
 
