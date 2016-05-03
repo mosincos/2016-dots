@@ -158,6 +158,18 @@ super + shift + F3
 super + control + s
     steam
 
+# uguush screen capture
+control + super + shift + w
+    uguush -w
+
+# uguush fullscreen
+control + super + shift + f
+    uguush -f
+
+# uguush selection
+control + super + shift + s
+    uguush -s
+
 # make sxhkd reload its configuration files:
 super + Escape
     pkill -USR1 -x sxhkd
