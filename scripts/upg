@@ -3,7 +3,7 @@ clear
 echo && echo
 toilet -f sblood --gay "   updates"
 echo && echo
-yaourt -Su --aur 
+pacaur -Su  
 echo && echo && echo && echo
 
 continuedevel ()
@@ -12,7 +12,7 @@ continuedevel ()
     echo && echo
     toilet -f sblood --gay "   devpkgs"
     echo && echo
-    yaourt --noconfirm -Su --devel
+    pacaur --noconfirm -Su --devel
     echo && echo
     read -p " ... All done ... press [Enter]"
     exit
