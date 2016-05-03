@@ -5,7 +5,13 @@
  export LS_COLORS
  export EDITOR=vim
  export VISUAL=vim
+ export BROWSER=qutebrowser
  eval "$(dircolors ~/.dircolors)"
+
+# JIRA
+ export JIRA_URL=http://192.168.0.56:8080
+ export JIRA_NAME=deant
+ 
 
 ## workaround for handling TERM variable in multiple tmux sessions properly from http://sourceforge.net/p/tmux/mailman/message/32751663/ by Nicholas Marriott
 if [[ -n ${TMUX} && -n ${commands[tmux]} ]];then
@@ -35,7 +41,7 @@ ZSH_THEME="classyTouch"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+export UPDATE_ZSH_DAYS=2
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -47,7 +53,7 @@ ZSH_THEME="classyTouch"
 ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -66,12 +72,12 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git archlinux history-subsearch-string tmux zsh-navigation-tools)
+plugins=(colorize thefuck jira colored-man-pages git archlinux history-subsearch-string tmux zsh-navigation-tools)
 
 # User configuration
 
   export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin"
-# export MANPATH="/usr/local/man:$MANPATH"
+  export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh_aliases
