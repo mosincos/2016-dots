@@ -14,6 +14,6 @@ xrdb -load ~/.Xresources
 compton --config /usr/local/bin/compton.conf &
 yabar -c ~/.yabar.config &
 ckb --background &
-telegram-cli -d &
+dunst &
 unclutter &
 exec bspwm
