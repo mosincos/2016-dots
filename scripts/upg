@@ -12,7 +12,7 @@ continuedevel ()
     echo && echo
     toilet -f sblood --gay "   devpkgs"
     echo && echo
-    pacaur --noconfirm -Su --devel
+    pacaur --noconfirm --needed -Su --devel
     echo && echo
     read -p " ... All done ... press [Enter]"
     exit
