@@ -1,0 +1,91 @@
+#!/usr/bin/env python2
+#
+# dunst mail notification script
+#
+# http://knopwob.org/dunst/
+#
+# David Wikmans 2015
+#
+#
+
+import sys
+import os
+import pickle
+import datetime
+import imaplib
+import email
+import email.header
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+if len(sys.argv) != 4:
+    _p = sys.argv[0].split("/")
+    print "Usage:", _p[len(_p)-1], "'user@domain.com'", "'password'", "'IMAP SSL server'"
+    sys.exit(1)
+
+EMAIL_FOLDER = 'INBOX'
+EMAIL_ACCOUNT = sys.argv[1]
+PASSWORD = sys.argv[2]
+IMAP_SERVER = sys.argv[3]
+
+for arg in range(1, len(sys.argv)):
+    sys.argv[arg] = "******"
+
+CACHE_FILE = "/var/tmp/last_mail_" + sys.argv[1]
+
+try:
+    last_date = pickle.load(open(CACHE_FILE, "r"))
+
+except:
+    last_date = datetime.datetime.now()
+
+def decode(tuple):
+    if tuple[1]:
+        return tuple[0].decode(tuple[1])
+    else:
+        return tuple[0]
+
+imap_client = imaplib.IMAP4_SSL(IMAP_SERVER)
+
+try:
+    rv, data = imap_client.login(EMAIL_ACCOUNT, PASSWORD)
+except imaplib.IMAP4.error:
+    # Bad credentials
+    sys.exit(2)
+
+rv, data = imap_client.select(EMAIL_FOLDER)
+
+if rv == 'OK':
+    search_criterion = "(SINCE " + last_date.strftime("%d-%b-%Y") + ")"
+    rv, messages = imap_client.search(None, search_criterion)
+    if rv != 'OK':
+        # Empty folder
+        sys.exit(0)
+
+    for num in messages[0].split():
+        rv, data = imap_client.fetch(num, '(RFC822)')
+        if rv != 'OK':
+            # Could not fetch message part
+            sys.exit(3)
+
+        mail = email.message_from_string(data[0][1])
+        subject_tuple = email.header.decode_header(mail['Subject'])[0]
+        from_tuple = email.header.decode_header(mail['From'])[0]
+        date_tuple = email.utils.parsedate_tz(mail['Date'])
+
+        mail_date = datetime.datetime.fromtimestamp(email.utils.mktime_tz(date_tuple))
+        if last_date < mail_date:
+            notification = "\"Mail (" + EMAIL_ACCOUNT + ")\nFrom: " + decode(from_tuple) + "\nSubject: " + decode(subject_tuple) + "\n\""
+            os.system("notify-send -u normal " + notification)
+            last_date = mail_date
+
+    pickle.dump(last_date, open(CACHE_FILE, "wb"))
+    imap_client.close()
+else:
+    # No such folder
+    sys.exit(4)
+
+imap_client.logout()
+
+exit(0)
